@@ -13,7 +13,6 @@ pre[class*="language-"] {
     "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
     "Courier New", Courier, monospace;
-  font-size: 14px;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -31,10 +30,6 @@ pre[class*="language-"] {
   color: #5e6687;
 }
 
-pre > code[class*="language-"] {
-  font-size: 1em;
-}
-
 pre[class*="language-"]::-moz-selection,
 pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
@@ -49,19 +44,6 @@ code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
   text-shadow: none;
   background: #dfe2f1;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  padding: 1em;
-  margin: 0.5em 0;
-  overflow: auto;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: 0.1em;
-  border-radius: 0.3em;
 }
 
 .token.comment,

@@ -15,7 +15,7 @@ module.exports = data => {
           (acc, post) =>
             acc +
             html`
-              <a href=${post.url}>${post.fileSlug || post.data.title}</a>
+              <a href=${post.url}>${post.data.title || post.fileSlug}</a>
             `,
           ""
         )}
