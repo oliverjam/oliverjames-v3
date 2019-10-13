@@ -1,4 +1,6 @@
+const head = require("../../utils/head");
 const getReadingTime = require("../../utils/getReadingTime");
+
 const html = String.raw;
 
 module.exports = data => {
@@ -6,9 +8,7 @@ module.exports = data => {
     <!DOCTYPE html>
     <html lang="en">
       <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        ${head()}
         <link rel="stylesheet" href="/css/blog.css" />
         <link rel="stylesheet" href="/css/prism-ateliersulphurpool.css" />
         <title>Oliver | Blog</title>
