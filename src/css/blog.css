@@ -1,5 +1,10 @@
 :root {
-  --code: hsl(220, 10%, 94%);
+  --bg-code: hsl(220, 10%, 95%);
+  --text-dark: #454a54;
+  --text-light: #f9fafa;
+  --bg-dark: #454a54;
+  --bg-light: #f9fafa;
+  --primary: hsl(20, 100%, 70%);
 }
 
 * {
@@ -10,11 +15,13 @@
 html {
   font-size: 1.125rem;
 }
+
 @media (min-width: 30em) {
   html {
     font-size: 1.25rem;
   }
 }
+
 @media (min-width: 60em) {
   html {
     font-size: 1.5rem;
@@ -22,9 +29,9 @@ html {
 }
 
 body {
-  font-family: 'Spectral', Georgia, Times, Times New Roman, serif;
-  color: #454a54;
-  background-color: #f9fafa;
+  font-family: "Spectral", Georgia, Times, Times New Roman, serif;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
 }
 
 p {
@@ -38,7 +45,7 @@ h4,
 h5,
 h6 {
   margin-top: 1em;
-  font-family: 'Spectral';
+  font-family: "Spectral";
   font-weight: 600;
 }
 
@@ -46,16 +53,12 @@ a {
   color: inherit;
 }
 
-a:hover {
-  text-decoration-thickness: 2px;
-}
-
 code {
-  font-family: 'Source Code Pro', Monaco, Consolas, monospace;
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
   font-size: 0.875rem;
   border-radius: 0.125rem;
   padding: 0.125rem 0.25rem;
-  background-color: var(--code);
+  background-color: var(--bg-code);
 }
 
 .grid {
@@ -65,23 +68,50 @@ code {
 
 main {
   --padding: 4rem;
-  --page-gutter: minmax(1.5rem, 4fr);
-  --content-gutter: minmax(0, 1fr);
+  --page-gutter: minmax(0, 4fr);
+  --content-gutter: minmax(1.5rem, 1fr);
   display: grid;
   grid-row-gap: 1.5em;
   padding-top: var(--padding);
   padding-bottom: var(--padding);
-  grid-template-columns: [full-start] var(--page-gutter) [lg-breakout-start] minmax(0, 3fr) [md-breakout-start] var(--content-gutter) [content-start] minmax(10rem, 30rem) [content-end] var(--content-gutter) [md-breakout-end] minmax(0, 3fr) [lg-breakout-end] var(--page-gutter) [full-end];
+  grid-template-columns:
+    [full-start]
+    var(--page-gutter)
+    [lg-breakout-start]
+    minmax(0, 3fr)
+    [md-breakout-start]
+    var(--content-gutter)
+    [content-start]
+    minmax(10rem, 30rem)
+    [content-end]
+    var(--content-gutter)
+    [md-breakout-end]
+    minmax(0, 3fr)
+    [lg-breakout-end]
+    var(--page-gutter)
+    [full-end];
 }
 
 main > * {
   grid-column: content;
 }
 
+main a:hover {
+  text-decoration-style: wavy;
+}
+
+main a:focus {
+  outline: 0;
+  position: relative;
+  outline: 0.125rem dashed var(--primary);
+  outline-offset: 2px;
+}
+
 header {
   grid-column: content;
   position: relative;
 }
+
 @media (min-width: 30em) {
   header {
     grid-column: lg-breakout;
@@ -90,37 +120,39 @@ header {
 }
 
 header::after {
-  content: '';
+  content: "";
   position: absolute;
   --size: calc(5em + 5vw);
   width: var(--size);
   height: var(--size);
   --stripe-color: hsl(20, 100%, 88%);
-  --stripe-width: 0.25rem;
-  background-image: repeating-linear-gradient(45deg, var(--stripe-color), var(--stripe-color) var(--stripe-width), transparent var(--stripe-width), transparent calc(var(--stripe-width) * 2));
+  --stripe-width: 0.35rem;
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--stripe-color),
+    var(--stripe-color) var(--stripe-width),
+    transparent var(--stripe-width),
+    transparent calc(var(--stripe-width) * 2)
+  );
   bottom: 0;
   left: 0;
   z-index: -10;
-  -webkit-transform: scale(0) rotate(-90deg);
-          transform: scale(0) rotate(-90deg);
-  box-shadow: 0.5rem 0.5rem 0 #e3ecfc;
-  -webkit-animation: pop 0.3s 0.5s forwards;
-          animation: pop 0.3s 0.5s forwards;
+  transform: scale(0) rotate(-90deg);
+  animation: pop 0.3s 0.5s forwards;
 }
 
-@-webkit-keyframes pop {
-  to {
-    -webkit-transform: scale(1) rotate(45deg);
-            transform: scale(1) rotate(45deg);
-  }
-}
+/* header::before {
+  --stripe-color: hsla(220, 100%, 88%, 0.5);
+  bottom: -0.5rem;
+  left: 0.125rem;
+} */
 
 @keyframes pop {
   to {
-    -webkit-transform: scale(1) rotate(45deg);
-            transform: scale(1) rotate(45deg);
+    transform: scale(1) rotate(45deg);
   }
 }
+
 .header-container {
   display: grid;
   align-content: start;
@@ -137,16 +169,17 @@ h1 {
 pre {
   overflow-x: auto;
   padding: 1.5rem;
-  background-color: var(--code);
-  grid-column: full;
+  background-color: var(--bg-code);
+  grid-column: md-breakout / lg-breakout;
 }
+
 @media (min-width: 30em) {
   pre {
     border-radius: 0.125rem;
     padding: 2rem;
-    grid-column: md-breakout / lg-breakout;
   }
 }
+
 @supports (grid-template-columns: subgrid) {
   pre {
     padding-left: 0;
@@ -158,8 +191,9 @@ pre {
 
 pre > * {
   padding: 0;
-  background-color: initial;
+  background-color: var(--bg-code);
 }
+
 @supports (grid-template-columns: subgrid) {
   pre > * {
     grid-column: content;
@@ -171,11 +205,10 @@ img {
   height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  grid-column: full;
+  grid-column: md-breakout / lg-breakout;
 }
 @media (min-width: 30em) {
   img {
     border-radius: 0.125rem;
-    grid-column: md-breakout / lg-breakout;
   }
 }
