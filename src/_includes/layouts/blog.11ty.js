@@ -9,8 +9,11 @@ module.exports = data => {
     <html lang="en">
       <head>
         ${head()}
-        <link rel="stylesheet" href="/css/blog.css" />
-        <link rel="stylesheet" href="/css/prism-ateliersulphurpool.css" />
+        <link rel="stylesheet" href="/assets/css/blog.css" />
+        <link
+          rel="stylesheet"
+          href="/assets/css/prism-ateliersulphurpool.css"
+        />
         <title>Oliver | Blog</title>
       </head>
       <body>
