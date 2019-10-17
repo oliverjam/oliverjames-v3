@@ -1,5 +1,5 @@
 const head = require("../../utils/head");
-const getReadingTime = require("../../utils/getReadingTime");
+const { displayDate, readingTime } = require("../../utils/dates");
 
 const html = String.raw;
 
@@ -22,7 +22,7 @@ module.exports = data => {
             <div class="header-container">
               <h1>${data.title}</h1>
               <div>
-                ${date(data.date)}
+                ${displayDate(data.date)}
                 <span aria-hidden="true">•</span>
                 ${readingTime(data.content)}
               </div>
@@ -35,22 +35,3 @@ module.exports = data => {
   `;
 };
 
-const date = d => {
-  const formattedDate = d.toLocaleDateString("en-GB", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-
-  return html`
-    <time datetime="${d.toISOString()}" title="${d}">${formattedDate}</time>
-  `;
-};
-
-const readingTime = content => {
-  const seconds = getReadingTime(content);
-
-  return html`
-    <time datetime="${seconds}s">${(seconds / 60).toFixed(1)} minute read</time>
-  `;
-};
