@@ -1,0 +1,134 @@
+/*
+
+Name:       Base16 Atelier Sulphurpool Dark
+Author:     Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
+
+Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+code[class*="language-"],
+pre[class*="language-"] {
+  color: hsl(220, 10%, 70%);
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #898ea4;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: hsl(220, 20%, 50%);
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+.token.comment,
+.token.punctuation,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: hsl(220, 40%, 68%);
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.operator,
+.token.property,
+.token.attr-name {
+  color: hsl(25, 70%, 60%);
+}
+
+ {
+  color: #c08b30;
+}
+
+.token.tag,
+.token.selector {
+  color: hsl(220, 100%, 75%);
+}
+
+.token.string,
+.token.boolean,
+.token.number,
+.token.entity,
+.token.url,
+.token.statement,
+.token.regex,
+.token.atrule,
+.language-css .token.string,
+.style .token.string {
+  color: hsl(195, 70%, 50%);
+}
+
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit {
+  color: hsl(50, 60%, 60%);
+}
+
+.token.placeholder,
+.token.variable {
+  color: #3d8fd1;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #f5f7ff;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.important {
+  color: hsl(15, 70%, 50%);
+}
+
+pre > code.highlight {
+  outline: 0.4em solid hsl(15, 70%, 50%);
+  outline-offset: 0.4em;
+}
+
+.line-numbers .line-numbers-rows {
+  border-right-color: #293256 !important;
+}
+
+.line-numbers-rows > span:before {
+  color: #5e6687 !important;
+}
+
+.line-highlight {
+  background: rgba(245, 247, 255, 0.2) !important;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(245, 247, 255, 0.2) 70%,
+    rgba(245, 247, 255, 0)
+  ) !important;
+  background: linear-gradient(
+    to right,
+    rgba(245, 247, 255, 0.2) 70%,
+    rgba(245, 247, 255, 0)
+  ) !important;
+}

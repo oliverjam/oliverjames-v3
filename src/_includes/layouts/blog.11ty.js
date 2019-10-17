@@ -15,6 +15,12 @@ module.exports = data => {
           rel="stylesheet"
           href="/assets/css/prism-ateliersulphurpool.css"
         />
+        <link
+          rel="stylesheet"
+          href="/assets/css/prism-ateliersulphurpool.dark.css"
+          media="(prefers-color-scheme: dark)"
+        />
+
         <title>Oliver | Blog</title>
       </head>
       <body>
@@ -35,4 +41,3 @@ module.exports = data => {
     </html>
   `;
 };
-
