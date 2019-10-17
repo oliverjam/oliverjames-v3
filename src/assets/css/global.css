@@ -1,0 +1,67 @@
+:root {
+  --light: hsl(220, 10%, 98%);
+  --dark: hsl(220, 10%, 26%);
+
+  --bg-code: hsl(220, 10%, 95%);
+  --text: var(--dark);
+  --bg: var(--light);
+  --orange: hsl(20, 100%, 80%);
+  --blue: hsl(220, 100%, 80%);
+  --primary: hsl(20, 100%, 70%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: var(--light);
+    --bg: var(--dark);
+    --bg-code: hsl(220, 15%, 20%);
+  }
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 30em) {
+  html {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 60em) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+body {
+  font-family: "Spectral", Georgia, Times, Times New Roman, serif;
+  text-rendering: optimizelegibility;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

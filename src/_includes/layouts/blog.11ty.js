@@ -9,6 +9,7 @@ module.exports = data => {
     <html lang="en">
       <head>
         ${head()}
+        <link rel="stylesheet" href="/assets/css/global.css" />
         <link rel="stylesheet" href="/assets/css/blog.css" />
         <link
           rel="stylesheet"

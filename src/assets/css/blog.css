@@ -1,39 +1,3 @@
-:root {
-  --bg-code: hsl(220, 10%, 95%);
-  --text-dark: #454a54;
-  --text-light: #f9fafa;
-  --bg-dark: #454a54;
-  --bg-light: #f9fafa;
-  --primary: hsl(20, 100%, 70%);
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 1.125rem;
-}
-
-@media (min-width: 30em) {
-  html {
-    font-size: 1.25rem;
-  }
-}
-
-@media (min-width: 60em) {
-  html {
-    font-size: 1.5rem;
-  }
-}
-
-body {
-  font-family: "Spectral", Georgia, Times, Times New Roman, serif;
-  color: var(--text-dark);
-  background-color: var(--bg-light);
-}
-
 p {
   line-height: 1.5;
 }
@@ -47,10 +11,6 @@ h6 {
   margin-top: 1em;
   font-family: "Spectral";
   font-weight: 600;
-}
-
-a {
-  color: inherit;
 }
 
 code {
@@ -125,7 +85,7 @@ header::after {
   --size: calc(5em + 5vw);
   width: var(--size);
   height: var(--size);
-  --stripe-color: hsl(20, 100%, 88%);
+  --stripe-color: var(--orange);
   --stripe-width: 0.35rem;
   background-image: repeating-linear-gradient(
     45deg,
@@ -201,12 +161,11 @@ pre > * {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
   grid-column: md-breakout / lg-breakout;
 }
+
 @media (min-width: 30em) {
   img {
     border-radius: 0.125rem;
