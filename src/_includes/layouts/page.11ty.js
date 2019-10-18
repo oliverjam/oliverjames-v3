@@ -22,7 +22,34 @@ module.exports = data => {
       </head>
       <body>
         <header class="site-header">
-          <div>O</div>
+          <a href="/" aria-label="home">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 32 32"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke-width="2"
+              stroke="var(--darkest)"
+              fill="var(--light)"
+              width="48"
+              height="48"
+            >
+              <path
+                d="M4 2 v24 a3,1 0 0 0 24,0 v-24 z"
+                stroke-width="2"
+                style="fill:var(--orange)"
+              />
+              <path
+                d="M4 6 a1,1 0 1 0 8,0 a1,1 0 1 0 8,0 a1,1 0 1 0 8,0"
+                fill="currentcolor"
+              />
+              <path d="M3 2 h26 v3 h-26 z" fill="var(--darkest)" />
+              <path
+                d="M10 14 v8 a3,1 0 0 0 12,0 v-8 a8,1 0 0 1 -12,0"
+                fill="currentcolor"
+              />
+            </svg>
+          </a>
           <nav>
             <ul>
               <li><a href="/about">About</a></li>
