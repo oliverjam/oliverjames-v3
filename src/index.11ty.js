@@ -6,6 +6,7 @@ class Home {
   data() {
     return {
       layout: "layouts/page.11ty.js",
+      styles: ["home"],
     };
   }
   render(data) {
@@ -15,19 +16,24 @@ class Home {
           <h1>I design and develop user experiences.</h1>
         </header>
       </div>
-      <ul style="display: grid; gap: 1rem;">
-        ${data.collections.blog.slice(-3).reduceRight(
-          (acc, post) =>
-            acc +
-            html`
-              <li style="display: grid; gap: 0.5rem;">
-                <a href=${post.url}>${post.data.title || post.fileSlug}</a>
-                ${relativeTime(post.date)}
-              </li>
-            `,
-          ""
-        )}
-      </ul>
+      <section class="section-blog">
+        <h2>Recent posts</h2>
+        <ul class="switcher" style="--space: 1.5rem">
+          ${data.collections.blog.slice(-3).reduceRight(
+            (acc, post) =>
+              acc +
+              html`
+                <li class="blog-excerpt">
+                  <h3>
+                    <a href=${post.url}>${post.data.title || post.fileSlug}</a>
+                  </h3>
+                  ${relativeTime(post.date)}
+                </li>
+              `,
+            ""
+          )}
+        </ul>
+      </section>
     `;
   }
 }

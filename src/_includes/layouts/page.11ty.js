@@ -10,7 +10,15 @@ module.exports = data => {
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Oliver</title>
         <link rel="stylesheet" href="/assets/css/global.css" />
-        <link rel="stylesheet" href="/assets/css/page.css" />
+        ${data.styles.reduce(
+          (links, path) =>
+            links + `<link rel="stylesheet" href="/assets/css/${path}.css" />`,
+          ""
+        )}
+        <link
+          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body>
         <header class="site-header">

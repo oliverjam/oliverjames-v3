@@ -1,43 +1,29 @@
-const head = require("../../utils/head");
 const { displayDate, readingTime } = require("../../utils/dates");
 
 const html = String.raw;
 
-module.exports = data => {
-  return html`
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        ${head()}
-        <link rel="stylesheet" href="/assets/css/global.css" />
-        <link rel="stylesheet" href="/assets/css/blog.css" />
-        <link
-          rel="stylesheet"
-          href="/assets/css/prism-ateliersulphurpool.css"
-        />
-        <link
-          rel="stylesheet"
-          href="/assets/css/prism-ateliersulphurpool.dark.css"
-          media="(prefers-color-scheme: dark)"
-        />
+class BlogPost {
+  data() {
+    return {
+      layout: "layouts/page.11ty.js",
+      styles: ["blog"],
+    };
+  }
+  render(data) {
+    return html`
+      <header class="blog-header">
+        <div class="header-container">
+          <h1>${data.title}</h1>
+          <div>
+            ${displayDate(data.date)}
+            <span aria-hidden="true">•</span>
+            ${readingTime(data.content)}
+          </div>
+        </div>
+      </header>
+      ${data.content}
+    `;
+  }
+}
 
-        <title>Oliver | Blog</title>
-      </head>
-      <body>
-        <main>
-          <header>
-            <div class="header-container">
-              <h1>${data.title}</h1>
-              <div>
-                ${displayDate(data.date)}
-                <span aria-hidden="true">•</span>
-                ${readingTime(data.content)}
-              </div>
-            </div>
-          </header>
-          ${data.content}
-        </main>
-      </body>
-    </html>
-  `;
-};
+module.exports = BlogPost;
