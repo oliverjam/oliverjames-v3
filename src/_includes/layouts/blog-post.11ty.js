@@ -5,8 +5,8 @@ const html = String.raw;
 class BlogPost {
   data() {
     return {
-      layout: "layouts/page.11ty.js",
-      styles: ["blog"],
+      layout: "layouts/default.11ty.js",
+      styles: ["blog-post"],
     };
   }
   render(data) {

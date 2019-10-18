@@ -1,6 +1,11 @@
+const { readFile } = require("fs").promises;
 const html = String.raw;
 
-module.exports = data => {
+module.exports = async ({ styles = [], content }) => {
+  const cssPromises = ["global", ...styles].map(path =>
+    readFile(process.cwd() + `/src/assets/css/${path}.css`, "utf-8")
+  );
+  const css = await Promise.all(cssPromises);
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -9,16 +14,13 @@ module.exports = data => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Oliver</title>
-        <link rel="stylesheet" href="/assets/css/global.css" />
-        ${data.styles.reduce(
-          (links, path) =>
-            links + `<link rel="stylesheet" href="/assets/css/${path}.css" />`,
-          ""
-        )}
         <link
           href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
           rel="stylesheet"
         />
+        <style>
+          ${css.join("\n")}
+        </style>
       </head>
       <body>
         <header class="site-header">
@@ -67,7 +69,7 @@ module.exports = data => {
             </ul>
           </nav>
         </header>
-        <main>${data.content}</main>
+        <main>${content}</main>
         <footer class="site-footer">Footer</footer>
       </body>
     </html>

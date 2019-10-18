@@ -3,7 +3,7 @@ const html = String.raw;
 class Blog {
   data() {
     return {
-      layout: "layouts/page.11ty.js",
+      layout: "layouts/default.11ty.js",
     };
   }
   render(data) {

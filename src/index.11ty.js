@@ -5,7 +5,7 @@ const html = String.raw;
 class Home {
   data() {
     return {
-      layout: "layouts/page.11ty.js",
+      layout: "layouts/default.11ty.js",
       styles: ["home"],
     };
   }
