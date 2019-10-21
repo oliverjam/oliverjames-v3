@@ -54,23 +54,26 @@ module.exports = async ({ styles = [], content }) => {
           </a>
           <nav>
             <ul>
-              <li><a href="/about">About</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
-              <li><a href="https://github.com/oliverjam/">Github</a></li>
-              <li>
-                <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
-              </li>
-              <li>
-                <a href="mailto:hello@oliveram.es" title="hello@oliveram.es"
-                  >Email</a
-                >
-              </li>
+              <li><a href="/about">About</a></li>
             </ul>
           </nav>
         </header>
         <main>${content}</main>
-        <footer class="site-footer">Footer</footer>
+        <footer class="site-footer">
+          <ul>
+            <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
+            <li><a href="https://github.com/oliverjam/">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
+            </li>
+            <li>
+              <a href="mailto:hello@oliveram.es" title="hello@oliveram.es"
+                >Email</a
+              >
+            </li>
+          </ul>
+        </footer>
       </body>
     </html>
   `;
