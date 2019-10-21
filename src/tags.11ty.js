@@ -1,3 +1,4 @@
+const slug = require("@sindresorhus/slugify");
 const html = String.raw;
 
 class TagsTemplate {
@@ -10,7 +11,7 @@ class TagsTemplate {
         alias: "tag",
         filter: ["all", "blog"],
       },
-      permalink: data => `/blog/tags/${data.tag}/`,
+      permalink: data => `/blog/tags/${slug(data.tag)}/`,
     };
   }
   render(data) {

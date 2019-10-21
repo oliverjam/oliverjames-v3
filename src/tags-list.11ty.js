@@ -1,3 +1,4 @@
+const slug = require("@sindresorhus/slugify");
 const html = String.raw;
 
 class TagsList {
@@ -18,7 +19,7 @@ class TagsList {
           .map(
             tag =>
               html`
-                <li><a href="${tag}">${tag}</a></li>
+                  <li><a href="${slug(tag)}">${tag}</a></li>
               `
           )
           .join("\n")}
