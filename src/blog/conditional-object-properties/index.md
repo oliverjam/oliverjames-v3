@@ -1,5 +1,7 @@
 ---
-tags: blog
+tags:
+  - js
+  - objects
 title: Two ways to conditionally set object properties
 date: 2019-09-13T11:30:00Z
 ---

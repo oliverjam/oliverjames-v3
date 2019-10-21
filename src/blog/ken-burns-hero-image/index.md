@@ -1,7 +1,7 @@
 ---
 title: How to create a Ken Burns hero image effect
 date: 2016-11-16T22:40:32.169Z
-tags: ["blog", "css", "js", "animation", "ken burns", "keyframes"]
+tags: ["css", "js", "animation", "ken burns", "keyframes"]
 ---
 
 [Lick] are a shopper marketing agency with a strong focus on creative design, which meant their site needed to be visual-heavy. They wanted the top of the homepage to communicate this, whilst also subtly nodding to some of the big brands the agency works with.

@@ -1,7 +1,7 @@
 ---
 title: Testing your UI with React Testing Library
 date: 2019-08-22T17:00:00Z
-tags: ["blog", "js", "react", "react testing library", "testing"]
+tags: ["js", "react", "react testing library", "testing"]
 ---
 
 # Testing React UIs

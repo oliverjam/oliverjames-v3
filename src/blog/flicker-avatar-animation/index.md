@@ -1,7 +1,7 @@
 ---
 title: Create a flickering image effect using CSS sprites
 date: 2016-12-01T22:40:32.169Z
-tags: ["blog", "css", "animation", "sprite", "keyframes"]
+tags: ["css", "animation", "sprite", "keyframes"]
 ---
 
 I just added a flickering faux-motion effect avatar to [my About page]. The technique behind it is fun (and requires relatively little code).

@@ -1,7 +1,7 @@
 ---
 title: Static typing in JavaScript with Flow
 date: 2019-06-12T13:00:00Z
-tags: ["blog", "js", "types", "flow"]
+tags: ["js", "types", "flow"]
 ---
 
 <div style="padding: 1rem; background-color: var(--bg-code); grid-column: md-breakout">

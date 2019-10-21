@@ -1,7 +1,7 @@
 ---
 title: Why I donate 10% of my income to charity
 date: 2016-07-11T22:40:32.169Z
-tags: ["blog", "charity", "effective altruism", "philosophy"]
+tags: ["charity", "effective altruism", "philosophy"]
 ---
 
 > If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, then we ought, morally, to do it

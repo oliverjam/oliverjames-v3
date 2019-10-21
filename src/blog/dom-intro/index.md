@@ -1,7 +1,7 @@
 ---
 title: Introduction to the DOM
 date: 2019-03-03T16:30:00Z
-tags: ["blog", "js", "beginner", "dom", "learn"]
+tags: ["js", "beginner", "dom", "learn"]
 ---
 
 When I first learnt JavaScript I struggled to understand how to apply that knowledge to practical web pages. I wanted to build things that actually _did stuff_, rather than static HTML/CSS pages or JavaScript things that only logged text to the console.

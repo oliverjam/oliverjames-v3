@@ -1,3 +1,6 @@
 {
-  "layout": "layouts/blog-post.11ty.js"
+  "layout": "layouts/blog-post.11ty.js",
+  "tags": [
+    "blog"
+  ]
 }

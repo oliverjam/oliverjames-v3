@@ -1,7 +1,7 @@
 ---
 title: Stop exporting things, I'm begging you
 date: 2019-08-22T15:00:00Z
-tags: ["blog", "js", "react", "eslint", "modules"]
+tags: ["js", "react", "eslint", "modules"]
 ---
 
 I honestly believe the "one component per file" ESLint rule ([`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md)) is the smallest thing with the most negative impact on React codebases I've worked in.
