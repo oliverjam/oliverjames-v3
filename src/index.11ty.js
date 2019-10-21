@@ -9,7 +9,7 @@ class Home {
       styles: ["home"],
     };
   }
-  render(data) {
+  render({ collections: { blog = [] } }) {
     return html`
       <div class="page-title">
         <header>
@@ -19,7 +19,7 @@ class Home {
       <section class="section-blog">
         <h2>Recent posts</h2>
         <ul class="switcher" style="--space: 1.5rem">
-          ${data.collections.blog.slice(-3).reduceRight(
+          ${blog.slice(-3).reduceRight(
             (acc, post) =>
               acc +
               html`

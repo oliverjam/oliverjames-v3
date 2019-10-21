@@ -6,11 +6,11 @@ class Blog {
       layout: "layouts/default.11ty.js",
     };
   }
-  render(data) {
+  render({ collections: { blog = [] } }) {
     return html`
       <h1>Blog posts</h1>
       <ul>
-        ${data.collections.blog.reduceRight(
+        ${blog.reduceRight(
           (acc, post) =>
             acc +
             html`
