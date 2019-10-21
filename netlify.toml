@@ -1,0 +1,21 @@
+[build]
+  publish = "_site"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "12"
+
+[dev]
+  publish = "_site"
+  command = "npm run dev"
+
+[[redirects]]
+  from = "/blog/tags/search"
+  query = { filter = ":name" }
+  to = "/blog/tags/:name"
+  status = 302
+
+# [[redirects]]
+#   from = "/blog/tags/*"
+#   to = "/blog/tags/not-found.html"
+#   status = 404
