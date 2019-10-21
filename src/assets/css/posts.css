@@ -1,0 +1,25 @@
+.posts {
+  display: grid;
+  grid-row-gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.post__link {
+  text-decoration: none;
+}
+
+.post__link:hover {
+  text-decoration: underline;
+}
+
+.post__link:focus {
+  outline: 0.25rem solid var(--blue);
+  outline-offset: 0.25rem;
+}
+
+.posts .tag {
+  margin-left: 1rem;
+  padding: 0 0.75rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+}

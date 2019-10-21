@@ -1,26 +1,18 @@
+const PostsList = require("./_includes/components/posts-list");
 const html = String.raw;
 
 class Blog {
   data() {
     return {
       layout: "layouts/default.11ty.js",
+      styles: ["tags", "posts"],
     };
   }
   render({ collections: { blog = [] } }) {
     return html`
-      <h1>Blog posts</h1>
-      <ul>
-        ${blog.reduceRight(
-          (acc, post) =>
-            acc +
-            html`
-              <li>
-                <a href=${post.url}>${post.data.title || post.fileSlug}</a>
-              </li>
-            `,
-          ""
-        )}
-      </ul>
+      <h1>All posts</h1>
+      <nav aria-label="categories"></nav>
+      ${PostsList({ posts: blog })}
     `;
   }
 }

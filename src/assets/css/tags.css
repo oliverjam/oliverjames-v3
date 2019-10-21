@@ -1,5 +1,4 @@
-.tags a {
-  display: block;
+.tag {
   border-radius: 0.125rem;
   background-color: var(--bg-lc);
   padding: 0.25rem 0.5rem;
@@ -8,12 +7,12 @@
   transition: 0.2s background-color;
 }
 
-.tags a:hover {
+.tag:hover {
   background-color: var(--orange);
   text-decoration: underline;
 }
 
-.tags a:focus {
+.tag:focus {
   outline: 0.25rem solid var(--blue);
   outline-offset: 0.25rem;
 }

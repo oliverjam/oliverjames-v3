@@ -1,10 +1,12 @@
 const slug = require("@sindresorhus/slugify");
+const PostsList = require("./_includes/components/posts-list");
 const html = String.raw;
 
 class TagsTemplate {
   data() {
     return {
       layout: "layouts/default.11ty.js",
+      styles: ["posts"],
       pagination: {
         data: "collections",
         size: 1,
@@ -15,19 +17,10 @@ class TagsTemplate {
     };
   }
   render(data) {
-    const postList = data.collections[data.tag];
+    const posts = data.collections[data.tag];
     return html`
-      <h1>${data.tag}</h1>
-      <ul>
-        ${postList
-          .map(
-            post =>
-              html`
-                <li><a href="${post.url}">${post.data.title}</a></li>
-              `
-          )
-          .join("\n")}
-      </ul>
+      <h1>Posts tagged with "${data.tag}"</h1>
+      ${PostsList({ posts, tags: false })}
     `;
   }
 }
