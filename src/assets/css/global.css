@@ -24,7 +24,7 @@ h2,
 h3,
 h4,
 h5 {
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
@@ -146,6 +146,7 @@ main {
   grid-area: main;
   justify-self: center;
   padding: 1.5rem;
+  text-align: center;
 }
 
 @supports (display: grid) {

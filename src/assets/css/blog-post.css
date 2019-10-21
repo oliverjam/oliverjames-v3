@@ -50,6 +50,7 @@ main {
     [lg-breakout-end]
     var(--page-gutter)
     [full-end];
+  text-align: left;
 }
 
 @media (min-width: 50rem) {
