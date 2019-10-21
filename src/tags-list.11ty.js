@@ -5,6 +5,7 @@ class TagsList {
   data() {
     return {
       layout: "layouts/default.11ty.js",
+      styles: ["tags-list"],
       permalink: "/blog/tags/index.html",
     };
   }
@@ -14,7 +15,8 @@ class TagsList {
     );
     return html`
       <h1>Tags</h1>
-      <ul>
+      <section>
+        <ul class="cluster tags">
         ${allTags
           .map(
             tag =>
@@ -24,6 +26,7 @@ class TagsList {
           )
           .join("\n")}
       </ul>
+      </section>
     `;
   }
 }
