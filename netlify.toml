@@ -15,7 +15,7 @@
   to = "/blog/tags/:name"
   status = 302
 
-# [[redirects]]
-#   from = "/blog/tags/*"
-#   to = "/blog/tags/not-found.html"
-#   status = 404
+[[redirects]]
+  from = "/blog/tags/*"
+  to = "/blog/tags/404.html"
+  status = 404
