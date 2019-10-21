@@ -15,17 +15,36 @@ class TagsList {
     );
     return html`
       <h1>Tags</h1>
+      <form action="search">
+        <label for="tag-filter">Filter tags</label>
+        <input
+          id="tag-filter"
+          name="filter"
+          list="all-tags"
+          autocomplete="off"
+        />
+        <datalist id="all-tags">
+          ${allTags
+            .map(
+              tag =>
+                html`
+                  <option>${slug(tag)}</option>
+                `
+            )
+            .join("\n")}
+        </datalist>
+      </form>
       <section>
         <ul class="cluster tags">
-        ${allTags
-          .map(
-            tag =>
-              html`
+          ${allTags
+            .map(
+              tag =>
+                html`
                   <li><a href="${slug(tag)}">${tag}</a></li>
-              `
-          )
-          .join("\n")}
-      </ul>
+                `
+            )
+            .join("\n")}
+        </ul>
       </section>
     `;
   }
