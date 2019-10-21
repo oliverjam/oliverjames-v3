@@ -136,7 +136,25 @@ body {
 
 main {
   grid-area: main;
+  justify-self: center;
   padding: 1.5rem;
+}
+
+@supports (display: grid) {
+  main {
+    display: grid;
+    grid-template-columns:
+      minmax(1.5rem, 1fr)
+      minmax(0, 50rem)
+      minmax(1.5rem, 1fr);
+    align-content: start;
+    grid-row-gap: 1.5rem;
+    padding: 0;
+  }
+}
+
+main > * {
+  grid-column: 2 / 3;
 }
 
 .site-footer {
