@@ -5,14 +5,16 @@ class TagsList {
   data() {
     return {
       layout: "layouts/default.11ty.js",
-      styles: ["tags-list"],
+      styles: ["tags"],
       permalink: "/blog/tags/index.html",
     };
   }
   render(data) {
-    const allTags = Object.keys(data.collections).filter(
-      key => !["all", "blog"].includes(key)
-    );
+    const allTags = [...Object.entries(data.collections)]
+      .filter(([key]) => !["all", "blog"].includes(key))
+      .sort((a, b) => {
+        return b[1].length - a[1].length;
+      });
     return html`
       <h1>Tags</h1>
       <form action="search">
@@ -26,7 +28,7 @@ class TagsList {
         <datalist id="all-tags">
           ${allTags
             .map(
-              tag =>
+              ([tag]) =>
                 html`
                   <option>${slug(tag)}</option>
                 `
@@ -35,12 +37,16 @@ class TagsList {
         </datalist>
       </form>
       <section>
-        <ul class="cluster tags">
+        <ul class="cluster">
           ${allTags
             .map(
-              tag =>
+              ([tag, matchingPosts]) =>
                 html`
-                  <li><a href="${slug(tag)}">${tag}</a></li>
+                  <li>
+                    <a class="tag" href="${slug(tag)}"
+                      >${tag} ${matchingPosts.length}</a
+                    >
+                  </li>
                 `
             )
             .join("\n")}
