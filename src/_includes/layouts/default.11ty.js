@@ -61,17 +61,27 @@ module.exports = async ({ styles = [], content }) => {
         </header>
         <main>${content}</main>
         <footer class="site-footer">
-          <ul>
-            <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
-            <li><a href="https://github.com/oliverjam/">Github</a></li>
-            <li>
-              <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
-            </li>
-            <li>
-              <a href="mailto:hello@oliveram.es" title="hello@oliveram.es"
-                >Email</a
-              >
-            </li>
+          <dl class="cluster" style="--space: 1.5rem;">
+            <div>
+              <dt>Social</dt>
+              <div class="social">
+                <dd><a href="https://twitter.com/_oliverjam">Twitter</a>
+                </dd>
+                <dd><a href="https://github.com/oliverjam/">Github</a>
+                </dd>
+                <dd><a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
+                </dd>
+              </div>
+            </div>
+            
+            <div>
+              <dt>Contact</dt>
+              <dd>
+                <a href="mailto:hello@oliveram.es" title="hello@oliveram.es"
+                  >hello@oliverjam.es</a
+                >
+              </dd>
+            </div>
           </ul>
         </footer>
       </body>

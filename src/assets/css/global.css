@@ -71,7 +71,7 @@ html {
   font-size: 1.125rem;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 40em) {
   html {
     font-size: 1.25rem;
   }
@@ -168,5 +168,38 @@ main > * {
 
 .site-footer {
   grid-area: footer;
-  padding: 1rem;
+  padding: 1rem 2rem;
+  font-size: 0.875rem;
+}
+
+.site-footer dl {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.site-footer dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--sans-serif);
+  color: var(--text-lc);
+}
+
+.site-footer a {
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+}
+
+.social dd + dd::before {
+  content: "/";
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: var(--text-lc);
 }
