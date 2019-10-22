@@ -1,4 +1,5 @@
 .tag {
+  display: block;
   border-radius: 0.125rem;
   background-color: var(--bg-lc);
   padding: 0.25rem 0.5rem;

@@ -1,28 +1,44 @@
 const slug = require("@sindresorhus/slugify");
-const PostsList = require("./_includes/components/posts-list");
+const getAllTags = require("./utils/tags");
+const TagsList = require("./_includes/components/tags-list");
 const html = String.raw;
 
-class TagsTemplate {
+class Tags {
   data() {
     return {
       layout: "layouts/default.11ty.js",
-      styles: ["posts"],
-      pagination: {
-        data: "collections",
-        size: 1,
-        alias: "tag",
-        filter: ["all", "blog"],
-      },
-      permalink: data => `/blog/tags/${slug(data.tag)}/`,
+      styles: ["tags"],
+      permalink: "/blog/tags/index.html",
     };
   }
   render(data) {
-    const posts = data.collections[data.tag];
+    const allTags = getAllTags(data.collections);
     return html`
-      <h1>Posts tagged with "${data.tag}"</h1>
-      ${PostsList({ posts, tags: false })}
+      <h1>Tags</h1>
+      <form action="search">
+        <label for="tag-filter">Filter tags</label>
+        <input
+          id="tag-filter"
+          name="filter"
+          list="all-tags"
+          autocomplete="off"
+        />
+        <datalist id="all-tags">
+          ${allTags
+            .map(
+              ([tag]) =>
+                html`
+                  <option>${slug(tag)}</option>
+                `
+            )
+            .join("\n")}
+        </datalist>
+      </form>
+      <section>
+        ${TagsList({ tags: allTags })}
+      </section>
     `;
   }
 }
 
-module.exports = TagsTemplate;
+module.exports = Tags;
