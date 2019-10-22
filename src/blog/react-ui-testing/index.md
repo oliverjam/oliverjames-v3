@@ -4,8 +4,6 @@ date: 2019-08-22T17:00:00Z
 tags: ["js", "react", "react testing library", "testing"]
 ---
 
-# Testing React UIs
-
 [Testing Library](https://testing-library.com) is a fantastic tool for writing UI tests. The base library works for testing anything, but there are framework-specific versions—I'll be talking about React Testing Library here.
 
 ## Philosophy
@@ -22,7 +20,7 @@ function Hello() {
 }
 
 test("It should render hello", () => {
-  const container = document.createElement("div");
+  const container = document.createElement("div"); // highlight-line
   ReactDOM.render(<Hello />, container);
   const el = container.querySelector("h1");
   expect(el.textContent).toBe("Hello world");
