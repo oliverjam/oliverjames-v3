@@ -12,8 +12,3 @@
   background-color: var(--orange);
   text-decoration: underline;
 }
-
-.tag:focus {
-  outline: 0.25rem solid var(--blue);
-  outline-offset: 0.25rem;
-}

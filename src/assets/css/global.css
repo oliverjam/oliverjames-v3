@@ -7,6 +7,11 @@ a {
   color: inherit;
 }
 
+a:focus {
+  outline: 0.25rem solid var(--blue);
+  outline-offset: 0.25rem;
+}
+
 img,
 video {
   max-width: 100%;
