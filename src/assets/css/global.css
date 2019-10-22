@@ -132,6 +132,10 @@ body {
   font-size: 0.875rem;
 }
 
+.home-link svg {
+  display: block;
+}
+
 .site-header nav {
   margin-left: auto;
 }

@@ -24,7 +24,7 @@ module.exports = async ({ styles = [], content }) => {
       </head>
       <body>
         <header class="site-header">
-          <a href="/" aria-label="home">
+          <a href="/" aria-label="home" class="home-link">
             <svg
               aria-hidden="true"
               viewBox="0 0 32 32"
@@ -33,8 +33,8 @@ module.exports = async ({ styles = [], content }) => {
               stroke-width="2"
               stroke="var(--darkest)"
               fill="var(--light)"
-              width="48"
-              height="48"
+              width="44"
+              height="44"
             >
               <path
                 d="M4 2 v24 a3,1 0 0 0 24,0 v-24 z"
