@@ -1,11 +1,10 @@
-const { readFile } = require("fs").promises;
+const { readFileSync } = require("fs");
 const html = String.raw;
 
 module.exports = async ({ styles = [], content }) => {
-  const cssPromises = ["global", ...styles].map(path =>
-    readFile(process.cwd() + `/src/assets/css/${path}.css`, "utf-8")
+  const css = ["global", ...styles].map(path =>
+    readFileSync(process.cwd() + `/src/assets/css/${path}.css`, "utf-8")
   );
-  const css = await Promise.all(cssPromises);
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -25,12 +24,12 @@ module.exports = async ({ styles = [], content }) => {
       <body>
         <header class="site-header">
           <a href="/" aria-label="home" class="home-link">
-            <svg
-              viewBox="0 0 32 32"
+          <svg
+            viewBox="0 0 32 32"
             stroke="var(--primary)"
-              stroke-width="2"
-              width="44"
-              height="44"
+            stroke-width="2"
+            width="44"
+            height="44"
             aria-hidden="true">
               <line x1="1" y1="3" x2="31" y2="3" stroke-width="4" stroke="var(--mid)" />
               <path d="M4 4 v26 h24 v-26" fill="none" stroke-linejoin="round" stroke="var(--mid)" />
