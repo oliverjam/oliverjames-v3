@@ -13,6 +13,14 @@ h6 {
   font-weight: 600;
 }
 
+/* Don't double up on space for consecutive headings */
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  margin-top: 0;
+}
+
 code {
   font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
   font-size: 0.875rem;
@@ -122,15 +130,54 @@ main a:focus {
 
 .header-container {
   display: grid;
+  justify-items: center;
   align-content: start;
   grid-row-gap: 1rem;
   line-height: 1;
+  text-align: center;
+}
+
+.header-container::after {
+  --triangle-height: 4rem;
+  --stripe: var(--orange);
+  grid-row: 3 / 4;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  content: "";
+  width: calc(var(--triangle-height) * 2);
+  height: var(--triangle-height);
+  z-index: -10;
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--stripe),
+    var(--stripe) 6px,
+    transparent 6px,
+    transparent 12px,
+    var(--blue) 12px,
+    var(--blue) 18px,
+    transparent 18px,
+    transparent 24px
+  );
 }
 
 h1 {
   margin: 0;
   font-weight: 900;
-  font-size: calc(1em + 2vw);
+  font-size: calc(1em + 2.5vw);
+  line-height: 1;
+}
+
+main ul,
+main ol {
+  padding-left: 1.25rem;
+  padding-inline-start: 1.25rem;
+}
+
+main li {
+  line-height: 1.2;
+}
+
+main li + li {
+  margin-top: 0.5rem;
 }
 
 pre {
