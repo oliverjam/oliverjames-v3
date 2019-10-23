@@ -22,7 +22,7 @@ const readingTime = content => {
   const seconds = getReadingTime(content);
 
   return html`
-    <time datetime="${seconds}s">${(seconds / 60).toFixed(1)} minute read</time>
+    <time datetime="${seconds}s">${(seconds / 60).toFixed(1)} minutes</time>
   `;
 };
 

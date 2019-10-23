@@ -1,10 +1,31 @@
 .posts {
   display: grid;
-  grid-row-gap: 1rem;
-  font-size: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  font-size: 1.25rem;
+}
+
+.post {
+  /* position: relative; */
+  display: grid;
+  justify-items: center;
+  grid-template-rows: auto auto 1fr;
+  grid-row-gap: 0.5rem;
+}
+
+.post::after {
+  content: "";
+  display: block;
+  width: 6rem;
+  margin-top: 1rem;
+  align-self: end;
+  border-bottom: 0.125rem solid var(--orange);
 }
 
 .post__link {
+  display: block;
+  line-height: 1.2;
   text-decoration: none;
 }
 
@@ -12,14 +33,7 @@
   text-decoration: underline;
 }
 
-.post__link:focus {
-  outline: 0.25rem solid var(--blue);
-  outline-offset: 0.25rem;
-}
-
-.posts .tag {
-  margin-left: 1rem;
-  padding: 0 0.75rem;
-  border-radius: 2rem;
-  font-size: 0.875rem;
+.post__info {
+  font-size: 1rem;
+  color: var(--text-lc);
 }
