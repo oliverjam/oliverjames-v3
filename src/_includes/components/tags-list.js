@@ -9,7 +9,7 @@ module.exports = ({ tags }) => {
           ([tag, matchingPosts]) =>
             html`
               <li>
-                <a class="tag" href="${slug(tag)}"
+                <a class="tag" href="/blog/tags/${slug(tag)}"
                   >${tag} ${matchingPosts.length}</a
                 >
               </li>
