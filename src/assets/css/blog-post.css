@@ -50,7 +50,7 @@ main {
     [md-breakout-start]
     var(--content-gutter)
     [content-start]
-    minmax(10rem, 50ch)
+    minmax(10rem, 60ch)
     [content-end]
     var(--content-gutter)
     [md-breakout-end]
