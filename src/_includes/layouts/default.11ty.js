@@ -26,30 +26,31 @@ module.exports = async ({ styles = [], content }) => {
         <header class="site-header">
           <a href="/" aria-label="home" class="home-link">
             <svg
-              aria-hidden="true"
               viewBox="0 0 32 32"
-              stroke-linejoin="round"
-              stroke-linecap="round"
+            stroke="var(--primary)"
               stroke-width="2"
-              stroke="var(--darkest)"
-              fill="var(--light)"
               width="44"
               height="44"
-            >
-              <path
-                d="M4 2 v24 a3,1 0 0 0 24,0 v-24 z"
-                stroke-width="2"
-                style="fill:var(--orange)"
-              />
-              <path
-                d="M4 6 a1,1 0 1 0 8,0 a1,1 0 1 0 8,0 a1,1 0 1 0 8,0"
-                fill="currentcolor"
-              />
-              <path d="M3 2 h26 v3 h-26 z" fill="var(--darkest)" />
-              <path
-                d="M10 14 v8 a3,1 0 0 0 12,0 v-8 a8,1 0 0 1 -12,0"
-                fill="currentcolor"
-              />
+            aria-hidden="true">
+              <line x1="1" y1="3" x2="31" y2="3" stroke-width="4" stroke="var(--mid)" />
+              <path d="M4 4 v26 h24 v-26" fill="none" stroke-linejoin="round" stroke="var(--mid)" />
+
+              <line x1="8" y1="7" x2="8" y2="13" />
+              <line x1="8" y1="7" x2="8" y2="27" />
+              <line x1="8" y1="21" x2="8" y2="27" />
+              
+              <line x1="12" y1="7" x2="12" y2="13" />
+              <line x1="12" y1="21" x2="12" y2="27" />
+              
+              <line x1="16" y1="7" x2="16" y2="13" />
+              <line x1="16" y1="21" x2="16" y2="27" />
+              
+              <line x1="20" y1="7" x2="20" y2="13" />
+              <line x1="20" y1="21" x2="20" y2="27" />
+              
+              <line x1="24" y1="7" x2="24" y2="27" />
+
+              <line x1="11" y1="17" x2="21" y2="17" stroke="var(--blue)" stroke-width="4" />
             </svg>
           </a>
           <nav>

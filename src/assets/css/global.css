@@ -44,13 +44,14 @@ h5 {
 
 :root {
   --light: hsl(220, 10%, 98%);
+  --mid: hsl(220, 15%, 46%);
   --dark: hsl(220, 10%, 32%);
   --darker: hsl(220, 15%, 18%);
   --darkest: hsl(220, 15%, 12%);
 
   --bg-code: hsl(220, 10%, 95%);
   --text: var(--dark);
-  --text-lc: hsl(220, 15%, 46%);
+  --text-lc: var(--mid);
   --bg: var(--light);
   --bg-lc: hsl(220, 15%, 90%);
   --orange: hsl(20, 100%, 80%);
@@ -87,6 +88,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "header" "main" "footer";
+  grid-row-gap: 2rem;
   font-family: var(--serif);
   text-rendering: optimizelegibility;
   color: var(--text);
@@ -166,7 +168,7 @@ main {
       minmax(0, 50rem)
       minmax(1.5rem, 1fr);
     align-content: start;
-    grid-row-gap: 1.5rem;
+    grid-row-gap: 3rem;
     padding: 0;
   }
 }
