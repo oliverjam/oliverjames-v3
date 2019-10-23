@@ -1,13 +1,12 @@
 main {
   max-width: 60rem;
-  margin: 2rem auto 6rem;
+  margin: 2rem auto 4rem;
   display: grid;
   grid-template-rows: 1fr auto;
   grid-row-gap: 2rem;
 }
 
 .page-title {
-  --triangle-height: 6rem;
   display: grid;
   grid-row-gap: 1rem;
   align-items: center;
@@ -19,29 +18,29 @@ main {
 
 .page-title::after,
 .page-title::before {
+  --triangle-height: 5rem;
   content: "";
   width: calc(var(--triangle-height) * 2);
   height: var(--triangle-height);
-  z-index: -10;
   background-image: repeating-linear-gradient(
     90deg,
-    var(--stripe),
-    var(--stripe) 6px,
+    var(--orange),
+    var(--orange) 6px,
     transparent 6px,
-    transparent 12px
+    transparent 12px,
+    var(--blue) 12px,
+    var(--blue) 18px,
+    transparent 18px,
+    transparent 24px
   );
 }
 
 .page-title::before {
-  --stripe: var(--orange);
-  grid-row: 1 / 2;
   clip-path: polygon(0 100%, 50% 0, 100% 100%);
 }
 
 .page-title::after {
-  --stripe: var(--blue);
   clip-path: polygon(0 0, 50% 100%, 100% 0);
-  grid-row: 3 / 4;
 }
 
 .page-title h1 {
