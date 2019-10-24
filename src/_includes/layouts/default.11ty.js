@@ -16,7 +16,7 @@ module.exports = async ({ styles, content }) => {
         />
         <style>
           ${globalStyles}
-          ${styles}
+          ${styles ? styles : ""}
         </style>
       </head>
       <body>

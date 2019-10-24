@@ -1,13 +1,13 @@
 const slug = require("@sindresorhus/slugify");
 const getAllTags = require("./utils/tags");
-const { TagsList, tagStyles } = require("./_includes/components/tags-list");
+const { TagsList, tagsStyles } = require("./_includes/components/tags-list");
 const html = String.raw;
 
 class Tags {
   data() {
     return {
       layout: "layouts/default.11ty.js",
-      styles: tagStyles,
+      styles: tagsStyles,
       permalink: "/blog/tags/index.html",
     };
   }
