@@ -14,11 +14,14 @@ module.exports = async ({ styles, content }) => {
           href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
           rel="preload"
           as="style"
+          onload="this.onload=null;this.rel='stylesheet'"
         />
-        <link
-          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
-          rel="stylesheet"
-        />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
         <style>
           ${globalStyles}
           ${styles ? styles : ""}
