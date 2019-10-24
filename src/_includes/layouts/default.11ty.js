@@ -93,25 +93,27 @@ module.exports = async ({ styles, content }) => html`
         </nav>
       </header>
       <main>${content}</main>
-      <footer class="site-footer cluster" style="--space: 1.5rem;">
-        <div>
-          <h3>Social</h3>
-          <ul class="social">
-            <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
-            <li><a href="https://github.com/oliverjam/">Github</a></li>
-            <li>
-              <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
+      <footer class="site-footer">
+        <div class="cluster" style="--space: 1.5rem;">
+          <div>
+            <h3>Social</h3>
+            <ul class="social">
+              <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
+              <li><a href="https://github.com/oliverjam/">Github</a></li>
+              <li>
+                <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
 
-        <div>
-          <h3>Contact</h3>
-          <p>
-            <a href="mailto:hello@oliveram.es" title="hello@oliverjam.es"
-              >hello@oliverjam.es</a
-            >
-          </p>
+          <div>
+            <h3>Contact</h3>
+            <p>
+              <a href="mailto:hello@oliveram.es" title="hello@oliverjam.es"
+                >hello@oliverjam.es</a
+              >
+            </p>
+          </div>
         </div>
       </footer>
     </body>
@@ -301,10 +303,13 @@ const globalStyles = css`
 
   .site-footer {
     grid-area: footer;
-    justify-content: flex-end;
-    text-align: right;
     padding: 1rem 2rem;
     font-size: 0.875rem;
+  }
+
+  .site-footer .cluster {
+    justify-content: flex-end;
+    text-align: right;
   }
 
   .site-footer h3 {
