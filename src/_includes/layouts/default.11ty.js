@@ -23,6 +23,8 @@ module.exports = async ({ styles, content }) => {
           ${globalStyles}
           ${styles ? styles : ""}
         </style>
+        <meta name="description" content="Oliver Phillips is a frontend engineer based in London, UK.">
+        <meta name="og:description" content="Oliver Phillips is a frontend engineer based in London, UK.">
       </head>
       <body>
         <header class="site-header">
