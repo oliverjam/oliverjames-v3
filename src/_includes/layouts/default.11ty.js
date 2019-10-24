@@ -77,7 +77,7 @@ module.exports = async ({ styles = [], content }) => {
             <div>
               <dt>Contact</dt>
               <dd>
-                <a href="mailto:hello@oliveram.es" title="hello@oliveram.es"
+                <a href="mailto:hello@oliveram.es" title="hello@oliverjam.es"
                   >hello@oliverjam.es</a
                 >
               </dd>
