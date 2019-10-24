@@ -7,7 +7,6 @@
 }
 
 .post {
-  /* position: relative; */
   display: grid;
   justify-items: center;
   grid-template-rows: auto auto 1fr;

@@ -116,47 +116,8 @@ main {
   text-decoration: none;
 }
 
-.blog-excerpt a::before,
-.blog-excerpt a::after {
-  --offset: -1.5rem;
-  --border-width: 0.5rem;
-  content: "";
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  display: block;
-  opacity: 0;
-  transition: opacity 0.2s ease-out, transform 0.2s ease-out;
-}
-
-.blog-excerpt a::before {
-  top: var(--offset);
-  left: var(--offset);
-  border-left: var(--border-width) solid var(--orange);
-  border-top: var(--border-width) solid var(--orange);
-  transform: translate(1rem);
-}
-
-.blog-excerpt a::after {
-  bottom: var(--offset);
-  right: var(--offset);
-  border-right: var(--border-width) solid var(--blue);
-  border-bottom: var(--border-width) solid var(--blue);
-  transform: translate(-1rem);
-}
-
-.blog-excerpt a:focus::before,
-.blog-excerpt a:focus::after {
-  opacity: 1;
-  transform: translate(0);
-}
-
 .blog-excerpt a:hover {
   text-decoration: underline;
-}
-
-.blog-excerpt a:focus {
-  outline: 0;
 }
 
 .blog-excerpt time {
