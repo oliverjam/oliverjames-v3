@@ -12,6 +12,11 @@ module.exports = async ({ styles, content }) => {
         <title>Oliver</title>
         <link
           href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
+          rel="preload"
+          as="style"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
           rel="stylesheet"
         />
         <style>
@@ -150,7 +155,8 @@ const globalStyles = css`
 
     --sans-serif: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
       sans-serif;
-    --serif: "Spectral", Georgia, Times, Times New Roman, serif;
+    --serif: "Spectral", Palatino, Palatino Linotype, Palatino LT STD,
+      Book Antiqua, Georgia, serif;
   }
 
   @media (prefers-color-scheme: dark) {
