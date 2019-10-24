@@ -1,12 +1,13 @@
 const slug = require("@sindresorhus/slugify");
-const PostsList = require("./_includes/components/posts-list");
+const { PostsList, postsStyles } = require("./_includes/components/posts-list");
+
 const html = String.raw;
 
 class TagTemplate {
   data() {
     return {
       layout: "layouts/default.11ty.js",
-      styles: ["posts"],
+      styles: postsStyles,
       pagination: {
         data: "collections",
         size: 1,

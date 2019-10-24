@@ -1,7 +1,8 @@
 const slug = require("@sindresorhus/slugify");
 const html = String.raw;
+const css = String.raw;
 
-module.exports = ({ tags }) => {
+const TagsList = ({ tags }) => {
   return html`
     <ul class="cluster" style="justify-content: center;">
       ${tags
@@ -20,3 +21,24 @@ module.exports = ({ tags }) => {
     </ul>
   `;
 };
+
+const tagsStyles = css`
+  .tag {
+    display: block;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-family: var(--sans-serif);
+    background-color: var(--bg-lc);
+    padding: 0.25rem 0.75rem;
+    color: var(--darker);
+    text-decoration: none;
+    transition: 0.2s background-color;
+  }
+
+  .tag:hover {
+    background-color: var(--orange);
+    text-decoration: underline;
+  }
+`;
+
+module.exports = { TagsList, tagsStyles };

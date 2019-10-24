@@ -1,13 +1,14 @@
 const getAllTags = require("./utils/tags");
-const PostsList = require("./_includes/components/posts-list");
-const TagsList = require("./_includes/components/tags-list");
+const { PostsList, postsStyles } = require("./_includes/components/posts-list");
+const { TagsList, tagsStyles } = require("./_includes/components/tags-list");
+
 const html = String.raw;
 
 class Blog {
   data() {
     return {
       layout: "layouts/default.11ty.js",
-      styles: ["tags", "posts"],
+      styles: postsStyles + tagsStyles,
     };
   }
   render(data) {
