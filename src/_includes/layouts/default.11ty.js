@@ -289,7 +289,7 @@ const globalStyles = css`
       display: grid;
       grid-template-columns:
         minmax(1.5rem, 1fr)
-        minmax(0, 50rem)
+        minmax(0, 56rem)
         minmax(1.5rem, 1fr);
       align-content: start;
       grid-row-gap: 3rem;

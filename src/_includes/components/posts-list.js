@@ -27,9 +27,9 @@ const PostsList = ({ posts }) => html`
 const postsStyles = css`
   .posts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
     font-size: 1.25rem;
   }
 
