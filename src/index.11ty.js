@@ -8,6 +8,17 @@ class Home {
     return {
       layout: "layouts/default.11ty.js",
       styles,
+      head: ({ collections }) =>
+        collections.blog
+          .slice(-3)
+          .map(
+            post =>
+              // prefetch first 3 blog posts so they load instantly
+              html`
+                <link rel="prefetch" href="${post.url}" />
+              `
+          )
+          .join(""),
     };
   }
   render({ collections: { blog = [] } }) {
