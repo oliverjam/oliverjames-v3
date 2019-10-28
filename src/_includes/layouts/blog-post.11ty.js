@@ -148,6 +148,7 @@ const styles = css`
     --stripe: var(--orange);
     grid-row: 3 / 4;
     clip-path: polygon(0 0, 50% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
     content: "";
     width: calc(var(--triangle-height) * 2);
     height: var(--triangle-height);

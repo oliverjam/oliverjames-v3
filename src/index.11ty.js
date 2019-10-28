@@ -79,10 +79,12 @@ const styles = css`
 
   .page-title::before {
     clip-path: polygon(0 100%, 50% 0, 100% 100%);
+    -webkit-clip-path: polygon(0 100%, 50% 0, 100% 100%);
   }
 
   .page-title::after {
     clip-path: polygon(0 0, 50% 100%, 100% 0);
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
   }
 
   .page-title h1 {
