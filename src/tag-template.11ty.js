@@ -3,27 +3,24 @@ const { PostsList, postsStyles } = require("./_includes/components/posts-list");
 
 const html = String.raw;
 
-class TagTemplate {
-  data() {
-    return {
-      layout: "layouts/default.11ty.js",
-      styles: postsStyles,
-      pagination: {
-        data: "collections",
-        size: 1,
-        alias: "tag",
-        filter: ["all", "blog", "allTags"],
-      },
-      permalink: data => `/blog/tags/${slug(data.tag)}/`,
-    };
-  }
-  render(data) {
-    const posts = data.collections[data.tag];
-    return html`
-      <h1>Posts tagged with "${data.tag}"</h1>
-      ${PostsList({ posts, tags: false })}
-    `;
-  }
-}
+exports.data = () => {
+  return {
+    layout: "layouts/default.11ty.js",
+    styles: postsStyles,
+    pagination: {
+      data: "collections",
+      size: 1,
+      alias: "tag",
+      filter: ["all", "blog", "allTags"],
+    },
+    permalink: data => `/blog/tags/${slug(data.tag)}/`,
+  };
+};
 
-module.exports = TagTemplate;
+exports.render = data => {
+  const posts = data.collections[data.tag];
+  return html`
+    <h1>Posts tagged with "${data.tag}"</h1>
+    ${PostsList({ posts, tags: false })}
+  `;
+};

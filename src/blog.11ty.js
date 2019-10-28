@@ -4,33 +4,30 @@ const { Tag, tagStyles } = require("./_includes/components/tag");
 
 const html = String.raw;
 
-class Blog {
-  data() {
-    return {
-      layout: "layouts/default.11ty.js",
-      styles: postsStyles + tagStyles,
-    };
-  }
-  render(data) {
-    const allTags = getAllTags(data.collections);
-    return html`
-      <h1>All posts</h1>
-      <nav
-        aria-label="categories"
-        class="cluster"
-        style="justify-content: center;"
-      >
-        ${allTags
-          .slice(0, 3)
-          .map(([tag, matchingPosts]) =>
-            Tag({ tag, matches: matchingPosts.length, size: "small" })
-          )
-          .join("")}
-        <a href="tags" class="tag">All tags</a>
-      </nav>
-      ${PostsList({ posts: data.collections.blog })}
-    `;
-  }
-}
+exports.data = () => {
+  return {
+    layout: "layouts/default.11ty.js",
+    styles: postsStyles + tagStyles,
+  };
+};
 
-module.exports = Blog;
+exports.render = data => {
+  const allTags = getAllTags(data.collections);
+  return html`
+    <h1>All posts</h1>
+    <nav
+      aria-label="categories"
+      class="cluster"
+      style="justify-content: center;"
+    >
+      ${allTags
+        .slice(0, 3)
+        .map(([tag, matchingPosts]) =>
+          Tag({ tag, matches: matchingPosts.length, size: "small" })
+        )
+        .join("")}
+      <a href="tags" class="tag">All tags</a>
+    </nav>
+    ${PostsList({ posts: data.collections.blog })}
+  `;
+};

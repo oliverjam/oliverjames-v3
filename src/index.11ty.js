@@ -3,52 +3,51 @@ const { relativeTime } = require("./utils/dates");
 const html = String.raw;
 const css = String.raw;
 
-class Home {
-  data() {
-    return {
-      layout: "layouts/default.11ty.js",
-      styles,
-      head: ({ collections }) =>
-        collections.blog
-          .slice(-3)
-          .map(
-            post =>
-              // prefetch first 3 blog posts so they load instantly
-              html`
-                <link rel="prefetch" href="${post.url}" />
-              `
-          )
-          .join(""),
-    };
-  }
-  render({ collections: { blog = [] } }) {
-    return html`
-      <div class="page-title">
-        <header>
-          <h1>I design and develop user experiences.</h1>
-        </header>
-      </div>
-      <section class="section-blog">
-        <h2>Recent posts</h2>
-        <ul class="switcher" style="--space: 1.5rem">
-          ${blog.slice(-3).reduceRight(
-            (acc, post) =>
-              acc +
-              html`
-                <li class="blog-excerpt">
-                  <h3>
-                    <a href=${post.url}>${post.data.title || post.fileSlug}</a>
-                  </h3>
-                  ${relativeTime(post.date)}
-                </li>
-              `,
-            ""
-          )}
-        </ul>
-      </section>
-    `;
-  }
-}
+exports.data = () => {
+  return {
+    layout: "layouts/default.11ty.js",
+    styles,
+    head: ({ collections }) =>
+      collections.blog
+        .slice(-3)
+        .map(
+          post =>
+            // prefetch first 3 blog posts so they load instantly
+            html`
+              <link rel="prefetch" href="${post.url}" />
+            `
+        )
+        .join(""),
+  };
+};
+
+exports.render = ({ collections: { blog = [] } }) => {
+  return html`
+    <div class="page-title">
+      <header>
+        <h1>I design and develop user experiences.</h1>
+      </header>
+    </div>
+    <section class="section-blog">
+      <h2>Recent posts</h2>
+      <ul class="switcher" style="--space: 1.5rem">
+        ${blog.slice(-3).reduceRight(
+          (acc, post) =>
+            acc +
+            html`
+              <li class="blog-excerpt">
+                <h3>
+                  <a href=${post.url}>${post.data.title || post.fileSlug}</a>
+                </h3>
+                ${relativeTime(post.date)}
+              </li>
+            `,
+          ""
+        )}
+      </ul>
+    </section>
+  `;
+};
 
 const styles = css`
   main {
@@ -181,5 +180,3 @@ const styles = css`
     color: var(--text-lc);
   }
 `;
-
-module.exports = Home;

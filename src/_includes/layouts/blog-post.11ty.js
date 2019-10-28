@@ -3,29 +3,28 @@ const { displayDate, readingTime } = require("../../utils/dates");
 const html = String.raw;
 const css = String.raw;
 
-class BlogPost {
-  data() {
-    return {
-      layout: "layouts/default.11ty.js",
-      styles,
-    };
-  }
-  render(data) {
-    return html`
-      <header class="blog-header">
-        <div class="header-container">
-          <h1>${data.title}</h1>
-          <div>
-            ${displayDate(data.date)}
-            <span aria-hidden="true">•</span>
-            ${readingTime(data.content)}
-          </div>
+exports.data = () => {
+  return {
+    layout: "layouts/default.11ty.js",
+    styles,
+  };
+};
+
+exports.render = data => {
+  return html`
+    <header class="blog-header">
+      <div class="header-container">
+        <h1>${data.title}</h1>
+        <div>
+          ${displayDate(data.date)}
+          <span aria-hidden="true">•</span>
+          ${readingTime(data.content)}
         </div>
-      </header>
-      ${data.content}
-    `;
-  }
-}
+      </div>
+    </header>
+    ${data.content}
+  `;
+};
 
 const styles = css`
   p {
@@ -510,5 +509,3 @@ const styles = css`
     }
   }
 `;
-
-module.exports = BlogPost;
