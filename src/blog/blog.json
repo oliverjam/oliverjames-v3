@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/blog-post.11ty.js",
+  "layout": "layouts/blog-template.11ty.js",
   "tags": [
     "blog"
   ]
