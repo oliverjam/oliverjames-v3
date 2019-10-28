@@ -102,14 +102,7 @@ const styles = css`
   }
 
   main a:hover {
-    text-decoration-style: wavy;
-  }
-
-  main a:focus {
-    outline: 0;
-    position: relative;
-    outline: 0.125rem dashed var(--primary);
-    outline-offset: 2px;
+    text-decoration-style: dotted;
   }
 
   main p:first-of-type::first-line {
