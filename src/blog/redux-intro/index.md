@@ -6,6 +6,8 @@ tags: ["js", "react", "redux", "learn"]
 
 Redux attempts to make state changes predictable by restricting how and when they happen. It separates your state management code from your UI code.
 
+<!-- excerpt -->
+
 ## Principles
 
 Redux has three [Principles](https://redux.js.org/introduction/three-principles):

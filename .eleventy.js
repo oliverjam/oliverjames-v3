@@ -53,6 +53,11 @@ module.exports = config => {
 
   config.setLibrary("md", md);
 
+  config.setFrontMatterParsingOptions({
+    excerpt: true,
+    excerpt_separator: "<!-- excerpt -->",
+  });
+
   config.addPlugin(syntaxHighlight);
 
   config.addPassthroughCopy("src/assets");

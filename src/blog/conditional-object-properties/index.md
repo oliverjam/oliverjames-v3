@@ -8,6 +8,8 @@ date: 2019-09-13T11:30:00Z
 
 A junior developer recently asked me how they could conditionally set a property on an object. They didn't want an always-present key with a value of `undefined`, they wanted the property not to exist at all.
 
+<!-- excerpt -->
+
 There's a _super fancy_ concise modern way to do this, and a simple "verbose" way.
 
 ## Conditional spread expressions

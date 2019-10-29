@@ -6,6 +6,8 @@ tags: ["js", "react", "eslint", "modules"]
 
 I honestly believe the "one component per file" ESLint rule ([`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md)) is the smallest thing with the most negative impact on React codebases I've worked in.
 
+<!-- excerpt -->
+
 Even if you aren't using this rule yourself it seems to have spread its sinister tentacles out into the brains of the community. In my experience most people default to creating a new file whenever they need a new component.
 
 I think this is a bad default.

@@ -6,6 +6,8 @@ tags: ["css", "js", "animation", "ken burns", "keyframes"]
 
 [Lick] are a shopper marketing agency with a strong focus on creative design, which meant their site needed to be visual-heavy. They wanted the top of the homepage to communicate this, whilst also subtly nodding to some of the big brands the agency works with.
 
+<!-- excerpt -->
+
 ## The design process
 
 The first iteration of this hero area featured several looping videos, but we quickly ran into performance issues. There was no way to get multiple videos at a high enough quality to do justice to Lick's work without forcing users to download unfeasibly large files. We also struggled to provide a good user experience for mobile browsers that either refused to autoplay video or forced the video to display inline.

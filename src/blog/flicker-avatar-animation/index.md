@@ -4,7 +4,9 @@ date: 2016-12-01T22:40:32.169Z
 tags: ["css", "animation", "sprite", "keyframes"]
 ---
 
-I just added a flickering faux-motion effect avatar to [my About page]. The technique behind it is fun (and requires relatively little code).
+I just added a flickering faux-motion effect avatar to my About page. The technique behind it is fun (and requires relatively little code).
+
+<!-- excerpt -->
 
 [Primitive] came to my attention a while ago as a nice tool for creating vectorised images. I was enamoured with the flickering effect achieved by animating between multiple versions of the same photo (Primitive produces different versions each time it is run).
 

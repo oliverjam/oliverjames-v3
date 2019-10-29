@@ -2,7 +2,14 @@ const html = String.raw;
 const css = String.raw;
 
 module.exports = async data => {
-  const { styles, content, head, title: pageTitle } = data;
+  const {
+    styles,
+    content,
+    head,
+    title: pageTitle,
+    description: pageDescription,
+    page: { excerpt },
+  } = data;
   if (!pageTitle) {
     console.log(
       "\x1b[31m%s\x1b[0m",
@@ -13,6 +20,8 @@ module.exports = async data => {
     typeof pageTitle === "function" ? pageTitle(data) : pageTitle
   } | Oliver Phillips - Frontend Engineer`;
   const description =
+    pageDescription ||
+    excerpt ||
     "Oliver Phillips is a frontend engineer designing and developing user interfaces in London, UK.";
   return html`
     <!DOCTYPE html>

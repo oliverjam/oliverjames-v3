@@ -6,6 +6,8 @@ tags: ["js", "beginner", "dom", "learn"]
 
 When I first learnt JavaScript I struggled to understand how to apply that knowledge to practical web pages. I wanted to build things that actually _did stuff_, rather than static HTML/CSS pages or JavaScript things that only logged text to the console.
 
+<!-- excerpt -->
+
 This is my attempt to bridge the gap between JavaScript _the language_ and the bits of it you need to know to make things happen on a web page. It will assume you have a basic understanding of HTML and JS, but are new to actually using JS on a web page.
 
 ## What is the Document Object Model?

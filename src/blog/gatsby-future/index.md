@@ -6,6 +6,8 @@ tags: ["js", "gatsby", "wordpress", "web", "future"]
 
 I think Gatsby is the future of the web. I'm going to explain why by comparing it to [WordPress](https://wordpress.org/), the go-to platform for websites over the last fifteen years. I think Gatsby already meets or exceeds most of the things that make WordPress so popular, so it's well placed to become the next huge thing.
 
+<!-- excerpt -->
+
 ## Why WordPress was so successful
 
 I think WordPress has dominated the web for a few reasons.

@@ -5,7 +5,9 @@ tags: ["charity", "effective altruism", "philosophy"]
 ---
 
 > If it is in our power to prevent something bad from happening, without thereby sacrificing anything of comparable moral importance, then we ought, morally, to do it
->
+
+<!-- excerpt -->
+
 > — <cite>Peter Singer, Famine, Affluence and Morality (1972)</cite>
 
 Imagine you’re crossing a bridge on your way to work. As you reach the middle you hear splashing and a cry for help. There’s a young child in the water!

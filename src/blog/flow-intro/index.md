@@ -14,6 +14,8 @@ This was written a year ago as an introduction to static typing and the Flow lib
 
 Flow is a library for adding types to your JavaScript. It's a way to get some of the benefits of a statically typed language whilst still writing the JavaScript you know and love.
 
+<!-- excerpt -->
+
 ## What are types?
 
 A type is something that tells the language what a piece of data is and how it's intended to be used. For example JavaScript has 6 "primitive" types:
