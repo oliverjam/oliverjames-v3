@@ -7,6 +7,7 @@ exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
     styles,
+    title: "home",
     head: ({ collections }) =>
       collections.blog
         .slice(-3)

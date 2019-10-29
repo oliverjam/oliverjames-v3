@@ -4,6 +4,7 @@ exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
     permalink: "blog/tags/404.html",
+    title: "Page not found",
   };
 };
 

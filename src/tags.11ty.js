@@ -7,6 +7,7 @@ exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
     styles: tagsStyles,
+    title: "All tags",
     permalink: "/blog/tags/index.html",
   };
 };

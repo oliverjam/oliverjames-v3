@@ -8,6 +8,7 @@ exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
     styles: postsStyles + tagStyles,
+    title: "All posts",
   };
 };
 

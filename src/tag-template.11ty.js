@@ -14,6 +14,7 @@ exports.data = () => {
       filter: ["all", "blog", "allTags"],
     },
     permalink: data => `/blog/tags/${slug(data.tag)}/`,
+    title: data => `${data.tag[0].toUpperCase()}${data.tag.slice(1)} tag`,
   };
 };
 

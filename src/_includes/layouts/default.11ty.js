@@ -2,7 +2,18 @@ const html = String.raw;
 const css = String.raw;
 
 module.exports = async data => {
-  const { styles, content, head } = data;
+  const { styles, content, head, title: pageTitle } = data;
+  if (!pageTitle) {
+    console.log(
+      "\x1b[31m%s\x1b[0m",
+      `'${data.page.fileSlug}' should have a unique descriptive title`
+    );
+  }
+  const title = `${
+    typeof pageTitle === "function" ? pageTitle(data) : pageTitle
+  } | Oliver Phillips - Frontend Engineer`;
+  const description =
+    "Oliver Phillips is a frontend engineer designing and developing user interfaces in London, UK.";
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -10,30 +21,21 @@ module.exports = async data => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Oliver</title>
-        <link
-          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
-          rel="preload"
-          as="style"
-          onload="this.onload=null;this.rel='stylesheet'"
-        />
-        <noscript>
-          <link
-            href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
-            rel="stylesheet"
-          />
-        </noscript>
+        <title>${title}</title>
+
         <style>
           ${globalStyles}
           ${styles ? styles : ""}
         </style>
+        <meta name="description" content="${description}" />
+        <meta property="og:title" content="${pageTitle}" />
+        <meta name="og:description" content="${description}" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="Oliver Phillips" />
         <meta
-          name="description"
-          content="Oliver Phillips is a frontend engineer based in London, UK."
-        />
-        <meta
-          name="og:description"
-          content="Oliver Phillips is a frontend engineer based in London, UK."
+          name="keywords"
+          content="blog, tech, developer, html, css, javascript, react"
         />
         ${head ? head(data) : ""}
       </head>
