@@ -8,7 +8,7 @@ module.exports = async data => {
     head,
     title: pageTitle,
     description: pageDescription,
-    page: { excerpt },
+    page: { excerpt, fileSlug },
   } = data;
   if (!pageTitle) {
     console.log(
@@ -39,6 +39,10 @@ module.exports = async data => {
         <meta name="description" content="${description}" />
         <meta property="og:title" content="${pageTitle}" />
         <meta name="og:description" content="${description}" />
+        <meta
+          name="og:image"
+          content="/assets/media/og-image/${fileSlug}.png"
+        />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="Oliver Phillips" />
