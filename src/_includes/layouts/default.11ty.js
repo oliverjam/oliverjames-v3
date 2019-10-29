@@ -43,6 +43,10 @@ module.exports = async data => {
           property="og:image"
           content="/assets/media/og-image/${fileSlug}.png"
         />
+        <meta
+          name="twitter:image"
+          content="/assets/media/og-image/${fileSlug}.png"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
         <meta property="og:type" content="website" />
