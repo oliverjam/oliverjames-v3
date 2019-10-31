@@ -115,9 +115,9 @@ module.exports = async data => {
                 <a href="/" aria-current="${url === "/"}">Home</a>
               </li>
               <li>
-                <a href="/blog" aria-current="${url === "/blog/"}">Blog</a>
+                <a href="/blog/" aria-current="${url === "/blog/"}">Blog</a>
               </li>
-              <li><a href="/cv" aria-current="${url === "/cv/"}">CV</a></li>
+              <li><a href="/cv/" aria-current="${url === "/cv/"}">CV</a></li>
             </ul>
           </nav>
         </header>
