@@ -7,7 +7,7 @@ exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
     styles,
-    title: "home",
+    title: "Home",
     head: ({ collections }) =>
       collections.blog
         .slice(-3)
@@ -103,12 +103,6 @@ const styles = css`
     line-height: 1;
   }
 
-  @media (min-width: 40em) {
-    .page-title h1 {
-      font-size: 2.5rem;
-    }
-  }
-
   .section-blog {
     display: grid;
     justify-items: center;
@@ -160,6 +154,9 @@ const styles = css`
   }
 
   @media (min-width: 40em) {
+    .page-title h1 {
+      font-size: 2.5rem;
+    }
     .blog-excerpt h3 {
       font-size: 1.25rem;
     }

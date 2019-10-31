@@ -100,6 +100,10 @@ const styles = css`
     grid-column: content;
   }
 
+  main a {
+    text-decoration: underline;
+  }
+
   main a:hover {
     text-decoration-style: dotted;
   }
@@ -111,13 +115,6 @@ const styles = css`
   .blog-header {
     grid-column: content;
     position: relative;
-  }
-
-  @media (min-width: 30em) {
-    .blog-header {
-      grid-column: lg-breakout;
-      margin-bottom: 2rem;
-    }
   }
 
   @keyframes pop {
@@ -186,13 +183,6 @@ const styles = css`
     grid-column: md-breakout / lg-breakout;
   }
 
-  @media (min-width: 30em) {
-    pre {
-      border-radius: 0.125rem;
-      padding: 2rem;
-    }
-  }
-
   @supports (grid-template-columns: subgrid) {
     pre {
       padding-left: 0;
@@ -220,6 +210,14 @@ const styles = css`
   }
 
   @media (min-width: 30em) {
+    .blog-header {
+      grid-column: lg-breakout;
+      margin-bottom: 2rem;
+    }
+    pre {
+      border-radius: 0.125rem;
+      padding: 2rem;
+    }
     img {
       border-radius: 0.125rem;
     }
