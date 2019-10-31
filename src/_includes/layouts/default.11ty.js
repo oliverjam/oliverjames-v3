@@ -291,7 +291,7 @@ const globalStyles = css`
     grid-area: header;
     display: flex;
     align-items: center;
-    padding: calc(1rem + 2vw);
+    padding: calc(1rem + 1vw);
     font-size: 0.875rem;
   }
 
