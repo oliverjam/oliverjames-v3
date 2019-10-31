@@ -8,7 +8,7 @@ module.exports = async data => {
     head,
     title: pageTitle,
     description: pageDescription,
-    page: { excerpt, fileSlug },
+    page: { excerpt, fileSlug, url },
   } = data;
   if (!pageTitle) {
     console.log(
@@ -111,8 +111,13 @@ module.exports = async data => {
           </a>
           <nav>
             <ul>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/about">About</a></li>
+              <li>
+                <a href="/" aria-current="${url === "/"}">Home</a>
+              </li>
+              <li>
+                <a href="/blog" aria-current="${url === "/blog/"}">Blog</a>
+              </li>
+              <li><a href="/cv" aria-current="${url === "/cv/"}">CV</a></li>
             </ul>
           </nav>
         </header>
@@ -153,6 +158,11 @@ const globalStyles = css`
 
   a {
     color: inherit;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   a:focus {
@@ -239,6 +249,7 @@ const globalStyles = css`
     grid-template-areas: "header" "main" "footer";
     grid-row-gap: 2rem;
     font-family: var(--serif);
+    line-height: 1.5;
     text-rendering: optimizelegibility;
     color: var(--text);
     background-color: var(--bg);
@@ -279,7 +290,8 @@ const globalStyles = css`
   .site-header {
     grid-area: header;
     display: flex;
-    padding: 1rem;
+    align-items: center;
+    padding: calc(1rem + 2vw);
     font-size: 0.875rem;
   }
 
@@ -300,6 +312,10 @@ const globalStyles = css`
 
   .site-header li + li {
     margin-left: 1rem;
+  }
+
+  .site-header a[aria-current="true"] {
+    font-weight: bold;
   }
 
   main {
