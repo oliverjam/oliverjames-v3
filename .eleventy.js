@@ -60,7 +60,8 @@ module.exports = config => {
 
   config.addPlugin(syntaxHighlight);
 
-  config.addPassthroughCopy("src/assets");
+  config.addPassthroughCopy("src/assets/media");
+  config.addPassthroughCopy({ "src/assets/favicons": "/" });
 
   // needed to merge tag from posts.json with post-specific tags
   config.setDataDeepMerge(true);
