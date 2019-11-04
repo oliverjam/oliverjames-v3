@@ -15,7 +15,7 @@ exports.data = () => {
 exports.render = data => {
   const allTags = getAllTags(data.collections);
   return html`
-    <h1>Tags</h1>
+    <h1>All tags</h1>
     <form action="search">
       <label for="tag-filter">Filter tags</label>
       <input id="tag-filter" name="filter" list="all-tags" autocomplete="off" />
