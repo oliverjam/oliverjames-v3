@@ -134,16 +134,34 @@ module.exports = async data => {
           <nav>
             <ul>
               <li>
-                <a href="/" aria-current="${url === "/"}">Home</a>
+                <a
+                  href="${url === "/" ? "#main" : "/"}"
+                  aria-current="${url === "/" ? "page" : "false"}"
+                  >Home</a
+                >
               </li>
               <li>
-                <a href="/blog/" aria-current="${url === "/blog/"}">Blog</a>
+                <a
+                  href="${url === "/blog/" ? "#main" : "/blog/"}"
+                  aria-current="${url === "/blog/"
+                    ? "page"
+                    : url.includes("/blog/")
+                    ? "true"
+                    : "false"}"
+                  >Blog</a
+                >
               </li>
-              <li><a href="/cv/" aria-current="${url === "/cv/"}">CV</a></li>
+              <li>
+                <a
+                  href="${url === "/cv/" ? "#main" : "/cv/"}"
+                  aria-current="${url === "/cv/" ? "page" : "false"}"
+                  >CV</a
+                >
+              </li>
             </ul>
           </nav>
         </header>
-        <main>${content}</main>
+        <main id="main">${content}</main>
         <footer class="site-footer">
           <div class="cluster" style="--space: 1.5rem;">
             <div>
@@ -336,8 +354,10 @@ const globalStyles = css`
     margin-left: 1rem;
   }
 
+  .site-header a[aria-current="page"],
   .site-header a[aria-current="true"] {
-    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
   }
 
   main {
