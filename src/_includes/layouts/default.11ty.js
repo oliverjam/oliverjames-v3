@@ -202,7 +202,7 @@ const globalStyles = css`
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration-line: underline;
   }
 
   a:focus {
@@ -354,9 +354,14 @@ const globalStyles = css`
     margin-left: 1rem;
   }
 
+  .site-header a {
+    text-decoration-thickness: 0.125rem;
+    text-underline-offset: 0.25rem;
+  }
+
   .site-header a[aria-current="page"],
   .site-header a[aria-current="true"] {
-    text-decoration: underline;
+    text-decoration-line: underline;
     text-decoration-color: var(--primary);
   }
 

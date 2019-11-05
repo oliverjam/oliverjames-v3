@@ -101,11 +101,17 @@ const styles = css`
   }
 
   main a {
-    text-decoration: underline;
+    --underline-color: var(--text-lc);
+    text-decoration-line: underline;
+    text-decoration-skip-ink: skip;
+    text-decoration-color: var(--underline-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2rem;
+    transition: text-decoration-color 0.25s;
   }
 
   main a:hover {
-    text-decoration-style: dotted;
+    --underline-color: var(--primary);
   }
 
   main p:first-of-type::first-line {
