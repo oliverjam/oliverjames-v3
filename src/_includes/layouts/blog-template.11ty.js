@@ -50,14 +50,6 @@ const styles = css`
     margin-top: 0;
   }
 
-  code {
-    font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
-    font-size: 80%;
-    border-radius: 0.125rem;
-    padding: 0.125rem 0.25rem;
-    background-color: var(--bg-code);
-  }
-
   .grid {
     min-height: 100vh;
     display: grid;
@@ -183,30 +175,7 @@ const styles = css`
   }
 
   pre {
-    overflow-x: auto;
-    padding: 1.5rem;
-    background-color: var(--bg-code);
     grid-column: md-breakout / lg-breakout;
-  }
-
-  @supports (grid-template-columns: subgrid) {
-    pre {
-      padding-left: 0;
-      padding-right: 0;
-      display: grid;
-      grid-template-columns: subgrid;
-    }
-  }
-
-  pre > * {
-    padding: 0;
-    background-color: var(--bg-code);
-  }
-
-  @supports (grid-template-columns: subgrid) {
-    pre > * {
-      grid-column: content;
-    }
   }
 
   img {
@@ -222,15 +191,24 @@ const styles = css`
     }
     pre {
       border-radius: 0.125rem;
-      padding: 2rem;
     }
     img {
       border-radius: 0.125rem;
     }
   }
 
-  code[class*="language-"],
-  pre[class*="language-"] {
+  code {
+    font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
+    font-size: 80%;
+    border-radius: 0.125rem;
+    padding: 0.125rem 0.25rem;
+    background-color: var(--bg-code);
+  }
+
+  pre > code {
+    display: block;
+    border-radius: 0;
+    padding: 1.5rem;
     line-height: 1.375;
     direction: ltr;
     text-align: left;
@@ -238,29 +216,10 @@ const styles = css`
     word-spacing: normal;
     word-break: normal;
     -moz-tab-size: 4;
-    -o-tab-size: 4;
     tab-size: 4;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
     hyphens: none;
     color: #5e6687;
-  }
-
-  pre[class*="language-"]::-moz-selection,
-  pre[class*="language-"] ::-moz-selection,
-  code[class*="language-"]::-moz-selection,
-  code[class*="language-"] ::-moz-selection {
-    text-shadow: none;
-    background: #dfe2f1;
-  }
-
-  pre[class*="language-"]::selection,
-  pre[class*="language-"] ::selection,
-  code[class*="language-"]::selection,
-  code[class*="language-"] ::selection {
-    text-shadow: none;
-    background: #dfe2f1;
+    overflow: auto;
   }
 
   .token.comment,
@@ -357,66 +316,9 @@ const styles = css`
     cursor: help;
   }
 
-  pre > code.highlight {
-    outline: 0.4em solid #c94922;
-    outline-offset: 0.4em;
-  }
-
-  /* overrides color-values for the Line Numbers plugin
- * http://prismjs.com/plugins/line-numbers/
- */
-  .line-numbers .line-numbers-rows {
-    border-right-color: #dfe2f1;
-  }
-
-  .line-numbers-rows > span:before {
-    color: #979db4;
-  }
-
-  /* overrides color-values for the Line Highlight plugin
- * http://prismjs.com/plugins/line-highlight/
- */
-  .line-highlight {
-    background: rgba(107, 115, 148, 0.2);
-    background: -webkit-linear-gradient(
-      left,
-      rgba(107, 115, 148, 0.2) 70%,
-      rgba(107, 115, 148, 0)
-    );
-    background: linear-gradient(
-      to right,
-      rgba(107, 115, 148, 0.2) 70%,
-      rgba(107, 115, 148, 0)
-    );
-  }
-
   @media (prefers-color-scheme: dark) {
-    code[class*="language-"],
-    pre[class*="language-"] {
+    pre > code {
       color: hsl(220, 10%, 70%);
-    }
-
-    pre[class*="language-"]::-moz-selection,
-    pre[class*="language-"] ::-moz-selection,
-    code[class*="language-"]::-moz-selection,
-    code[class*="language-"] ::-moz-selection {
-      text-shadow: none;
-      background: #898ea4;
-    }
-
-    pre[class*="language-"]::selection,
-    pre[class*="language-"] ::selection,
-    code[class*="language-"]::selection,
-    code[class*="language-"] ::selection {
-      text-shadow: none;
-      background: hsl(220, 20%, 50%);
-    }
-
-    /* Code blocks */
-    pre[class*="language-"] {
-      padding: 1em;
-      margin: 0.5em 0;
-      overflow: auto;
     }
 
     .token.comment,
@@ -425,10 +327,6 @@ const styles = css`
     .token.doctype,
     .token.cdata {
       color: hsl(220, 40%, 68%);
-    }
-
-    .token.namespace {
-      opacity: 0.7;
     }
 
     .token.operator,
@@ -462,56 +360,6 @@ const styles = css`
     .token.unit,
     .token.function {
       color: hsl(50, 60%, 60%);
-    }
-
-    .token.placeholder,
-    .token.variable {
-      color: #3d8fd1;
-    }
-
-    .token.inserted {
-      border-bottom: 1px dotted #f5f7ff;
-      text-decoration: none;
-    }
-
-    .token.italic {
-      font-style: italic;
-    }
-
-    .token.important,
-    .token.bold {
-      font-weight: bold;
-    }
-
-    .token.important {
-      color: hsl(15, 70%, 50%);
-    }
-
-    pre > code.highlight {
-      outline: 0.4em solid hsl(15, 70%, 50%);
-      outline-offset: 0.4em;
-    }
-
-    .line-numbers .line-numbers-rows {
-      border-right-color: #293256 !important;
-    }
-
-    .line-numbers-rows > span:before {
-      color: #5e6687 !important;
-    }
-
-    .line-highlight {
-      background: rgba(245, 247, 255, 0.2) !important;
-      background: -webkit-linear-gradient(
-        left,
-        rgba(245, 247, 255, 0.2) 70%,
-        rgba(245, 247, 255, 0)
-      ) !important;
-      background: linear-gradient(
-        to right,
-        rgba(245, 247, 255, 0.2) 70%,
-        rgba(245, 247, 255, 0)
-      ) !important;
     }
   }
 `;
