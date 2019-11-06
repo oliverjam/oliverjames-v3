@@ -52,7 +52,7 @@ const styles = css`
 
   code {
     font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
-    font-size: 0.875rem;
+    font-size: 80%;
     border-radius: 0.125rem;
     padding: 0.125rem 0.25rem;
     background-color: var(--bg-code);
