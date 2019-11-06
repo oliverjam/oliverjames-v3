@@ -67,7 +67,7 @@ const styles = css`
       [full-start]
       var(--page-gutter)
       [lg-breakout-start]
-      minmax(0, 3fr)
+      minmax(0, 4fr)
       [md-breakout-start]
       var(--content-gutter)
       [content-start]
@@ -75,7 +75,7 @@ const styles = css`
       [content-end]
       var(--content-gutter)
       [md-breakout-end]
-      minmax(0, 3fr)
+      minmax(0, 4fr)
       [lg-breakout-end]
       var(--page-gutter)
       [full-end];
@@ -125,7 +125,7 @@ const styles = css`
     display: grid;
     justify-items: center;
     align-content: start;
-    grid-row-gap: 1rem;
+    grid-row-gap: 1.5rem;
     line-height: 1;
     text-align: center;
   }
