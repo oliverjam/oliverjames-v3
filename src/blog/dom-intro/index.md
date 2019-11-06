@@ -51,7 +51,8 @@ It's important to note that a NodeList is _not_ the same as an array. This means
 For example:
 
 ```html
-<button id="button-1">Hello</button> <button id="button-2">Hello</button>
+<button id="button-1">Hello</button>
+<button id="button-2">Hello</button>
 <button id="button-3">Hello</button>
 ```
 
