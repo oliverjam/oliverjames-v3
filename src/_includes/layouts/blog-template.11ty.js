@@ -12,7 +12,7 @@ exports.data = () => {
 
 exports.render = data => {
   return html`
-    <header class="blog-header">
+    <header class="header">
       <div class="header-container">
         <h1>${data.title}</h1>
         <div>
@@ -88,6 +88,7 @@ const styles = css`
     }
   }
 
+  /* all direct children default to middle column unless otherwise laid-out */
   main > * {
     grid-column: content;
   }
@@ -110,15 +111,11 @@ const styles = css`
     font-weight: bold;
   }
 
-  .blog-header {
-    grid-column: content;
-    position: relative;
-  }
-
-  @keyframes pop {
-    to {
-      transform: scale(1) rotate(45deg);
-    }
+  .header {
+    grid-column: lg-breakout;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .header-container {
@@ -174,28 +171,7 @@ const styles = css`
     margin-top: 0.5rem;
   }
 
-  main pre {
-    grid-column: md-breakout / lg-breakout;
-  }
-
-  main img {
-    grid-column: md-breakout / lg-breakout;
-  }
-
-  @media (min-width: 30em) {
-    .blog-header {
-      grid-column: lg-breakout;
-      margin-bottom: 2rem;
-    }
-    pre {
-      border-radius: 0.125rem;
-    }
-    img {
-      border-radius: 0.125rem;
-    }
-  }
-
-  code {
+  main code {
     box-decoration-break: clone;
     font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
     font-size: 80%;
@@ -204,10 +180,25 @@ const styles = css`
     background-color: var(--bg-code);
   }
 
-  pre > code {
-    display: block;
-    border-radius: 0;
+  main pre {
+    grid-column: md-breakout / lg-breakout;
     padding: 1.5rem;
+    background-color: var(--bg-code);
+  }
+
+  /* if browser supports subgrid inherit columns from main. this allows <code> to share the same gutter as the rest of the content */
+  @supports (grid-template-columns: subgrid) {
+    main pre {
+      display: grid;
+      grid-template-columns: subgrid;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  main pre > code {
+    grid-column: content;
+    display: block;
     line-height: 1.375;
     direction: ltr;
     text-align: left;
@@ -219,6 +210,10 @@ const styles = css`
     hyphens: none;
     color: #5e6687;
     overflow: auto;
+  }
+
+  main img {
+    grid-column: md-breakout / lg-breakout;
   }
 
   .token.comment,
