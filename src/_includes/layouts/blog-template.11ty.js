@@ -174,13 +174,11 @@ const styles = css`
     margin-top: 0.5rem;
   }
 
-  pre {
+  main pre {
     grid-column: md-breakout / lg-breakout;
   }
 
-  img {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  main img {
     grid-column: md-breakout / lg-breakout;
   }
 
@@ -198,6 +196,7 @@ const styles = css`
   }
 
   code {
+    box-decoration-break: clone;
     font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
     font-size: 80%;
     border-radius: 0.125rem;
