@@ -270,6 +270,10 @@ const globalStyles = css`
       --bg-code: var(--darker);
       --bg-lc: hsl(220, 15%, 75%);
     }
+
+    img {
+      filter: brightness(0.9);
+    }
   }
 
   html {
