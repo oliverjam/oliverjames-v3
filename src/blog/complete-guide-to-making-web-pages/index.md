@@ -6,6 +6,8 @@ tags: ["html", "web", "learn", "fundamentals"]
 
 It can feel confusing when you're first learning to code for the web. You can get pretty good at HTML, CSS & JavaScript in isolation (using online tools like [freeCodeCamp](https://freecodecamp.org), [CodePen](https://codepen.io) and [repl.it](https://repl.it)) but struggle to put all the pieces together and create an entire web page on your own.
 
+<!-- excerpt -->
+
 I'm going to explain all the required bits you need to get a functioning page, using nothing but a text editor.
 
 ## Before you start
