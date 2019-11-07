@@ -284,6 +284,8 @@ In the early days of the mobile web most sites were built exclusively for big sc
 
 A favicon is the little icon that appears in the tab next to the site title (and in some other places). This helps users identify your site and can add a nice design touch.
 
+You'll need a `favicon.ico` file. If you don't want to make your own you can [download mine here](/favicon.ico) (right click the link and save), then copy it into your website folder.
+
 We include this file with a link tag in the `<head>`, just like CSS files.
 
 <!-- prettier-ignore -->
@@ -291,7 +293,7 @@ We include this file with a link tag in the `<head>`, just like CSS files.
 <link rel="icon" href="/favicon.ico">
 ```
 
-Some browsers will automatically request and use a file named `favicon.ico` if they find one, but it's best to be explicit. There are lots of different formats for larger icons and different platforms, so it's best to use [a generator](https://realfavicongenerator.net) to create all the files you might need.
+Some browsers will automatically request and use a file named `favicon.ico` if they find one, but it's best to be explicit. There are lots of different formats for larger icons and different platforms, so it's best to use [a favicon generator](https://realfavicongenerator.net) to create all the files you might need.
 
 ### The meta description tag
 
