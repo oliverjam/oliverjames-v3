@@ -236,7 +236,7 @@ Open the developer tools, then click the "Console" tab and you should see our "J
 
 We might want to move our JS to an external file for the same reasons we would move our CSS. Create a new file called `my-script.js` and copy in our `console.log` line from above.
 
-Confusingly we _don't_ use the link tag for this—we use the same script tag, but with the `src` attribute to point to URL of our JS file:
+Confusingly we _don't_ use the link tag for this—we use the same script tag, but with the `src` attribute to point to the URL of our JS file:
 
 ```html
 <script src="/my-script.js"></script>
