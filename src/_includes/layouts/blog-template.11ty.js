@@ -312,7 +312,7 @@ const styles = css`
   }
 
   @media (prefers-color-scheme: dark) {
-    pre > code {
+    main pre > code {
       color: hsl(220, 10%, 70%);
     }
 
