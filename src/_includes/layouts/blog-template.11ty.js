@@ -6,7 +6,7 @@ const css = String.raw;
 exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
-    styles,
+    styles
   };
 };
 
@@ -171,7 +171,8 @@ const styles = css`
     margin-top: 0.5rem;
   }
 
-  main code {
+  main code,
+  main kbd {
     box-decoration-break: clone;
     font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
     font-size: 80%;
