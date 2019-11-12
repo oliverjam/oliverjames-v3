@@ -198,7 +198,7 @@ const styles = css`
   }
 
   main pre > code {
-    grid-column: content;
+    grid-column: content / lg-breakout;
     display: block;
     line-height: 1.375;
     direction: ltr;
