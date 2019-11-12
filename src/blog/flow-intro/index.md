@@ -4,17 +4,17 @@ date: 2019-06-12T13:00:00Z
 tags: ["js", "types", "flow"]
 ---
 
-<div style="padding: 1rem; background-color: var(--bg-code); grid-column: md-breakout">
-
-**Disclaimer**
-
-This was written a year ago as an introduction to static typing and the Flow library to help onboard new developers into our team. It's very likely Flow has published new major versions with new features since then; I apologise in advance for any out-of-date information.
-
-</div>
-
 Flow is a library for adding types to your JavaScript. It's a way to get some of the benefits of a statically typed language whilst still writing the JavaScript you know and love.
 
 <!-- excerpt -->
+
+<div style="padding: 2rem; color: var(--darker); background-color: var(--orange); grid-column: md-breakout">
+
+**Disclaimer**
+
+This was written a year ago as an introduction to static typing and the Flow library to help onboard new developers into my team at Ticketmaster. It's very likely Flow has published new major versions with new features since then; I apologise in advance for any out-of-date information.
+
+</div>
 
 ## What are types?
 
@@ -156,7 +156,8 @@ You can also use literal values as types. For example if a string should always 
 "union" types allow a value to be more than one type. For example we could allow our `add` function to accept numbers _or_ strings:
 
 ```javascript
-const add = (a: number | string, a: number | string): number => Number(a) + Number(b)
+const add = (a: number | string, a: number | string): number =>
+  Number(a) + Number(b);
 ```
 
 Note that you must ensure you're returning the correct type (here by converting the arguments to numbers before adding them).
