@@ -183,7 +183,7 @@ module.exports = async data => {
               <h3>Contact</h3>
               <p>
                 <a
-                  href="mailto:hello@oliveram.es"
+                  href="mailto:hello@oliverjam.es"
                   title="hello@oliverjam.es"
                   rel="me"
                   >hello@oliverjam.es</a
