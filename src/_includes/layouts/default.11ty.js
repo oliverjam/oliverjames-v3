@@ -167,8 +167,12 @@ module.exports = async data => {
             <div>
               <h3>Social</h3>
               <ul class="social">
-                <li><a href="https://twitter.com/_oliverjam">Twitter</a></li>
-                <li><a href="https://github.com/oliverjam/">Github</a></li>
+                <li>
+                  <a href="https://twitter.com/_oliverjam" rel="me">Twitter</a>
+                </li>
+                <li>
+                  <a href="https://github.com/oliverjam/" rel="me">Github</a>
+                </li>
                 <li>
                   <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
                 </li>
@@ -178,7 +182,10 @@ module.exports = async data => {
             <div>
               <h3>Contact</h3>
               <p>
-                <a href="mailto:hello@oliveram.es" title="hello@oliverjam.es"
+                <a
+                  href="mailto:hello@oliveram.es"
+                  title="hello@oliverjam.es"
+                  rel="me"
                   >hello@oliverjam.es</a
                 >
               </p>
