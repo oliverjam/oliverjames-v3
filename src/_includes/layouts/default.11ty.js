@@ -78,6 +78,12 @@ module.exports = async data => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffaa80" />
         <meta name="theme-color" content="#ffffff" />
 
+        <link
+          rel="webmention"
+          href="https://webmention.io/oliverjam.es/webmention"
+        />
+        <link rel="pingback" href="https://webmention.io/oliverjam.es/xmlrpc" />
+
         ${head ? head(data) : ""}
       </head>
       <body>
