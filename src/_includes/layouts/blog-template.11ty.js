@@ -6,7 +6,7 @@ const css = String.raw;
 exports.data = () => {
   return {
     layout: "layouts/default.11ty.js",
-    styles
+    styles,
   };
 };
 
@@ -23,6 +23,30 @@ exports.render = data => {
       </div>
     </header>
     ${data.content}
+    <div id="comments" class="webmentions"></div>
+    <template id="mentionTemplate">
+      <div class="h-entry">
+        <img
+          class="u-photo"
+          id="mentionImage"
+          width="32"
+          height="32"
+          alt=""
+          loading="lazy"
+        />
+        <div>
+          <div class="mention-meta">
+            <a class="p-name u-url" id="mentionAuthor"></a>
+            <span aria-hidden="true">•</span>
+            <time class="dt-published" id="mentionDate"
+              ><a class="u-url" id="mentionPermalink"></a
+            ></time>
+          </div>
+          <div class="e-content" id="mentionContent"></div>
+        </div>
+      </div>
+    </template>
+    <script async defer src="/assets/js/webmentions.js"></script>
   `;
 };
 
@@ -356,5 +380,52 @@ const styles = css`
     .token.function {
       color: hsl(50, 60%, 60%);
     }
+  }
+
+  .webmentions {
+    font-family: var(--sans-serif);
+  }
+
+  .h-entry {
+    margin-top: 2rem;
+    display: flex;
+    font-size: 0.875rem;
+  }
+
+  .u-photo {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--text-lc);
+  }
+
+  .mention-meta a {
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .mention-meta a:hover {
+    text-decoration: underline;
+  }
+
+  .p-name {
+    font-weight: bold;
+  }
+
+  .dt-published {
+    color: var(--text-lc);
+  }
+
+  .e-content {
+    margin-top: 0.25rem;
+    line-height: 1.4;
+  }
+
+  .e-content a {
+    text-decoration: underline;
+    color: inherit;
   }
 `;
