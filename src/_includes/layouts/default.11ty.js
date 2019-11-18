@@ -1,9 +1,12 @@
+const CleanCSS = require("clean-css");
+const Clean = new CleanCSS({});
+
 const html = String.raw;
 const css = String.raw;
 
 module.exports = async data => {
   const {
-    styles,
+    styles = "",
     content,
     head,
     title: pageTitle,
@@ -23,6 +26,16 @@ module.exports = async data => {
     pageDescription ||
     excerpt ||
     "Oliver Phillips is a frontend engineer designing and developing user interfaces in London, UK.";
+
+  let css = globalStyles + styles;
+  if (process.env.ELEVENTY_ENV) {
+    const output = Clean.minify(css);
+    if (output.warnings.length || output.errors.length) {
+      console.warn(output.warnings);
+      console.error(output.errors);
+    }
+    css = output.styles;
+  }
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -33,8 +46,7 @@ module.exports = async data => {
         <title>${title}</title>
 
         <style>
-          ${globalStyles}
-          ${styles ? styles : ""}
+          ${css}
         </style>
         <meta name="description" content="${description}" />
         <meta property="og:title" content="${pageTitle}" />

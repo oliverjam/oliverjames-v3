@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "@sindresorhus/slugify": "^0.9.1",
+    "clean-css": "^4.2.1",
     "eslint": "^6.5.1",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5"
