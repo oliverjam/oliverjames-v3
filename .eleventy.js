@@ -60,6 +60,7 @@ module.exports = config => {
 
   config.addPlugin(syntaxHighlight);
 
+  config.addPassthroughCopy("src/assets/js");
   config.addPassthroughCopy("src/assets/media");
   config.addPassthroughCopy({ "src/assets/favicons": "/" });
 
