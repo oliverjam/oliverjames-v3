@@ -44,7 +44,19 @@ module.exports = async data => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>${title}</title>
-
+        <link rel="preconnect" href="https://fonts.gstatic.com/" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
+          rel="preload"
+          as="style"
+          onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
         <style>
           ${css}
         </style>
