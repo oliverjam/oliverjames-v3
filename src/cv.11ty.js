@@ -278,6 +278,9 @@ const styles = css`
     text-align: left;
     display: block;
   }
+  main a {
+    color: var(--blue);
+  }
   * + p {
     margin-top: 1em;
   }
