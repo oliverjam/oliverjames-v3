@@ -279,7 +279,16 @@ const styles = css`
     display: block;
   }
   main a {
-    color: var(--blue);
+    --underline-color: var(--text-lc);
+    text-decoration-line: underline;
+    text-decoration-skip-ink: skip;
+    text-decoration-color: var(--underline-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2rem;
+    transition: text-decoration-color 0.25s;
+  }
+  main a:hover {
+    --underline-color: var(--primary);
   }
   * + p {
     margin-top: 1em;
