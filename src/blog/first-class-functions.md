@@ -1,6 +1,6 @@
 ---
 title: "First-class functions in JavaScript"
-date: 2019-12-08T14:11:34.000Z
+date: 2019-12-11T13:15:00.000Z
 tags: ["js", "functions"]
 ---
 
