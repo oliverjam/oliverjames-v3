@@ -4,7 +4,9 @@ date: 2019-12-11T13:15:00.000Z
 tags: ["js", "functions"]
 ---
 
-In JavaScript functions are treated like any other variable. This is sometimes referred to as "first-class functions". The concept can be tricky for beginners, so I'm going to try and explain exactly what it means.
+In JavaScript functions are treated like any other variable. This is sometimes referred to as “first-class functions”. The concept can be tricky for beginners, so I'm going to try and explain exactly what it means.
+
+<!-- excerpt -->
 
 ## Functions are variables
 

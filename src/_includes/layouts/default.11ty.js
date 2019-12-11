@@ -62,7 +62,7 @@ module.exports = async data => {
         </style>
         <meta name="description" content="${description}" />
         <meta property="og:title" content="${pageTitle}" />
-        <meta property="og:description" content="${description}" />
+        <meta property="og:description" content="${description.trim()}" />
         <meta
           property="og:image"
           content="/assets/media/og-image/${fileSlug}.png"
