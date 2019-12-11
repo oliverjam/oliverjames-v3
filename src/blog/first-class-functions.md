@@ -128,6 +128,9 @@ const handleSubmit = event => {
 };
 
 form.addEventListener("submit", handleSubmit());
+// this is equivalent to:
+// form.addEventListener("submit", undefined);
+// since handleSubmit doesn't return anything
 ```
 
 ## Built-in functions
@@ -140,17 +143,25 @@ getAsyncData().then(data => console.log(data));
 
 The `.then` method expects to be passed a function as an argument. It will call whatever function we pass it with the resolved data. In this case our inline arrow function will be called with `data`, which we then pass on to the `console.log` function.
 
-We could extract this to a named function, then reference this inside the `.then`:
+It's important to note that we are _defining_ a function here, which means we can call the argument anything:
 
 ```js
-function logData(data) {
-  console.log(data);
+getAsyncData().then(whateverWeLike => console.log(whateverWeLike));
+```
+
+The actual value that gets passed to our function comes from inside the `.then`—we never have control of it.
+
+Next lets extract the inline function to a named variable, then reference it inside the `.then`:
+
+```js
+function logData(whateverWeLike) {
+  console.log(whateverWeLike);
 }
 
 getAsyncData().then(logData);
 ```
 
-This works, but there's an even simpler way. We can get rid of our wrapper function entirely, since all it does is forward its argument on to `console.log`. Since `console.log` is already a function we can use it as-is:
+This works, but there's an even simpler way. We can get rid of our wrapper function entirely, since all it does is forward whatever argument it receives on to `console.log`. Since `console.log` is already a function we can use it as-is:
 
 ```js
 getAsyncData().then(console.log);
