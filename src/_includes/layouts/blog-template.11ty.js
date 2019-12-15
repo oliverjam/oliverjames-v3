@@ -198,6 +198,7 @@ const styles = css`
   main code,
   main kbd {
     box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
     font-family: "Source Code Pro", Menlo, Monaco, Consolas, monospace;
     font-size: 80%;
     border-radius: 0.125rem;
