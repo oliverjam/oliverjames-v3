@@ -315,6 +315,7 @@ const globalStyles = css`
 
   html {
     font-size: 1.125rem;
+    scroll-behavior: smooth;
   }
 
   @media (min-width: 40em) {
