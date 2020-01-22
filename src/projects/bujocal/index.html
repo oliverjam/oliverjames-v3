@@ -64,6 +64,7 @@
       year.value = today.getFullYear();
       month.value = today.getMonth() + 1;
 
+      const days = " M  T  W  T  F  S  S\n";
       function createCalendar() {
         const d = new Date(year.value, month.value - 1);
         const dates = calendarize(d, 1);
@@ -78,7 +79,7 @@
             }, ""),
           ""
         );
-        output.textContent = str;
+        output.textContent = days + str;
       }
 
       main.hidden = false;
