@@ -74,7 +74,7 @@
             final +
             (final && "\n") +
             week.reduce((w, day) => {
-              const d = day ? day.toString().padStart(2, "0") : "  ";
+              const d = day ? day.toString().padStart(2, " ") : "  ";
               return w + d + " ";
             }, ""),
           ""
