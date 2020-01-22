@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bujocal</title>
+    <style>
+      body {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: calc(1rem + 2vw);
+        font-size: calc(1rem + 1vw);
+        font-family: monospace;
+      }
+      form {
+        border: 2px solid;
+        padding: calc(1rem + 2vw);
+        display: grid;
+        grid-row-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        font: inherit;
+        max-width: 5ch;
+        border: 2px solid;
+        padding: 0.25rem;
+      }
+      input:last-of-type {
+        max-width: 2ch;
+      }
+      output {
+        grid-column: 1 / -1;
+        display: block;
+        white-space: pre;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>I'm sorry but this won't work without JavaScript</noscript>
+    <main hidden>
+      <h1>Bujocal</h1>
+      <p>Quick calendar reference for bullet journals</p>
+      <form>
+        <div>
+          <label for="year">Year</label>
+          <input id="year" type="number" />
+          <label for="month">Month</label>
+          <input id="month" type="number" />
+        </div>
+        <output id="output"></output>
+      </form>
+    </main>
+    <script type="module">
+      import calendarize from "https://unpkg.com/calendarize@1.1.0/dist/index.mjs";
+
+      const main = document.querySelector("main");
+      const year = document.querySelector("#year");
+      const month = document.querySelector("#month");
+      const output = document.querySelector("#output");
+
+      const today = new Date();
+      year.value = today.getFullYear();
+      month.value = today.getMonth() + 1;
+
+      function createCalendar() {
+        const d = new Date(year.value, month.value - 1);
+        const dates = calendarize(d, 1);
+
+        const str = dates.reduce(
+          (final, week) =>
+            final +
+            (final && "\n") +
+            week.reduce((w, day) => {
+              const d = day ? day.toString().padStart(2, "0") : "  ";
+              return w + d + " ";
+            }, ""),
+          ""
+        );
+        output.textContent = str;
+      }
+
+      main.hidden = false;
+
+      createCalendar();
+
+      year.onchange = createCalendar;
+      month.onchange = createCalendar;
+    </script>
+  </body>
+</html>
