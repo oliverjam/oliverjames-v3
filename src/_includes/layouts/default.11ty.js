@@ -222,6 +222,11 @@ module.exports = async data => {
             </div>
           </div>
         </footer>
+        <img
+          src="/.netlify/functions/counter"
+          alt=""
+          style="position:absolute"
+        />
       </body>
     </html>
   `;
