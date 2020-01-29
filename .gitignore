@@ -99,3 +99,5 @@ public
 
 # Eleventy dist
 _site/
+# Local Netlify folder
+.netlify

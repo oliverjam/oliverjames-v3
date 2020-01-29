@@ -1,6 +1,7 @@
 [build]
   publish = "_site"
   command = "npm run build"
+  functions = "functions"
 
 [build.environment]
   NODE_VERSION = "12"
