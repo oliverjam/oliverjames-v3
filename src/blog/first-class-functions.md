@@ -58,7 +58,7 @@ const myValue = returnsOne();
 console.log(myValue); // 1
 ```
 
-If the functions returns nothing you'll get `undefined`:
+If the function returns nothing you'll get `undefined`:
 
 ```js
 function returnsNothing() {
