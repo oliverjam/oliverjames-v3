@@ -20,3 +20,8 @@
   from = "/blog/tags/*"
   to = "/blog/tags/404.html"
   status = 404
+
+[[redirects]]
+  from = "/blog/minimum-viable-grapqhl-client/"
+  to = "/blog/minimum-viable-graphql-client/"
+  status = 301
