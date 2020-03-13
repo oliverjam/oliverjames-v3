@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve",
+    "dev": "eleventy --serve --quiet",
     "build": "ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
