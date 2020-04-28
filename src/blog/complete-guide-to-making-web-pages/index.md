@@ -30,7 +30,7 @@ This is a very simplified explanation; if you want to know more detail try [this
 
 HTML, or _HyperText Markup Language_, is the language of the web. An HTML file is the entrypoint for all web pages—no other type of file will work. For example if you click a link to a `.js` file the browser will just display the raw text content rather than actually running any code.
 
-So we need to create an HTML file that our browser understands. If you want to follow along create a folder called `my-webpage` anywhere on your computer (the Desktop is fine). Then create a file called `index.html` inside the folder and open it in your text editor. This file can be called whatever you like, but `index` is the convention for the hompage of a website.
+So we need to create an HTML file that our browser understands. If you want to follow along create a folder called `my-webpage` anywhere on your computer (the Desktop is fine). Then create a file called `index.html` inside the folder and open it in your text editor. This file can be called whatever you like, but `index` is the convention for the homepage of a website.
 
 ## A minimal HTML page
 
