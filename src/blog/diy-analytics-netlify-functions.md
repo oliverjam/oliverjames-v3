@@ -79,7 +79,7 @@ The user-agent is unique enough that I'm comfortable using it to identify unique
 
 ## Conclusion
 
-That's it. It's surprisingly simple to build something like this with modern tooling. I had never really considered returning anything but JSON from a Netlify Function, but my mind is spinning with possibilities for serverless functions returning HTML, images and other cool stuff.
+That's it. You can see the full implementation in [this site's GitHub repo](https://github.com/oliverjam/oliverjames-v3/blob/master/functions/counter/counter.js) It's surprisingly simple to build something like this with modern tooling. I had never really considered returning anything but JSON from a Netlify Function, but my mind is spinning with possibilities for serverless functions returning HTML, images and other cool stuff.
 
 I would love to see more developers move away from including Google Analytics by default and consider either a simple DIY solution like this, or paying for a privacy-focused service like [Fathom](https://usefathom.com/).
 
