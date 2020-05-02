@@ -1,6 +1,6 @@
 ---
 title: Build your own analytics with Netlify Functions
-date: 2020-05-02T17:00:00.000Z
+date: 2020-05-02T16:10:00.000Z
 tags: ["js", "analytics", "netlify", "serverless"]
 ---
 
