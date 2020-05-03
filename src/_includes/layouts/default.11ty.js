@@ -65,7 +65,7 @@ module.exports = async (data) => {
         <meta property="og:description" content="${description.trim()}" />
         <meta
           property="og:image"
-          content="/assets/media/og-image/${fileSlug}.png"
+          content="https://oliverjam.es/assets/media/og-image/${fileSlug}.png"
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
