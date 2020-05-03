@@ -4,7 +4,7 @@ const Clean = new CleanCSS({});
 const html = String.raw;
 const css = String.raw;
 
-module.exports = async data => {
+module.exports = async (data) => {
   const {
     styles = "",
     content,
@@ -67,15 +67,9 @@ module.exports = async data => {
           property="og:image"
           content="/assets/media/og-image/${fileSlug}.png"
         />
-        <meta
-          name="twitter:image"
-          content="/assets/media/og-image/${fileSlug}.png"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="600" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="Oliver Phillips" />
+        <meta name="twitter:creator" content="@_oliverjam" />
         <meta
           name="keywords"
           content="blog, tech, developer, html, css, javascript, react"
