@@ -10,7 +10,7 @@ exports.data = () => {
   };
 };
 
-exports.render = data => {
+exports.render = (data) => {
   return html`
     <header class="header">
       <div class="header-container">
@@ -24,28 +24,6 @@ exports.render = data => {
     </header>
     ${data.content}
     <div id="comments" class="webmentions"></div>
-    <template id="mentionTemplate">
-      <div class="h-entry">
-        <img
-          class="u-photo"
-          id="mentionImage"
-          width="32"
-          height="32"
-          alt=""
-          loading="lazy"
-        />
-        <div>
-          <div class="mention-meta">
-            <a class="p-name u-url" id="mentionAuthor"></a>
-            <span aria-hidden="true">•</span>
-            <time class="dt-published" id="mentionDate"
-              ><a class="u-url" id="mentionPermalink"></a
-            ></time>
-          </div>
-          <div class="e-content" id="mentionContent"></div>
-        </div>
-      </div>
-    </template>
     <script async defer src="/assets/js/webmentions.js"></script>
   `;
 };
@@ -384,26 +362,49 @@ const styles = css`
   }
 
   .webmentions {
-    font-family: var(--sans-serif);
+    margin-top: 4rem;
+    font-size: 0.875em;
+  }
+
+  .webmentions > * + * {
+    margin-top: 2rem;
+  }
+
+  .avatar + .avatar {
+    margin-left: -0.5rem;
   }
 
   .h-entry {
     margin-top: 2rem;
     display: flex;
-    font-size: 0.875rem;
   }
 
   .u-photo {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     flex: 0 0 auto;
-    margin-right: 1rem;
     border-radius: 50%;
     object-fit: cover;
     background-color: var(--text-lc);
   }
 
+  @media (min-width: 40em) {
+    .u-photo {
+      width: 2.75rem;
+      height: 2.75rem;
+    }
+  }
+
+  .mention-body {
+    margin-left: 1rem;
+  }
+
+  .mention-meta {
+    font-size: 0.75em;
+  }
+
   .mention-meta a {
+    font-family: var(--sans-serif);
     line-height: 1;
     text-decoration: none;
   }
@@ -422,7 +423,7 @@ const styles = css`
 
   .e-content {
     margin-top: 0.25rem;
-    line-height: 1.4;
+    line-height: 1.3;
   }
 
   .e-content a {
