@@ -368,6 +368,20 @@ const globalStyles = css`
     margin: calc(var(--space) / 2);
   }
 
+  .with-icon {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .with-icon svg {
+    --space: 0.5em;
+    width: 1em;
+    height: 1em;
+    width: 1cap;
+    height: 1cap;
+    margin-inline-end: var(--space);
+  }
+
   .site-header {
     grid-area: header;
     display: flex;
