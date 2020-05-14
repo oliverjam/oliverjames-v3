@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const slugify = require("@sindresorhus/slugify");
+const rss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 const permalinkSymbol = `<svg viewBox="0 0 32 32" width="24" height="24" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M18 8 C18 8 24 2 27 5 30 8 29 12 24 16 19 20 16 21 14 17 M14 24 C14 24 8 30 5 27 2 24 3 20 8 16 13 12 16 11 18 15"></path></svg>`;
@@ -58,11 +59,14 @@ module.exports = config => {
     excerpt_separator: "<!-- excerpt -->",
   });
 
+  config.addPlugin(rss);
   config.addPlugin(syntaxHighlight);
 
   config.addPassthroughCopy("src/assets/js");
   config.addPassthroughCopy("src/assets/media");
   config.addPassthroughCopy({ "src/assets/favicons": "/" });
+
+  config.addFilter('markdown', (content) => md.render(`${content}`));
 
   // needed to merge tag from posts.json with post-specific tags
   config.setDataDeepMerge(true);
