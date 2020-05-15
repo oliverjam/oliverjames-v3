@@ -97,6 +97,13 @@ module.exports = async (data) => {
         <meta name="theme-color" content="#ffffff" />
 
         <link
+          rel="alternative"
+          type="application/atom+xml"
+          href="/feed.xml"
+          title="Oliver Phillips - Frontend Engineer"
+        />
+
+        <link
           rel="webmention"
           href="https://webmention.io/oliverjam.es/webmention"
         />
