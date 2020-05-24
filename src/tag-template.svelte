@@ -1,6 +1,6 @@
 <script context="module">
   export const data = {
-    layout: "layouts/default.11ty.js",
+    layout: "layouts/default.svelte",
     pagination: {
       data: "collections",
       size: 1,
@@ -8,7 +8,9 @@
       filter: ["all", "blog", "allTags"],
     },
     permalink: (data) => `/blog/tags/${slug(data.tag)}/`,
-    title: (data) => `${data.tag[0].toUpperCase()}${data.tag.slice(1)} posts`,
+    eleventyComputed: {
+      title: ({ tag }) => tag[0].toUpperCase() + tag.slice(1) + " posts",
+    },
   };
 </script>
 
