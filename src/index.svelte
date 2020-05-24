@@ -1,57 +1,45 @@
-const { relativeTime } = require("./utils/dates");
-
-const html = String.raw;
-const css = String.raw;
-
-exports.data = () => {
-  return {
-    layout: "layouts/default.11ty.js",
-    styles,
+<script context="module">
+  export const data = {
+    layout: "layouts/default.svelte",
     title: "Home",
-    head: ({ collections }) =>
-      collections.blog
-        .slice(-3)
-        .map(
-          post =>
-            // prefetch first 3 blog posts so they load instantly
-            html`
-              <link rel="prefetch" href="${post.url}" />
-            `
-        )
-        .join(""),
   };
-};
+</script>
 
-exports.render = ({ collections: { blog = [] } }) => {
-  return html`
-    <div class="page-title">
-      <header>
-        <h1>I design and develop user experiences.</h1>
-      </header>
-    </div>
-    <section class="section-blog">
-      <h2>Recent posts</h2>
-      <ul class="switcher" style="--space: 1.5rem">
-        ${blog.slice(-3).reduceRight(
-          (acc, post) =>
-            acc +
-            html`
-              <li class="blog-excerpt">
-                <h3>
-                  <a href=${post.url}>${post.data.title || post.fileSlug}</a>
-                </h3>
-                ${relativeTime(post.date)}
-              </li>
-            `,
-          ""
-        )}
-      </ul>
-    </section>
-  `;
-};
+<script>
+  import { formatDate, getRelativeTime } from "./utils/dates";
+  export let data;
+  const posts = data.collections.blog.slice(-3).reverse();
+</script>
 
-const styles = css`
-  main {
+<svelte:head>
+  {#each posts as post}
+    <link rel="prefetch" href={post.url} />
+  {/each}
+</svelte:head>
+
+<div class="page-title">
+  <header>
+    <h1>I design and develop user experiences.</h1>
+  </header>
+</div>
+<section class="section-blog">
+  <h2>Recent posts</h2>
+  <ul class="switcher" style="--space: 1.5rem">
+    {#each posts as { url, data, fileSlug, date }}
+      <li class="blog-excerpt">
+        <h3>
+          <a href={url}>{data.title || fileSlug}</a>
+        </h3>
+        <time datetime={date.toISOString()} title={formatDate(date)}>
+          {getRelativeTime(date)}
+        </time>
+      </li>
+    {/each}
+  </ul>
+</section>
+
+<style>
+  :global(main) {
     max-width: 60rem;
     margin: 2rem auto 4rem;
     display: grid;
@@ -177,4 +165,4 @@ const styles = css`
     font-family: var(--sans-serif);
     color: var(--text-lc);
   }
-`;
+</style>

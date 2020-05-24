@@ -1,6 +1,3 @@
-const getReadingTime = require("./getReadingTime");
-const html = String.raw;
-
 function formatDate(d) {
   // undefined locale should use user's browser language
   return d.toLocaleDateString(undefined, {
@@ -9,22 +6,6 @@ function formatDate(d) {
     day: "numeric",
   });
 }
-
-const displayDate = d => {
-  const formattedDate = formatDate(d);
-
-  return html`
-    <time datetime="${d.toISOString()}" title="${d}">${formattedDate}</time>
-  `;
-};
-
-const readingTime = content => {
-  const seconds = getReadingTime(content);
-
-  return html`
-    <time datetime="${seconds}s">${(seconds / 60).toFixed(1)} minutes</time>
-  `;
-};
 
 function fallback(value, unit) {
   return `${value * -1} ${unit}${value === 1 ? "" : "s"} ago`;
@@ -46,7 +27,7 @@ function getTimeUnit(ms) {
   else return { value: ms / YEAR_MS, unit: "year" };
 }
 
-function relativeTime(d) {
+function getRelativeTime(d) {
   const todayMs = Date.now();
   const inputMs = d.getTime();
   const timeDifference = todayMs - inputMs;
@@ -54,11 +35,21 @@ function relativeTime(d) {
   const roundedValue =
     unit === "day" ? Math.floor(value) : Math.round(value * 2) / 2;
 
-  const readable = formatDate(d);
   const relative = rtf.format(roundedValue * -1, unit);
-  return html`
-    <time datetime="${d.toISOString()}" title="${readable}">${relative}</time>
-  `;
+  return relative;
 }
 
-module.exports = { displayDate, readingTime, relativeTime };
+function getReadingTime(content) {
+  const contentWithoutHtml = content.replace(/(<([^>]+)>)/gi, "");
+  const words = contentWithoutHtml.match(/[\u0400-\u04FF]+|\S+\s*/g);
+  const wordCount = words ? words.length : 0;
+  const wordsPerSecond = 200 / 60;
+  const readingTime = wordCount / wordsPerSecond;
+  return readingTime;
+}
+
+module.exports = {
+  getRelativeTime,
+  formatDate,
+  getReadingTime,
+};

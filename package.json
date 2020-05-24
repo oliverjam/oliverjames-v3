@@ -4,23 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve --quiet",
-    "build": "ELEVENTY_ENV=production eleventy"
+    "dev": "ELEVENTY_EXPERIMENTAL=true eleventy --serve --quiet",
+    "build": "ELEVENTY_EXPERIMENTAL=true ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "@sindresorhus/slugify": "^0.9.1",
     "clean-css": "^4.2.1",
     "eslint": "^6.8.0",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5",
-    "puppeteer": "^3.0.2"
+    "puppeteer": "^3.0.2",
+    "svelte": "^3.22.3"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
+  },
+  "prettier": {
+    "svelteSortOrder": "scripts-markup-styles"
   }
 }

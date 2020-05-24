@@ -3,7 +3,7 @@ const css = String.raw;
 
 exports.data = () => {
   return {
-    layout: "layouts/default.11ty.js",
+    layout: "layouts/default.svelte",
     styles,
     title: "CV",
   };
