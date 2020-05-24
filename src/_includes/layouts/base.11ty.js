@@ -3,19 +3,17 @@ const css = String.raw;
 
 module.exports = async function (data) {
   const {
+    site,
     content,
     title: pageTitle,
     description: pageDescription,
     page: { excerpt, fileSlug, url },
   } = data;
   if (!pageTitle) {
-    console.log("\x1b[31m%s\x1b[0m", `'${data.page.fileSlug}' needs a title`);
+    console.log("\x1b[31m%s\x1b[0m", `'${fileSlug}' needs a title`);
   }
   const title = `${pageTitle} | Oliver Phillips - Frontend Engineer`;
-  const description =
-    pageDescription ||
-    excerpt ||
-    "Oliver Phillips is a frontend engineer designing and developing user interfaces in London, UK.";
+  const description = pageDescription || excerpt || site.description;
 
   const svelteCss = this.getSvelteCssForPage(url);
   const svelteHead = this.getSvelteHeadForPage(url);

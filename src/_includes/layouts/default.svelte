@@ -9,6 +9,7 @@
   const {
     page: { url },
     content,
+    site,
   } = data;
 </script>
 
@@ -86,23 +87,19 @@
     <div>
       <h3>Social</h3>
       <ul class="social">
-        <li>
-          <a href="https://twitter.com/_oliverjam" rel="me">Twitter</a>
-        </li>
-        <li>
-          <a href="https://github.com/oliverjam/" rel="me">Github</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/oliverjam">LinkedIn</a>
-        </li>
+        {#each site.social as { label, href, me }}
+          <li>
+            <a {href} rel={me && 'me'}>{label}</a>
+          </li>
+        {/each}
       </ul>
     </div>
 
     <div>
       <h3>Contact</h3>
       <p>
-        <a href="mailto:hello@oliverjam.es" title="hello@oliverjam.es" rel="me">
-          hello@oliverjam.es
+        <a href="mailto:{site.contact.href}" title={site.contact.href} rel="me">
+          {site.contact.label}
         </a>
       </p>
     </div>

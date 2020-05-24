@@ -19,7 +19,7 @@
 
 <div class="page-title">
   <header>
-    <h1>I design and develop user experiences.</h1>
+    <h1>{data.site.tagline}</h1>
   </header>
 </div>
 <section class="section-blog">
