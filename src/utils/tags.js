@@ -6,4 +6,4 @@ function getAllTags(collections) {
     });
 }
 
-module.exports = getAllTags;
+module.exports = { getAllTags };

@@ -8,7 +8,7 @@
 
 <script>
   import slug from "@sindresorhus/slugify";
-  import * as getAllTags from "./utils/tags.js";
+  import { getAllTags } from "./utils/tags.js";
   import Tag from "./_includes/components/tag.svelte";
 
   export let data;
