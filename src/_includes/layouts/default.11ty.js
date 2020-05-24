@@ -4,7 +4,7 @@ const Clean = new CleanCSS({});
 const html = String.raw;
 const css = String.raw;
 
-module.exports = async (data) => {
+module.exports = async function (data) {
   const {
     styles = "",
     content,
@@ -36,6 +36,7 @@ module.exports = async (data) => {
     }
     css = output.styles;
   }
+  const svelteCss = this.getSvelteCssForPage(url);
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -59,6 +60,9 @@ module.exports = async (data) => {
         </noscript>
         <style>
           ${css}
+        </style>
+        <style>
+          ${svelteCss}
         </style>
         <meta name="description" content="${description}" />
         <meta property="og:title" content="${pageTitle}" />
@@ -176,7 +180,7 @@ module.exports = async (data) => {
                   href="${url === "/blog/" ? "#main" : "/blog/"}"
                   aria-current="${url === "/blog/"
                     ? "page"
-                    : url.includes("/blog/")
+                    : url && url.includes("/blog/")
                     ? "true"
                     : "false"}"
                   >Blog</a
