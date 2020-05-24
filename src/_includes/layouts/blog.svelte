@@ -114,8 +114,21 @@
       --underline-color: var(--primary);
     }
 
-    main p:first-of-type::first-line {
+    main > p:first-of-type::first-line {
       font-weight: bold;
+    }
+
+    main > blockquote {
+      padding-left: 2rem;
+      position: relative;
+    }
+
+    main > blockquote::before {
+      content: "“";
+      position: absolute;
+      font-size: 4rem;
+      line-height: 1;
+      left: 0;
     }
 
     .header {
