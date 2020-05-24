@@ -74,11 +74,11 @@ module.exports = (config) => {
 
   config.addTemplateFormats("svelte");
 
-  const styleManager = new Map();
+  // const styleManager = new Map();
+  const styleManager = new AssetManager();
   const getStyles = (url) => styleManager.get(url);
   config.addFilter("getSvelteCssForPage", getStyles);
-
-  const headManager = new Map();
+  const headManager = new AssetManager();
   const getHead = (url) => headManager.get(url);
   config.addFilter("getSvelteHeadForPage", getHead);
 
@@ -98,6 +98,7 @@ module.exports = (config) => {
         getStyles,
         getHead,
       });
+
       styleManager.set(data.page.url, css.code);
       headManager.set(data.page.url, head);
       return html;
@@ -110,3 +111,34 @@ module.exports = (config) => {
     },
   };
 };
+
+// assets stored in a Map with one entry per page URL
+// each entry is a Set so we don't store duplicates
+// e.g. Map {
+//   "/" -> Set ["ul { display: flex; }"],
+//   "/blog" -> Set ["ul { display: flex; }", "h2.svelte-123 { color: red; }"],
+// }
+// We need to persist styles in a Set otherwise the final default.svelte layout breaks styles
+// Since it has no knowledge of any Svelte children it overrides past CSS for that URL with ""
+// Need to append rather than replace
+class AssetManager {
+  constructor() {
+    this.assets = new Map();
+  }
+  set(pageUrl, string) {
+    if (this.assets.has(pageUrl)) {
+      const existingPageStyles = this.assets.get(pageUrl);
+      existingPageStyles.add(string);
+    } else {
+      this.assets.set(pageUrl, new Set([string]));
+    }
+  }
+  get(pageUrl) {
+    let output = "";
+    const pageAssets = this.assets.get(pageUrl);
+    for (let asset of pageAssets) {
+      output += asset;
+    }
+    return output;
+  }
+}
