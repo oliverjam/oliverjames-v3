@@ -6,7 +6,10 @@
 
 <script>
   export let data;
-  const { url, content } = data;
+  const {
+    page: { url },
+    content,
+  } = data;
 </script>
 
 <header class="site-header">
