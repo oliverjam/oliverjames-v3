@@ -45,7 +45,7 @@ function getTimeUnit(ms) {
   else return { value: ms / YEAR_MS, unit: "year" };
 }
 
-function relativeTime(d) {
+function getRelativeTime(d) {
   const todayMs = Date.now();
   const inputMs = d.getTime();
   const timeDifference = todayMs - inputMs;
@@ -53,11 +53,8 @@ function relativeTime(d) {
   const roundedValue =
     unit === "day" ? Math.floor(value) : Math.round(value * 2) / 2;
 
-  const readable = formatDate(d);
   const relative = rtf.format(roundedValue * -1, unit);
-  return html`
-    <time datetime="${d.toISOString()}" title="${readable}">${relative}</time>
-  `;
+  return relative;
 }
 
 function getReadingTime(content) {
@@ -72,7 +69,7 @@ function getReadingTime(content) {
 module.exports = {
   displayDate,
   readingTime,
-  relativeTime,
+  getRelativeTime,
   formatDate,
   getReadingTime,
 };
