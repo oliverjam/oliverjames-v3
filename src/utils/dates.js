@@ -1,5 +1,3 @@
-const html = String.raw;
-
 function formatDate(d) {
   // undefined locale should use user's browser language
   return d.toLocaleDateString(undefined, {
@@ -8,22 +6,6 @@ function formatDate(d) {
     day: "numeric",
   });
 }
-
-const displayDate = (d) => {
-  const formattedDate = formatDate(d);
-
-  return html`
-    <time datetime="${d.toISOString()}" title="${d}">${formattedDate}</time>
-  `;
-};
-
-const readingTime = (content) => {
-  const seconds = getReadingTime(content);
-
-  return html`
-    <time datetime="${seconds}s">${(seconds / 60).toFixed(1)} minutes</time>
-  `;
-};
 
 function fallback(value, unit) {
   return `${value * -1} ${unit}${value === 1 ? "" : "s"} ago`;
@@ -67,8 +49,6 @@ function getReadingTime(content) {
 }
 
 module.exports = {
-  displayDate,
-  readingTime,
   getRelativeTime,
   formatDate,
   getReadingTime,
