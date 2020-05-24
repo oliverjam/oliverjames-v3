@@ -5,6 +5,19 @@
   export let posts;
 </script>
 
+<ul>
+  {#each posts as post}
+    <li>
+      <a href={post.url}>{post.data.title || post.fileSlug}</a>
+      <div class="post__info">
+        <DisplayDate date={post.data.date} />
+        <span aria-hidden="true">•</span>
+        <ReadingTime content={post.templateContent} />
+      </div>
+    </li>
+  {/each}
+</ul>
+
 <style>
   ul {
     display: grid;
@@ -45,16 +58,3 @@
     color: var(--text-lc);
   }
 </style>
-
-<ul>
-  {#each posts as post}
-    <li>
-      <a href={post.url}>{post.data.title || post.fileSlug}</a>
-      <div class="post__info">
-        <DisplayDate date={post.data.date} />
-        <span aria-hidden="true">•</span>
-        <ReadingTime content={post.templateContent} />
-      </div>
-    </li>
-  {/each}
-</ul>

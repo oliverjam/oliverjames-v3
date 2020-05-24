@@ -2,7 +2,7 @@
   export const data = {
     layout: "layouts/default.11ty.js",
     title: "All tags",
-    permalink: "/blog/tags/index.html"
+    permalink: "/blog/tags/index.html",
   };
 </script>
 

@@ -5,10 +5,10 @@
       data: "collections",
       size: 1,
       alias: "tag",
-      filter: ["all", "blog", "allTags"]
+      filter: ["all", "blog", "allTags"],
     },
-    permalink: data => `/blog/tags/${slug(data.tag)}/`,
-    title: data => `${data.tag[0].toUpperCase()}${data.tag.slice(1)} posts`
+    permalink: (data) => `/blog/tags/${slug(data.tag)}/`,
+    title: (data) => `${data.tag[0].toUpperCase()}${data.tag.slice(1)} posts`,
   };
 </script>
 

@@ -2,17 +2,6 @@
   export const data = {
     layout: "layouts/default.11ty.js",
     title: "Home",
-    head: ({ collections }) =>
-      collections.blog
-        .slice(-3)
-        .map(
-          post =>
-            // prefetch first 3 blog posts so they load instantly
-            `
-              <link rel="prefetch" href="${post.url}" />
-            `
-        )
-        .join("")
   };
 </script>
 
@@ -21,6 +10,33 @@
   export let data;
   const posts = data.collections.blog.slice(-3).reverse();
 </script>
+
+<svelte:head>
+  {#each posts as post}
+    <link rel="prefetch" href={post.url} />
+  {/each}
+</svelte:head>
+
+<div class="page-title">
+  <header>
+    <h1>I design and develop user experiences.</h1>
+  </header>
+</div>
+<section class="section-blog">
+  <h2>Recent posts</h2>
+  <ul class="switcher" style="--space: 1.5rem">
+    {#each posts as { url, data, fileSlug, date }}
+      <li class="blog-excerpt">
+        <h3>
+          <a href={url}>{data.title || fileSlug}</a>
+        </h3>
+        <time datetime={date.toISOString()} title={formatDate(date)}>
+          {getRelativeTime(date)}
+        </time>
+      </li>
+    {/each}
+  </ul>
+</section>
 
 <style>
   :global(main) {
@@ -150,24 +166,3 @@
     color: var(--text-lc);
   }
 </style>
-
-<div class="page-title">
-  <header>
-    <h1>I design and develop user experiences.</h1>
-  </header>
-</div>
-<section class="section-blog">
-  <h2>Recent posts</h2>
-  <ul class="switcher" style="--space: 1.5rem">
-    {#each posts as { url, data, fileSlug, date }}
-      <li class="blog-excerpt">
-        <h3>
-          <a href={url}>{data.title || fileSlug}</a>
-        </h3>
-        <time datetime={date.toISOString()} title={formatDate(date)}>
-          {getRelativeTime(date)}
-        </time>
-      </li>
-    {/each}
-  </ul>
-</section>

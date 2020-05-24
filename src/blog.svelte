@@ -1,7 +1,7 @@
 <script context="module">
   export const data = {
     layout: "layouts/default.11ty.js",
-    title: "All posts"
+    title: "All posts",
   };
 </script>
 

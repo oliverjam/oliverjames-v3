@@ -4,6 +4,13 @@
   export let tag, matches, size;
 </script>
 
+<a
+  class="tag"
+  style={size === 'small' ? '' : '--padding: 0.5rem 1rem;'}
+  href="/blog/tags/{slug(tag)}">
+  {tag} {matches}
+</a>
+
 <style>
   a {
     --padding: 0.25rem 0.75rem;
@@ -23,10 +30,3 @@
     text-decoration: underline;
   }
 </style>
-
-<a
-  class="tag"
-  style={size === 'small' ? '' : '--padding: 0.5rem 1rem;'}
-  href="/blog/tags/{slug(tag)}">
-  {tag} {matches}
-</a>
