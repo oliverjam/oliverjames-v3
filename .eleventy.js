@@ -90,7 +90,7 @@ module.exports = (config) => {
       if (str) {
         // since `read: false` is set 11ty doesn't read file contents
         // so if str has a value, it's a permalink
-        return str;
+        return typeof str === "function" ? str(data) : str;
       }
       const Component = require(inputPath).default;
       const { html, css, head } = Component.render({
