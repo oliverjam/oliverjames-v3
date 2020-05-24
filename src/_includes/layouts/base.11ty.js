@@ -19,6 +19,9 @@ module.exports = async function (data) {
 
   const svelteCss = this.getSvelteCssForPage(url);
   const svelteHead = this.getSvelteHeadForPage(url);
+
+  const fonts =
+    "https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap";
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -27,19 +30,19 @@ module.exports = async function (data) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>${title}</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com/" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+        <link href="${fonts}" rel="preload" as="style" />
         <link
-          href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
-          rel="preload"
-          as="style"
-          onload="this.onload=null;this.rel='stylesheet'"
+          href="${fonts}"
+          rel="stylesheet"
+          medi="print"
+          onload="this.onload=null;this.media='all'"
         />
         <noscript>
-          <link
-            href="https://fonts.googleapis.com/css?family=Spectral:400,600|Source+Code+Pro:400&display=swap"
-            rel="stylesheet"
-          />
+          <link href="${fonts}" rel="stylesheet" />
         </noscript>
+
         <style>
           ${globalStyles}
         </style>
