@@ -8,7 +8,6 @@ module.exports = async function (data) {
   const {
     styles = "",
     content,
-    head,
     title: pageTitle,
     description: pageDescription,
     page: { excerpt, fileSlug, url },
@@ -37,6 +36,7 @@ module.exports = async function (data) {
     css = output.styles;
   }
   const svelteCss = this.getSvelteCssForPage(url);
+  const svelteHead = this.getSvelteHeadForPage(url);
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -113,7 +113,7 @@ module.exports = async function (data) {
         />
         <link rel="pingback" href="https://webmention.io/oliverjam.es/xmlrpc" />
 
-        ${head ? head(data) : ""}
+        ${svelteHead}
       </head>
       <body>
         <header class="site-header">
