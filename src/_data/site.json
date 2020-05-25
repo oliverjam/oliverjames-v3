@@ -8,20 +8,20 @@
     "label": "hello@oliverjam.es",
     "href": "hello@oliverjam.es"
   },
-  "social": {
-    "twitter": {
+  "social": [
+    {
       "label": "Twitter",
       "href": "https://twitter.com/_oliverjam",
       "me": true
     },
-    "github": {
+    {
       "label": "GitHub",
       "href": "https://github.com/oliverjam/",
       "me": true
     },
-    "linkedin": {
+    {
       "label": "LinkedIn",
       "href": "https://www.linkedin.com/in/oliverjam"
     }
-  }
+  ]
 }
