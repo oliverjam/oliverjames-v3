@@ -261,44 +261,6 @@ const globalStyles = css`
     margin-inline-end: var(--space);
   }
 
-  .site-header {
-    grid-area: header;
-    display: flex;
-    align-items: center;
-    padding: calc(1rem + 1vw);
-    font-size: 0.875rem;
-  }
-
-  .home-link svg {
-    display: block;
-  }
-
-  .site-header nav {
-    margin-left: auto;
-  }
-
-  .site-header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
-
-  .site-header li + li {
-    margin-left: 1rem;
-  }
-
-  .site-header a {
-    text-decoration-thickness: 0.125rem;
-    text-underline-offset: 0.25rem;
-  }
-
-  .site-header a[aria-current="page"],
-  .site-header a[aria-current="true"] {
-    text-decoration-line: underline;
-    text-decoration-color: var(--primary);
-  }
-
   main {
     grid-area: main;
     justify-self: center;
