@@ -23,6 +23,4 @@
 </script>
 
 <h1>Posts tagged with "{data.tag}"</h1>
-<ul>
-  <PostsList {posts} />
-</ul>
+<PostsList {posts} />

@@ -18,7 +18,7 @@
 
 <h1>All posts</h1>
 
-<nav aria-label="categories" class="cluster" style="justify-content: center;">
+<nav aria-label="categories" class="cluster">
   {#each tags as [tag, matchingPosts]}
     <Tag {tag} matches={matchingPosts.length} />
   {/each}

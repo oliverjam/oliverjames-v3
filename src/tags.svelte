@@ -26,7 +26,7 @@
   </datalist>
 </form>
 <section>
-  <ul class="cluster" style="--space: 2rem; justify-content: center;">
+  <ul class="cluster">
     {#each allTags as [tag, matchingPosts]}
       <li>
         <Tag {tag} matches={matchingPosts.length} />

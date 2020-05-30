@@ -29,7 +29,6 @@
 
   li {
     display: grid;
-    justify-items: center;
     grid-template-rows: auto auto 1fr;
     grid-row-gap: 0.5rem;
   }
