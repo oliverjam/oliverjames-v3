@@ -16,15 +16,16 @@
   const posts = [...data.collections.blog].reverse();
 </script>
 
-<h1>All posts</h1>
+<div class="stack">
+  <h1>All posts</h1>
+  <nav aria-label="categories" class="cluster">
+    {#each tags as [tag, matchingPosts]}
+      <Tag {tag} matches={matchingPosts.length} />
+    {/each}
+    <a href="tags">
+      <strong>All tags</strong>
+    </a>
+  </nav>
 
-<nav aria-label="categories" class="cluster">
-  {#each tags as [tag, matchingPosts]}
-    <Tag {tag} matches={matchingPosts.length} />
-  {/each}
-  <a href="tags">
-    <strong>All tags</strong>
-  </a>
-</nav>
-
-<PostsList {posts} />
+  <PostsList {posts} />
+</div>

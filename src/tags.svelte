@@ -15,22 +15,24 @@
   const allTags = getAllTags(data.collections);
 </script>
 
-<h1>All tags</h1>
-<form action="search">
-  <label for="tag-filter">Filter tags</label>
-  <input id="tag-filter" name="filter" list="all-tags" autocomplete="off" />
-  <datalist id="all-tags">
-    {#each allTags as [tag]}
-      <option>{slug(tag)}</option>
-    {/each}
-  </datalist>
-</form>
-<section>
-  <ul class="cluster">
-    {#each allTags as [tag, matchingPosts]}
-      <li>
-        <Tag {tag} matches={matchingPosts.length} />
-      </li>
-    {/each}
-  </ul>
-</section>
+<div class="stack">
+  <h1>All tags</h1>
+  <form action="search">
+    <label for="tag-filter">Filter tags</label>
+    <input id="tag-filter" name="filter" list="all-tags" autocomplete="off" />
+    <datalist id="all-tags">
+      {#each allTags as [tag]}
+        <option>{slug(tag)}</option>
+      {/each}
+    </datalist>
+  </form>
+  <section>
+    <ul class="cluster">
+      {#each allTags as [tag, matchingPosts]}
+        <li>
+          <Tag {tag} matches={matchingPosts.length} />
+        </li>
+      {/each}
+    </ul>
+  </section>
+</div>

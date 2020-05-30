@@ -224,19 +224,24 @@ const globalStyles = (theme) => css`
     background-color: var(--bg);
   }
 
+  .stack {
+    display: grid;
+    grid-row-gap: var(--space, 3rem);
+    align-content: start;
+  }
+
   .switcher {
     --space: 1rem;
     --measure: 40rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: calc((var(--space) / 2) * -1);
+    gap: var(--space);
   }
 
   .switcher > * {
     flex-grow: 1;
     flex-basis: calc((var(--measure) - (100% - var(--space))) * 999);
-    margin: calc(var(--space) / 2);
   }
 
   .cluster {

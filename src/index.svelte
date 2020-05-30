@@ -17,34 +17,34 @@
   {/each}
 </svelte:head>
 
-<div class="page-title">
-  <header>
-    <h1>{data.site.tagline}</h1>
-  </header>
+<div class="layout">
+  <div class="page-title">
+    <header>
+      <h1>{data.site.tagline}</h1>
+    </header>
+  </div>
+  <section class="stack" style="--space: 1.5rem">
+    <h2>Recent posts</h2>
+    <ul class="switcher" style="--space: 1.5rem">
+      {#each posts as { url, data, fileSlug, date }}
+        <li class="stack" style="--space: 0.25rem">
+          <h3>
+            <a href={url}>{data.title || fileSlug}</a>
+          </h3>
+          <time datetime={date.toISOString()} title={formatDate(date)}>
+            {getRelativeTime(date)}
+          </time>
+        </li>
+      {/each}
+    </ul>
+  </section>
 </div>
-<section class="section-blog">
-  <h2>Recent posts</h2>
-  <ul class="switcher" style="--space: 1.5rem">
-    {#each posts as { url, data, fileSlug, date }}
-      <li class="blog-excerpt">
-        <h3>
-          <a href={url}>{data.title || fileSlug}</a>
-        </h3>
-        <time datetime={date.toISOString()} title={formatDate(date)}>
-          {getRelativeTime(date)}
-        </time>
-      </li>
-    {/each}
-  </ul>
-</section>
 
 <style>
-  :global(main) {
-    max-width: 60rem;
-    margin: 2rem auto 4rem;
+  .layout {
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    grid-row-gap: 2rem;
   }
 
   .page-title {
@@ -86,81 +86,54 @@
     -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
   }
 
-  .page-title h1 {
+  h1 {
     font-size: 1.5rem;
     line-height: 1;
   }
 
-  .section-blog {
+  h2 {
     display: grid;
-    justify-items: center;
-    grid-row-gap: 1rem;
-  }
+    grid-template-rows: auto 0.25rem;
+    grid-row-gap: 0.5rem;
 
-  .section-blog h2 {
     text-transform: uppercase;
     font-family: var(--sans-serif);
     font-weight: 500;
     font-size: 0.875rem;
     letter-spacing: 1px;
-    text-align: center;
     color: var(--subtext);
   }
 
-  .section-blog h2::before,
-  .section-blog h2::after {
-    --width: 3rem;
-    --height: 0.25rem;
-    --padding: 0.5rem;
+  h2::after {
     content: "";
-    display: block;
-    position: relative;
     width: 3rem;
-    height: var(--height);
     background-color: var(--primaryHighlight);
-    --v-offset: calc(50% - (var(--height) / 2));
   }
 
-  .section-blog h2::before {
-    top: var(--v-offset);
-    left: calc((var(--width) + var(--padding)) * -1);
-  }
-
-  .section-blog h2::after {
-    bottom: var(--v-offset);
-    left: calc(100% + var(--padding));
-  }
-
-  .blog-excerpt {
-    display: grid;
-    gap: 0.25rem;
-    text-align: center;
-  }
-
-  .blog-excerpt h3 {
+  h3 {
     font-size: 1.125rem;
   }
 
   @media (min-width: 40em) {
-    .page-title h1 {
+    h1 {
       font-size: 2.5rem;
     }
-    .blog-excerpt h3 {
+    h3 {
       font-size: 1.25rem;
     }
   }
 
-  .blog-excerpt a {
+  a {
     display: block;
     position: relative;
     text-decoration: none;
   }
 
-  .blog-excerpt a:hover {
+  a:hover {
     text-decoration: underline;
   }
 
-  .blog-excerpt time {
+  time {
     font-size: 0.875rem;
     font-family: var(--sans-serif);
     color: var(--subtext);

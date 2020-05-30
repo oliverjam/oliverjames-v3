@@ -22,5 +22,7 @@
   const posts = [...data.collections[data.tag]].reverse();
 </script>
 
-<h1>Posts tagged with "{data.tag}"</h1>
-<PostsList {posts} />
+<div class="stack">
+  <h1>Posts tagged with "{data.tag}"</h1>
+  <PostsList {posts} />
+</div>
