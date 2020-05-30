@@ -13,16 +13,18 @@
   export let data;
   const allTags = getAllTags(data.collections);
   const tags = allTags.slice(0, 3);
-  const posts = data.collections.blog;
+  const posts = [...data.collections.blog].reverse();
 </script>
 
 <h1>All posts</h1>
 
 <nav aria-label="categories" class="cluster" style="justify-content: center;">
   {#each tags as [tag, matchingPosts]}
-    <Tag {tag} matches={matchingPosts.length} size="small" />
+    <Tag {tag} matches={matchingPosts.length} />
   {/each}
-  <a href="tags" class="tag">All tags</a>
+  <a href="tags">
+    <strong>All tags</strong>
+  </a>
 </nav>
 
 <PostsList {posts} />

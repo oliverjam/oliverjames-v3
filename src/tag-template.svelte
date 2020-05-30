@@ -19,7 +19,7 @@
   import PostsList from "./_includes/components/posts-list.svelte";
 
   export let data;
-  const posts = data.collections[data.tag];
+  const posts = [...data.collections[data.tag]].reverse();
 </script>
 
 <h1>Posts tagged with "{data.tag}"</h1>
