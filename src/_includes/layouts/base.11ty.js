@@ -100,6 +100,12 @@ module.exports = async function (data) {
       </head>
       <body>
         ${content}
+
+        <img
+          src="/.netlify/functions/counter"
+          alt=""
+          style="position:absolute"
+        />
       </body>
     </html>
   `;
@@ -259,29 +265,5 @@ const globalStyles = css`
     width: 1cap;
     height: 1cap;
     margin-inline-end: var(--space);
-  }
-
-  main {
-    grid-area: main;
-    justify-self: center;
-    padding: 1.5rem;
-    text-align: center;
-  }
-
-  @supports (display: grid) {
-    main {
-      display: grid;
-      grid-template-columns:
-        minmax(1.5rem, 1fr)
-        minmax(0, 56rem)
-        minmax(1.5rem, 1fr);
-      align-content: start;
-      grid-row-gap: 3rem;
-      padding: 0;
-    }
-  }
-
-  main > * {
-    grid-column: 2 / 3;
   }
 `;

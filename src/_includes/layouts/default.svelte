@@ -1,25 +1,38 @@
 <script context="module">
-  import SiteHeader from "../components/site-header.svelte";
-  import SiteFooter from "../components/site-footer.svelte";
-
   export const data = {
-    layout: "layouts/base.11ty.js",
+    layout: "layouts/base.svelte",
   };
 </script>
 
 <script>
   export let data;
-  const {
-    page: { url },
-    content,
-    site,
-  } = data;
 </script>
 
-<SiteHeader {url} />
 <main id="main">
-  {@html content}
+  {@html data.content}
 </main>
-<SiteFooter {site} />
 
-<img src="/.netlify/functions/counter" alt="" style="position:absolute" />
+<style>
+  main {
+    grid-area: main;
+    justify-self: center;
+    padding: 1.5rem;
+  }
+
+  @supports (display: grid) {
+    main {
+      display: grid;
+      grid-template-columns:
+        minmax(1.5rem, 1fr)
+        minmax(0, 56rem)
+        minmax(1.5rem, 1fr);
+      align-content: start;
+      grid-row-gap: 3rem;
+      padding: 0;
+    }
+  }
+
+  main > :global(*) {
+    grid-column: 2 / 3;
+  }
+</style>
