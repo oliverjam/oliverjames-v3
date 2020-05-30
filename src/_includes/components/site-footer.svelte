@@ -45,7 +45,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: var(--sans-serif);
-    color: var(--text-lc);
+    color: var(--subtext);
   }
 
   .site-footer a {
@@ -64,6 +64,6 @@
     content: "/";
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: var(--text-lc);
+    color: var(--subtext);
   }
 </style>

@@ -8,8 +8,10 @@ module.exports = async function (data) {
     title: pageTitle,
     description: pageDescription,
     page: { excerpt, fileSlug, url },
+    theme,
   } = data;
   if (!pageTitle) {
+    // eslint-disable-next-line no-console
     console.log("\x1b[31m%s\x1b[0m", `'${fileSlug}' needs a title`);
   }
   const title = `${pageTitle} | Oliver Phillips - Frontend Engineer`;
@@ -42,7 +44,7 @@ module.exports = async function (data) {
         </noscript>
 
         <style>
-          ${globalStyles}
+          ${globalStyles(theme)}
         </style>
         <style>
           ${svelteCss}
@@ -111,7 +113,7 @@ module.exports = async function (data) {
   `;
 };
 
-const globalStyles = css`
+const globalStyles = (theme) => css`
   * {
     margin: 0;
     box-sizing: border-box;
@@ -127,7 +129,7 @@ const globalStyles = css`
   }
 
   a:focus {
-    outline: 0.25rem solid var(--blue);
+    outline: 0.25rem solid var(--primaryShadow);
     outline-offset: 0.25rem;
   }
 
@@ -162,20 +164,17 @@ const globalStyles = css`
   }
 
   :root {
-    --light: hsl(220, 10%, 98%);
-    --mid: hsl(220, 15%, 46%);
-    --dark: hsl(220, 10%, 32%);
-    --darker: hsl(220, 15%, 18%);
-    --darkest: hsl(220, 15%, 12%);
+    --text: ${theme.day.text};
+    --subtext: ${theme.day.textLowContrast};
+    --bg: ${theme.day.bg};
+    --bg-contrast: ${theme.day.bgContrast};
+    --bg-highlight: ${theme.day.bgHighlight};
+    --text-code: ${theme.night.text};
+    --bg-code: ${theme.night.bgCode};
 
-    --bg-code: hsl(220, 10%, 95%);
-    --text: var(--dark);
-    --text-lc: var(--mid);
-    --bg: var(--light);
-    --bg-lc: hsl(220, 15%, 90%);
-    --orange: hsl(20, 100%, 80%);
-    --blue: hsl(220, 100%, 80%);
-    --primary: hsl(20, 100%, 70%);
+    --primaryHighlight: ${theme.day.primaryHighlight};
+    --primaryShadow: ${theme.day.primaryShadow};
+    --primary: ${theme.day.primary};
 
     --sans-serif: system-ui, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
       sans-serif;
@@ -185,11 +184,15 @@ const globalStyles = css`
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --text: hsl(220, 10%, 90%);
-      --text-lc: hsl(220, 20%, 75%);
-      --bg: hsl(220, 15%, 22%);
-      --bg-code: var(--darker);
-      --bg-lc: hsl(220, 15%, 75%);
+      --text: ${theme.night.text};
+      --subtext: ${theme.night.textLowContrast};
+      --bg: ${theme.night.bg};
+      --bg-contrast: ${theme.night.bgContrast};
+      --bg-highlight: ${theme.night.bgHighlight};
+
+      --primaryHighlight: ${theme.night.primaryHighlight};
+      --primaryShadow: ${theme.night.primaryShadow};
+      --primary: ${theme.night.primary};
     }
 
     img {

@@ -11,12 +11,18 @@
       width="44"
       height="44"
       aria-hidden="true">
-      <line x1="1" y1="3" x2="31" y2="3" stroke-width="4" stroke="var(--mid)" />
+      <line
+        x1="1"
+        y1="3"
+        x2="31"
+        y2="3"
+        stroke-width="4"
+        stroke="var(--primaryShadow)" />
       <path
         d="M4 4 v26 h24 v-26"
         fill="none"
         stroke-linejoin="round"
-        stroke="var(--mid)" />
+        stroke="var(--primaryShadow)" />
 
       <line x1="8" y1="7" x2="8" y2="13" />
       <line x1="8" y1="7" x2="8" y2="27" />
@@ -38,7 +44,7 @@
         y1="17"
         x2="21"
         y2="17"
-        stroke="var(--blue)"
+        stroke="var(--primaryShadow)"
         stroke-width="4" />
     </svg>
   </a>

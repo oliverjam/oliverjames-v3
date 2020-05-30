@@ -40,7 +40,7 @@
     width: 6rem;
     margin-top: 1rem;
     align-self: end;
-    border-bottom: 0.125rem solid var(--orange);
+    border-bottom: 0.125rem solid var(--primaryHighlight);
   }
 
   a {
@@ -55,6 +55,6 @@
 
   .post__info {
     font-size: 1rem;
-    color: var(--text-lc);
+    color: var(--subtext);
   }
 </style>

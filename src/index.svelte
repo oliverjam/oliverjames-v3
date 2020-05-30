@@ -65,12 +65,12 @@
     height: var(--triangle-height);
     background-image: repeating-linear-gradient(
       90deg,
-      var(--orange),
-      var(--orange) 6px,
+      var(--primaryHighlight),
+      var(--primaryHighlight) 6px,
       transparent 6px,
       transparent 12px,
-      var(--blue) 12px,
-      var(--blue) 18px,
+      var(--primaryShadow) 12px,
+      var(--primaryShadow) 18px,
       transparent 18px,
       transparent 24px
     );
@@ -104,7 +104,7 @@
     font-size: 0.875rem;
     letter-spacing: 1px;
     text-align: center;
-    color: var(--text-lc);
+    color: var(--subtext);
   }
 
   .section-blog h2::before,
@@ -117,7 +117,7 @@
     position: relative;
     width: 3rem;
     height: var(--height);
-    background-color: var(--orange);
+    background-color: var(--primaryHighlight);
     --v-offset: calc(50% - (var(--height) / 2));
   }
 
@@ -163,6 +163,6 @@
   .blog-excerpt time {
     font-size: 0.875rem;
     font-family: var(--sans-serif);
-    color: var(--text-lc);
+    color: var(--subtext);
   }
 </style>
