@@ -8,7 +8,7 @@ Flow is a library for adding types to your JavaScript. It's a way to get some of
 
 <!-- excerpt -->
 
-<div style="padding: 2rem; color: var(--darker); background-color: var(--orange); grid-column: md-breakout">
+<div style="padding: 2rem; background-color: var(--bg-contrast); grid-column: md-breakout">
 
 **Disclaimer**
 
