@@ -267,13 +267,11 @@
 
 <svelte:head>
   <style>
-    main {
-      font-family: var(--sans-serif);
-      text-align: left;
+    #main {
       display: block;
     }
     main a {
-      --underline-color: var(--text-lc);
+      --underline-color: var(--subtext);
       text-decoration-line: underline;
       text-decoration-skip-ink: skip;
       text-decoration-color: var(--underline-color);
@@ -390,7 +388,7 @@
     }
     .card__date {
       font-size: 0.8em;
-      color: var(--text-lc);
+      color: var(--subtext);
     }
     @media (min-width: 22em) {
       .card__date {
