@@ -28,7 +28,7 @@ function Reply(m) {
     }
   );
   return html`
-    <div class="h-entry">
+    <li class="h-entry">
       <img
         src="${m.author.photo}"
         class="u-photo"
@@ -51,7 +51,7 @@ function Reply(m) {
         </div>
         <div class="e-content">${m.content.html || m.content.text}</div>
       </div>
-    </div>
+    </li>
   `;
 }
 
@@ -98,7 +98,7 @@ getMentions().then((mentions) => {
           <span>${likes.length} likes</span>
         </div>
         <div>
-          <ul class="cluster" style="--space: 0 ">
+          <ul class="cluster" style="--space: 0; padding: 0">
             ${likes.slice(0, 5).map(Avatar).join("")}
           </ul>
         </div>
