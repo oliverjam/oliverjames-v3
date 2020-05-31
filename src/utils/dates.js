@@ -1,6 +1,5 @@
 function formatDate(d) {
-  // undefined locale should use user's browser language
-  return d.toLocaleDateString(undefined, {
+  return d.toLocaleDateString("en-GB", {
     year: "numeric",
     month: "long",
     day: "numeric",
