@@ -15,7 +15,7 @@
 
 <main id="main">
 
-  <header class="header">
+  <header id="blog-header">
     <div>
       <h1>{title}</h1>
       <div>

@@ -2,7 +2,7 @@
   export let url;
 </script>
 
-<header>
+<header id="site-header">
   <a href="/" aria-label="home">
     <svg
       viewBox="0 0 32 32"

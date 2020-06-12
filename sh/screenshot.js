@@ -25,15 +25,20 @@ async function run(url) {
 }
 
 function amendPageStyles() {
-  document.querySelector(".site-header").style.position = "absolute";
-  document.querySelector("nav").style.display = "none";
-  document.querySelector(".site-footer").style.display = "none";
+  const siteHeader = document.querySelector("#site-header");
+  siteHeader.style.position = "absolute";
+  const nav = document.querySelector("nav");
+  nav.style.display = "none";
+  const siteFooter = document.querySelector("#site-footer");
+  siteFooter.style.display = "none";
   const main = document.querySelector("#main");
   main.style.marginTop = "1.5rem";
-  document.querySelector(".header-container").style.gridRowGap = "0.75rem";
+  const blogHeader = document.querySelector("#blog-header > div");
+  blogHeader.style.gridRowGap = "0.75rem";
+
   main.childNodes.forEach((child) => {
     try {
-      if (child.className !== "header" && child.nodeName !== "#text") {
+      if (child && child.id !== "blog-header" && child.nodeName !== "#text") {
         child.style.display = "none";
       }
     } catch (e) {

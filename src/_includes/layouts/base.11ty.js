@@ -252,7 +252,7 @@ const globalStyles = (theme) => css`
   .cluster {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: var(--justify, flex-start);
     align-items: center;
     margin: calc(var(--space) / 2 * -1);
   }
