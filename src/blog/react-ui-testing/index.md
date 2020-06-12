@@ -22,7 +22,7 @@ function Hello() {
 }
 
 test("It should render hello", () => {
-  const container = document.createElement("div"); // highlight-line
+  const container = document.createElement("div");
   ReactDOM.render(<Hello />, container);
   const el = container.querySelector("h1");
   expect(el.textContent).toBe("Hello world");
@@ -40,17 +40,17 @@ You'll need to install the library with `npm install -D @testing-library/react`.
 Here's our basic test from above, re-written:
 
 ```jsx
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 test("It should render hello", () => {
-  const utils = render(<Hello />);
-  utils.getByText("Hello world");
+  render(<Hello />);
+  screen.getByText("Hello world");
 });
 ```
 
-RTL's `render` method creates a container and renders our component into it. It returns an object full of useful utilities for writing tests.
+RTL's `render` method creates a container and renders our component into it. The `screen` import contains useful methods for querying the rendered DOM.
 
-In this case we're using `getByText()` to search the DOM for an element matching a certain string. Any util function starting with `getBy` will throw an error if it doesn't find a match. This will fail the test, which means we don't even have to write an assertion!
+In this case we're using `getByText()` to search the DOM for an element matching a certain string. Any query method starting with `getBy` will throw an error if it doesn't find a match. This will fail the test, which means we don't even have to write an assertion!
 
 These functions can take a regular expression instead of a string, which is useful for case-insensitive matching: `getByText(/hello world/i)`.
 
@@ -59,14 +59,14 @@ These functions can take a regular expression instead of a string, which is usef
 RTL provides `fireEvent` to simplify triggering DOM events. This is handy for testing user interaction:
 
 ```jsx
-import { render, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import Toggle from "./Toggle"; // renders "off" or "on" after click
 
 test("It should toggle on/off", () => {
-  const utils = render(<Toggle />);
-  const button = utils.getByText(/off/i);
+  render(<Toggle />);
+  const button = screen.getByText(/off/i);
   fireEvent.click(button);
-  utils.getByText(/on/i);
+  screen.getByText(/on/i);
 });
 ```
 
@@ -77,14 +77,14 @@ This test checks the DOM contains an element with text content "off", then fires
 We can also use `fireEvent` to test user input. Since we're dispatching real DOM events here we need to pass in an event object with the properties we expect:
 
 ```jsx
-import { render, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import Shouter from "./Shouter"; // takes user input and renders it in all-caps
 
 test("It should make user input all-caps", () => {
-  const utils = render(<Shouter label="Enter text to shout" />);
-  const input = utils.getByLabelText(/Enter text to shout/i);
+  render(<Shouter label="Enter text to shout" />);
+  const input = screen.getByLabelText(/enter text to shout/i);
   fireEvent.change(input, { target: { value: "hello world" } });
-  utils.getByText(/HELLO WORLD/); // this regex *is* case-sensitive
+  screen.getByText("HELLO WORLD");
 });
 ```
 
@@ -95,16 +95,16 @@ We're using `getByLabelText` to find the input with a specific label. This is ni
 RTL can help testing asynchronous UI updates too. All `getBy` methods have an equivalent `findBy` that will wait for a matching element to appear. It returns a promise that either resolves with the element or rejects after a default timeout of 4500ms.
 
 ```jsx
-import { render, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import Info from "./Info"; // loads more info on click
 
 test("It should load more info", async () => {
-  const utils = render(<LoadMore>Some async info</LoadMore>);
+  render(<LoadMore>Some async info</LoadMore>);
 
-  const children = queryByText(/some async info/i);
+  const children = screen.queryByText(/some async info/i);
   expect(children).toBeFalsy(); // should not exist until we click
 
-  const button = utils.getByText(/more info/i);
+  const button = screen.getByText(/more info/i);
   fireEvent.click(button);
   await findByText(/some async info/i);
 });
