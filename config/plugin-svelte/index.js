@@ -30,6 +30,9 @@ class AssetManager {
     }
     return output;
   }
+  reset() {
+    this.assets = new Map();
+  }
 }
 
 function sveltePlugin(config) {
@@ -41,6 +44,13 @@ function sveltePlugin(config) {
 
   config.addFilter("getSvelteCssForPage", getStyles);
   config.addFilter("getSvelteHeadForPage", getHead);
+  // runs on subsequent builds after initial
+  // stops duplicate CSS piling up
+  config.on("beforeWatch", () => {
+    styleManager.reset();
+    headManager.reset();
+  });
+
   config.addTemplateFormats("svelte");
   config.addExtension("svelte", {
     read: false,
