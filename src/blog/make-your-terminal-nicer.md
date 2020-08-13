@@ -1,5 +1,5 @@
 ---
-title: How to make your terminal actually usable
+title: How to make your terminal nicer to use
 date: 2020-07-19T14:30:00.000
 tags: ["beginner", "tools", "terminal"]
 ---
