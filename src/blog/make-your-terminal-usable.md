@@ -265,4 +265,4 @@ function newjs() {
 }
 ```
 
-Hopefully this has helped you make your terminal a little more useful.
+Hopefully this has helped you make your terminal a little more useful. If you want a little more inspiration you can see how my setup is configured in my [dotfiles repo](https://github.com/oliverjam/dotfiles/) on GitHub.
