@@ -119,7 +119,7 @@ query Pikachu($myName: String!) {
 
 The client must then send a separate `"variables"` object as part of the request. GraphQL will match the properties from this object to the variables declared in the query. We'll see how exactly this works when we talk about using GraphQL on the client in the next post.
 
-The exclamation mark makes this a _required_ variable: the client _must_ pass a variable called `"name"` with an integer value or it will receive an error.
+The exclamation mark makes this a _required_ variable: the client _must_ pass a variable called `"name"` with a string value or it will receive an error.
 
 ## Sending data
 
@@ -164,4 +164,4 @@ Mutations should return what they just created so that you can immediately query
 
 ## Actually sending queries
 
-You may be wondering how you actually send these nice queries to a GraphQL API. That will depend on the client you're using as GraphQL is an intentionally client-agnostic spec. Read Part Two of this series for an introduction to making GraphQL requests from the browser using `fetch`.
+You may be wondering how you actually send these nice queries to a GraphQL API. That will depend on the client you're using as GraphQL is an intentionally client-agnostic spec. Read [Part Two of this series](/blog/minimum-viable-graphql-client/) for an introduction to making GraphQL requests from the browser using `fetch`.
