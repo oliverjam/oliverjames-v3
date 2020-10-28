@@ -10,10 +10,10 @@
   import PostsList from "./_includes/components/posts-list.svelte";
   import Tag from "./_includes/components/tag.svelte";
 
-  export let data;
-  const allTags = getAllTags(data.collections);
+  export let collections;
+  const allTags = getAllTags(collections);
   const tags = allTags.slice(0, 3);
-  const posts = [...data.collections.blog].reverse();
+  const posts = [...collections.blog].reverse();
 </script>
 
 <div class="stack">

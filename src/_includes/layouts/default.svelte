@@ -5,11 +5,11 @@
 </script>
 
 <script>
-  export let data;
+  export let content;
 </script>
 
 <main id="main">
-  {@html data.content}
+  {@html content}
 </main>
 
 <style>

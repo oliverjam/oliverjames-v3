@@ -18,11 +18,11 @@
   import slug from "@sindresorhus/slugify";
   import PostsList from "./_includes/components/posts-list.svelte";
 
-  export let data;
-  const posts = [...data.collections[data.tag]].reverse();
+  export let collections, tag;
+  const posts = [...collections[tag]].reverse();
 </script>
 
 <div class="stack">
-  <h1>Posts tagged with "{data.tag}"</h1>
+  <h1>Posts tagged with "{tag}"</h1>
   <PostsList {posts} />
 </div>
