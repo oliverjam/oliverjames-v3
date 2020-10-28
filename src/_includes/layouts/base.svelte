@@ -8,14 +8,9 @@
   import SiteHeader from "../components/site-header.svelte";
   import SiteFooter from "../components/site-footer.svelte";
 
-  export let data;
-  const {
-    page: { url },
-    content,
-    site,
-  } = data;
+  export let page, content, site;
 </script>
 
-<SiteHeader {url} />
+<SiteHeader url={page.url} />
 {@html content}
 <SiteFooter {site} />

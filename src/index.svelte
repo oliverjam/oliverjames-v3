@@ -7,8 +7,8 @@
 
 <script>
   import { formatDate, getRelativeTime } from "./utils/dates";
-  export let data;
-  const posts = data.collections.blog.slice(-3).reverse();
+  export let collections, site;
+  const posts = collections.blog.slice(-3).reverse();
 </script>
 
 <svelte:head>
@@ -20,7 +20,7 @@
 <div class="layout">
   <div class="page-title">
     <header>
-      <h1>{data.site.tagline}</h1>
+      <h1>{site.tagline}</h1>
     </header>
   </div>
   <section class="stack" style="--space: 1.5rem">

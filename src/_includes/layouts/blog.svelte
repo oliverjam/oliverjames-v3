@@ -9,8 +9,7 @@
   import ReadingTime from "../components/reading-time.svelte";
   import Webmentions from "../components/webmentions.svelte";
 
-  export let data;
-  const { title, date, content } = data;
+  export let title, date, content;
 </script>
 
 <main id="main">
@@ -26,7 +25,7 @@
     </div>
   </header>
 
-  {@html data.content}
+  {@html content}
 
   <Webmentions />
 

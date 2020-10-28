@@ -11,8 +11,8 @@
   import { getAllTags } from "./utils/tags.js";
   import Tag from "./_includes/components/tag.svelte";
 
-  export let data;
-  const allTags = getAllTags(data.collections);
+  export let collections;
+  const allTags = getAllTags(collections);
 </script>
 
 <div class="stack">
