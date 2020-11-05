@@ -1,4 +1,4 @@
-name: CI
+name: Deploy
 
 on:
   schedule:
@@ -6,9 +6,8 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - name: Nightly deploy
-      run: curl -X POST -d {} https://api.netlify.com/build_hooks/5e4d1dc652f14dde0d19ddcf
+      - name: Nightly deploy
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/5fa41b63d4f495d47a0b9b27
