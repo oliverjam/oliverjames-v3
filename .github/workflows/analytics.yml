@@ -16,7 +16,7 @@ jobs:
           mkdir -p "./src/_data/analytics/"
           curl '${{ secrets.ANALYTICS_URL }}' -s | \
           node ./sh/parse-analytics > \
-          "./src/_data/analytics/$(date -d yesterday +"%y-%m-%d").csv"
+          "./src/_data/analytics/$(date -d yesterday +"%Y-%m-%d").csv"
       - name: Set up git config
         # commit as a made up bot user
         run: |
@@ -27,5 +27,5 @@ jobs:
         run: |
           git add .
           # only commit if there's a change
-          git diff --quiet --staged || git commit -m "Analytics for $(date -d yesterday +"%y-%m-%d")"
+          git diff --quiet --staged || git commit -m "Analytics for $(date -d yesterday +"%Y-%m-%d")"
           git push origin scrape-analytics
