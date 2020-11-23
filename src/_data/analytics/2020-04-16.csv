@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e97a1263a0ab00017fc16e3,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-16T00:04:54.109Z
+5e98189a3a0ab00017fc1ab7,/blog/schedule-netlify-github-actions/,Chrome,38.0.1025.166,WebKit,535.19,Android,4.2.1,2020-04-16T08:34:34.720Z
+5e9819d93a0ab00017fc1ab8,/blog/schedule-netlify-github-actions/,Chrome,79.0.3945.116,Blink,79.0.3945.116,Android,9,2020-04-16T08:39:53.403Z
+5e9824f475cb45001744b3d5,/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.14.6,2020-04-16T09:27:16.930Z
+5e9824f975cb45001744b3d6,/blog/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.14.6,2020-04-16T09:27:21.169Z
+5e98456d75cb45001744b42b,/blog/schedule-netlify-github-actions/,Chrome,81.0.4044.92,Blink,81.0.4044.92,Windows,10,2020-04-16T11:45:49.686Z
+5e9877f275cb45001744b527,/blog/we-dont-need-servers/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Windows,10,2020-04-16T15:21:22.298Z

@@ -1,0 +1,3 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e9109234e7903001725e165,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-11T00:02:43.688Z
+5e9236e20b0ced0017090fab,/blog/we-dont-need-servers/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-04-11T21:30:10.564Z

@@ -1,0 +1,11 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fa1d602197d3a00179957ef,/blog/complete-guide-to-making-web-pages/,Samsung Browser,12.1,Blink,79.0.3945.136,Android,9,2020-11-03T22:13:22.772Z
+5fa1d5dd197d3a00179957ed,/blog/,Samsung Browser,12.1,Blink,79.0.3945.136,Android,9,2020-11-03T22:12:45.227Z
+5fa1d5cd197d3a00179957ec,/,Samsung Browser,12.1,Blink,79.0.3945.136,Android,9,2020-11-03T22:12:29.208Z
+5fa1d5c2197d3a00179957eb,/blog/minimum-viable-graphql-concepts/,Samsung Browser,12.1,Blink,79.0.3945.136,Android,9,2020-11-03T22:12:18.972Z
+5fa1bf78197d3a0017995688,/cv/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Windows,7,2020-11-03T20:37:12.148Z
+5fa1bf1e197d3a0017995686,/blog/diy-analytics-netlify-functions/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Windows,7,2020-11-03T20:35:42.997Z
+5fa1b144197d3a00179955a2,/blog/diy-analytics-netlify-functions/,Firefox,83.0,Gecko,83.0,Windows,10,2020-11-03T19:36:36.734Z
+5fa1adc9197d3a0017995569,/blog/ken-burns-hero-image/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.15.7,2020-11-03T19:21:45.840Z
+5fa183da197d3a001799528d,/blog/complete-guide-to-making-web-pages/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Windows,10,2020-11-03T16:22:50.321Z
+5fa18345197d3a0017995285,/blog/we-dont-need-servers/,Chrome,85.0.4183.121,Blink,85.0.4183.121,Mac OS,10.15.6,2020-11-03T16:20:21.336Z

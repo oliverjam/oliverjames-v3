@@ -1,0 +1,6 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e64367d37200f0017ffa5f6,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-08T00:04:13.733Z
+5e64727937200f0017ffa5f9,/,Chrome,74.0.3694.0,Blink,74.0.3694.0,Android,6.0.1,2020-03-08T04:20:09.174Z
+5e64727f37200f0017ffa5fa,/,Chrome,74.0.3694.0,Blink,74.0.3694.0,Android,6.0.1,2020-03-08T04:20:15.101Z
+5e64bbeb37200f0017ffa5fc,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,7,2020-03-08T09:33:31.555Z
+5e65211237200f0017ffa605,/blog/schedule-netlify-github-actions/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-08T16:45:06.129Z

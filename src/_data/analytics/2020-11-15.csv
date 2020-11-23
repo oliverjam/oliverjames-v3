@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fb1be88b8ae2b0017e0b523,/,,,,,,,2020-11-15T23:49:28.876Z
+5fb17515b8ae2b0017e0af3f,/blog/we-dont-need-servers/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Windows,10,2020-11-15T18:36:05.376Z
+5fb14a9bb8ae2b0017e0aba8,/blog/diy-analytics-netlify-functions/,Firefox,82.0,Gecko,82.0,Ubuntu,,2020-11-15T15:34:51.836Z
+5fb0f79ab8ae2b0017e0a3f5,/blog/ken-burns-hero-image/,Firefox,82.0,Gecko,82.0,Windows,10,2020-11-15T09:40:42.560Z
+5fb08b999c0ec500170383dd,/blog/,Firefox,63.0,Gecko,63.0,Windows,10,2020-11-15T01:59:53.528Z
+5fb08b909c0ec500170383dc,/,Edge,17.17134,EdgeHTML,17.17134,Windows,10,2020-11-15T01:59:44.323Z
+5fb071059c0ec50017038217,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-15T00:06:29.799Z

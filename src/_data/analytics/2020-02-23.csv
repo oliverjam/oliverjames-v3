@@ -1,0 +1,6 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e51c12fd6ba990017fadeea,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-02-23T00:02:55.005Z
+5e5245701e9604001792f2d7,/blog/schedule-netlify-github-actions/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.15.3,2020-02-23T09:27:12.000Z
+5e5251b91e9604001792f2d8,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Windows,10,2020-02-23T10:19:37.131Z
+5e5251c11e9604001792f2d9,/blog/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Windows,10,2020-02-23T10:19:45.810Z
+5e52b3b31e9604001792f2ed,/blog/ken-burns-hero-image/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Windows,10,2020-02-23T17:17:39.279Z

@@ -1,0 +1,16 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e6d70e227b0e70017d07dc7,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-15T00:03:46.420Z
+5e6e001e27b0e70017d080c9,/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:14:54.379Z
+5e6e002a27b0e70017d080ca,/blog/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:15:06.403Z
+5e6e004827b0e70017d080cb,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:15:36.919Z
+5e6e05fc27b0e70017d080f6,/blog/ken-burns-hero-image/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:39:56.777Z
+5e6e08b527b0e70017d080f8,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:51:33.895Z
+5e6e0a2c27b0e70017d080f9,/blog/ken-burns-hero-image/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T10:57:48.118Z
+5e6e19ee27b0e70017d08117,/blog/ken-burns-hero-image/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T12:05:02.638Z
+5e6e19fd27b0e70017d08118,/blog/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T12:05:17.533Z
+5e6e1a0127b0e70017d08119,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-15T12:05:21.000Z
+5e6e326727b0e70017d081c3,/blog/dom-intro/,Firefox,74.0,Gecko,74.0,Mac OS,10.14,2020-03-15T13:49:27.082Z
+5e6e326f27b0e70017d081c4,/blog/dom-intro/,Firefox,74.0,Gecko,74.0,Mac OS,10.14,2020-03-15T13:49:35.235Z
+5e6e7d0127b0e70017d08353,/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-03-15T19:07:45.317Z
+5e6e7fbe27b0e70017d0836a,/blog/we-dont-need-servers/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Mac OS,10.15.3,2020-03-15T19:19:26.217Z
+5e6e93f127b0e70017d0839c,/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-03-15T20:45:37.866Z

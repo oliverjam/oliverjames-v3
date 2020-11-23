@@ -1,0 +1,34 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e54640cdfe1470017bf9bd0,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-02-25T00:02:20.739Z
+5e54d7cf8f52e30017760157,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.119,Blink,79.0.3945.119,Chromium OS,12607.81.0,2020-02-25T08:16:15.527Z
+5e54d7cf8f52e30017760158,/blog/dom-intro/,Chrome,79.0.3945.119,Blink,79.0.3945.119,Chromium OS,12607.81.0,2020-02-25T08:16:15.965Z
+5e54ecf28f52e30017760161,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,9,2020-02-25T09:46:26.930Z
+5e54ecf68f52e30017760162,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,9,2020-02-25T09:46:30.185Z
+5e54f07e8f52e30017760166,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,10,2020-02-25T10:01:34.677Z
+5e54f0818f52e30017760167,/cv/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,10,2020-02-25T10:01:37.797Z
+5e54f08b8f52e30017760168,/blog/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,10,2020-02-25T10:01:47.861Z
+5e54f8de8f52e30017760170,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-25T10:37:18.072Z
+5e54f9068f52e30017760171,/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-25T10:37:58.443Z
+5e54f9138f52e30017760172,/cv/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-25T10:38:11.069Z
+5e54fb438f52e30017760174,/blog/complete-guide-to-making-web-pages/,Mobile Safari,13.0.5,WebKit,605.1.15,iOS,13.3.1,2020-02-25T10:47:31.366Z
+5e54fb4b8f52e30017760175,/blog/complete-guide-to-making-web-pages/,Mobile Safari,13.0.5,WebKit,605.1.15,iOS,13.3.1,2020-02-25T10:47:39.410Z
+5e55029f8f52e30017760185,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-25T11:18:55.622Z
+5e5502b18f52e30017760186,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,10,2020-02-25T11:19:13.710Z
+5e55224e8f52e300177601ae,/blog/dom-intro/,Chrome,80.0.3987.119,Blink,80.0.3987.119,Android,9,2020-02-25T13:34:06.884Z
+5e552dff8f52e300177601b2,/blog/complete-guide-to-making-web-pages/,Samsung Browser,6.4,Blink,56.0.2924.87,Android,7.0,2020-02-25T14:23:59.350Z
+5e5531908f52e300177601b5,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T14:39:12.838Z
+5e55319b8f52e300177601b6,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T14:39:23.773Z
+5e553f2b8f52e300177601bb,/blog/complete-guide-to-making-web-pages/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:37:15.860Z
+5e553f2c8f52e300177601bc,/blog/dom-intro/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:37:16.178Z
+5e5543dd8f52e300177601be,/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:57:17.231Z
+5e5543e98f52e300177601bf,/cv/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:57:29.946Z
+5e55442e8f52e300177601c0,/blog/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:58:38.838Z
+5e5544348f52e300177601c1,/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T15:58:44.817Z
+5e556da48f52e30017760205,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T18:55:32.792Z
+5e556dbb8f52e30017760206,/blog/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T18:55:55.421Z
+5e556dc28f52e30017760207,/blog/complete-guide-to-making-web-pages/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T18:56:02.241Z
+5e556eb18f52e30017760208,/blog/complete-guide-to-making-web-pages/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-25T19:00:01.295Z
+5e556eb48f52e30017760209,/blog/complete-guide-to-making-web-pages/,Firefox,73.0,Gecko,73.0,Windows,10,2020-02-25T19:00:04.711Z
+5e55737a8f52e3001776020a,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.12.6,2020-02-25T19:20:26.160Z
+5e5577218f52e3001776020b,/blog/dom-intro/,Firefox,73.0,Gecko,73.0,Ubuntu,,2020-02-25T19:36:01.609Z
+5e5586368f52e30017760219,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.14.6,2020-02-25T20:40:22.269Z

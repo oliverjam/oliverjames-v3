@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5eab6734bc3d2b0017b22b7e,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-05-01T00:03:00.225Z
+5eac30c4bc3d2b0017b22e45,/blog/we-dont-need-servers/,Chrome,81.0.4044.113,Blink,81.0.4044.113,Mac OS,10.14.6,2020-05-01T14:23:00.007Z
+5eac358ebc3d2b0017b22e58,/,Chrome,81.0.4044.113,Blink,81.0.4044.113,Mac OS,10.14.6,2020-05-01T14:43:26.856Z
+5eac359abc3d2b0017b22e5a,/cv/,Chrome,81.0.4044.113,Blink,81.0.4044.113,Mac OS,10.14.6,2020-05-01T14:43:38.585Z
+5eac3b2abc3d2b0017b22e63,/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.15.1,2020-05-01T15:07:22.350Z
+5eac3b3dbc3d2b0017b22e64,/cv/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.15.1,2020-05-01T15:07:41.252Z
+5eac3c09bc3d2b0017b22e65,/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.15.1,2020-05-01T15:11:05.878Z
+5eac3c11bc3d2b0017b22e66,/blog/pitfalls-of-async-functions/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.15.1,2020-05-01T15:11:13.337Z
+5eac4256bc3d2b0017b22e8e,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Linux,x86_64,2020-05-01T15:37:58.068Z
+5eac4258bc3d2b0017b22e8f,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Linux,x86_64,2020-05-01T15:38:00.523Z
+5eac4bb2bc3d2b0017b22eac,/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Linux,x86_64,2020-05-01T16:17:54.640Z
+5eac4bb4bc3d2b0017b22ead,/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Linux,x86_64,2020-05-01T16:17:56.600Z
+5eac5c05bc3d2b0017b22f46,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Linux,x86_64,2020-05-01T17:27:33.541Z
+5eac7b87bc3d2b0017b22fb5,/blog/dom-intro/,Chrome,81.0.4044.129,Blink,81.0.4044.129,Mac OS,10.14.6,2020-05-01T19:41:59.928Z

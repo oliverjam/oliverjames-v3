@@ -1,0 +1,14 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e8e66ac77f33800171873db,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-09T00:05:00.503Z
+5e8e784377f3380017187468,/blog/schedule-netlify-github-actions/,Chrome,84.0.4108.0,Blink,84.0.4108.0,Mac OS,10.14.6,2020-04-09T01:20:03.452Z
+5e8e91d077f33800171878c0,/blog/we-dont-need-servers/,Firefox,74.0,Gecko,74.0,Fedora,,2020-04-09T03:09:04.406Z
+5e8ed74049bc4b001774e258,/,Chrome,84.0.4109.1,Blink,84.0.4109.1,Mac OS,10.14.6,2020-04-09T08:05:20.280Z
+5e8ed74449bc4b001774e259,/blog/,Chrome,84.0.4109.1,Blink,84.0.4109.1,Mac OS,10.14.6,2020-04-09T08:05:24.169Z
+5e8ed74849bc4b001774e25a,/blog/stop-exporting-things/,Chrome,84.0.4109.1,Blink,84.0.4109.1,Mac OS,10.14.6,2020-04-09T08:05:28.656Z
+5e8ed75249bc4b001774e25b,/blog/,Chrome,84.0.4109.1,Blink,84.0.4109.1,Mac OS,10.14.6,2020-04-09T08:05:38.110Z
+5e8ef73349bc4b001774e2a5,/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:21:39.298Z
+5e8ef77149bc4b001774e2a6,/blog/pitfalls-of-async-functions/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:22:41.097Z
+5e8ef7a749bc4b001774e2a7,/blog/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:23:35.715Z
+5e8ef7d949bc4b001774e2a8,/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:24:25.971Z
+5e8ef7e349bc4b001774e2a9,/blog/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:24:35.219Z
+5e8ef7e549bc4b001774e2aa,/blog/tags/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-09T10:24:37.408Z

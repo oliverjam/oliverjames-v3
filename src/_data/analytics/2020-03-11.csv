@@ -1,0 +1,27 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e682aa0c0781e0017071096,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-11T00:02:40.139Z
+5e68b3f1e17a4c0017ae77c8,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-11T09:48:33.710Z
+5e68b3f3e17a4c0017ae77c9,/blog/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-11T09:48:35.604Z
+5e68b3f8e17a4c0017ae77ca,/blog/dom-intro/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-11T09:48:40.217Z
+5e68b40ee17a4c0017ae77cb,/blog/dom-intro/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.13.6,2020-03-11T09:49:02.220Z
+5e68b40ee17a4c0017ae77cc,/blog/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-11T09:49:02.618Z
+5e68b490e17a4c0017ae77cd,/blog/dom-intro/,Chrome,80.0.3987.125,Blink,80.0.3987.125,Mac OS,10.15.3,2020-03-11T09:51:12.685Z
+5e68b504e17a4c0017ae77ce,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-11T09:53:08.615Z
+5e68b555e17a4c0017ae77cf,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T09:54:29.903Z
+5e68b60de17a4c0017ae77d0,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-11T09:57:33.126Z
+5e68b68de17a4c0017ae77d1,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-11T09:59:41.462Z
+5e68b6e4e17a4c0017ae77d4,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:01:08.005Z
+5e68b70fe17a4c0017ae77d5,/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:01:51.853Z
+5e68b714e17a4c0017ae77d6,/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:01:56.116Z
+5e68b717e17a4c0017ae77d7,/blog/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:01:59.246Z
+5e68b718e17a4c0017ae77d8,/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:02:00.569Z
+5e68b71ce17a4c0017ae77d9,/blog/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:02:04.426Z
+5e68b724e17a4c0017ae77da,/cv/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:02:12.201Z
+5e68b922e17a4c0017ae77dc,/blog/dom-intro/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.13.6,2020-03-11T10:10:42.751Z
+5e68c007e17a4c0017ae77e9,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-11T10:40:07.609Z
+5e68c327e17a4c0017ae77ee,/blog/dom-intro/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.13.6,2020-03-11T10:53:27.439Z
+5e68c38de17a4c0017ae77ef,/blog/dom-intro/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.3,2020-03-11T10:55:09.686Z
+5e68fc7fe17a4c0017ae7832,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-11T14:58:07.996Z
+5e692df6e17a4c0017ae7870,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-11T18:29:10.426Z
+5e69559ce17a4c0017ae790a,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Android,9,2020-03-11T21:18:20.482Z
+5e6968bb6a01790017d5c0d9,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Mac OS,10.14.6,2020-03-11T22:39:55.706Z

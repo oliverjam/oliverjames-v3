@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e697c406a01790017d5c147,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-12T00:03:12.707Z
+5e6a09d66a01790017d5c3a2,/blog/react-ui-testing/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Mac OS,10.15.1,2020-03-12T10:07:18.189Z
+5e6a1cb86a01790017d5c3ac,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2020-03-12T11:27:52.737Z
+5e6a5ef06a01790017d5c442,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-12T16:10:24.018Z
+5e6a5ef76a01790017d5c443,/blog/schedule-netlify-github-actions/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-12T16:10:31.763Z
+5e6a5efa6a01790017d5c444,/blog/we-dont-need-servers/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-12T16:10:34.489Z
+5e6ab59f6a01790017d5c597,/blog/react-ui-testing/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Linux,x86_64,2020-03-12T22:20:15.281Z

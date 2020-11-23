@@ -1,0 +1,14 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e59aa32b7fe650017e25e91,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-02-29T00:02:58.579Z
+5e59c4a1b7fe650017e25eb5,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.3,2020-02-29T01:55:45.199Z
+5e59c4b3b7fe650017e25eb6,/cv/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.3,2020-02-29T01:56:03.573Z
+5e59c53eb7fe650017e25eb7,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.3,2020-02-29T01:58:22.044Z
+5e59c54db7fe650017e25eb8,/blog/we-dont-need-servers/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.3,2020-02-29T01:58:37.575Z
+5e5a2361b7fe650017e260c3,/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.15.1,2020-02-29T08:40:01.184Z
+5e5a236fb7fe650017e260c4,/blog/schedule-netlify-github-actions/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.15.1,2020-02-29T08:40:15.509Z
+5e5a2384b7fe650017e260c5,/blog/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.15.1,2020-02-29T08:40:36.413Z
+5e5a23abb7fe650017e260c6,/cv/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.15.1,2020-02-29T08:41:15.164Z
+5e5a7c74b7fe650017e260cd,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.95,WebKit,605.1.15,iOS,13.3,2020-02-29T15:00:04.490Z
+5e5acb63b7fe650017e260d0,/,Mobile Safari,13.0.5,WebKit,605.1.15,iOS,13.3.1,2020-02-29T20:36:51.382Z
+5e5af9824cd4540017b96ee5,/blog/complete-guide-to-making-web-pages/,Mobile Safari,13.0.5,WebKit,605.1.15,iOS,13.3.1,2020-02-29T23:53:38.048Z
+5e5af9834cd4540017b96ee6,/blog/dom-intro/,Mobile Safari,13.0.5,WebKit,605.1.15,iOS,13.3.1,2020-02-29T23:53:39.199Z

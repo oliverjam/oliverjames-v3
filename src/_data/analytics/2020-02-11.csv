@@ -1,0 +1,7 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e42092e6ca7310017a5f5c3,/blog/we-dont-need-servers/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Linux,x86_64,2020-02-11T01:53:50.410Z
+5e42ac176afa7000179e78a3,/,Chrome Headless,68.0.3440.106,Blink,68.0.3440.106,Linux,x86_64,2020-02-11T13:28:55.729Z
+5e42ae126afa7000179e78a4,/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-11T13:37:22.579Z
+5e42ae146afa7000179e78a5,/blog/first-class-functions/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-11T13:37:24.143Z
+5e431a846afa7000179e78c5,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.73,WebKit,605.1.15,iOS,13.3,2020-02-11T21:20:04.226Z
+5e43215d6afa7000179e78c6,/blog/ken-burns-hero-image/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.6,2020-02-11T21:49:17.834Z

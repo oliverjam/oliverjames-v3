@@ -1,0 +1,4 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e7013b7c9236500171360f4,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-17T00:03:03.756Z
+5e70ede01ac58f0017996360,/blog/we-dont-need-servers/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-17T15:33:52.470Z
+5e711aee1ac58f00179963a2,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Android,6.0,2020-03-17T18:46:06.060Z

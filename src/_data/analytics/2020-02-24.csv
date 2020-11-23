@@ -1,0 +1,13 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e5312bf1e9604001792f302,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-02-24T00:03:11.305Z
+5e532be91e9604001792f313,/blog/react-ui-testing/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.6,2020-02-24T01:50:33.629Z
+5e53d762dfe1470017bf9b8a,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Windows,7,2020-02-24T14:02:10.262Z
+5e53d80adfe1470017bf9b8c,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Windows,7,2020-02-24T14:04:58.273Z
+5e543c8cdfe1470017bf9bc0,/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-24T21:13:48.138Z
+5e543c8fdfe1470017bf9bc1,/blog/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-24T21:13:51.120Z
+5e543c93dfe1470017bf9bc2,/blog/complete-guide-to-making-web-pages/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-24T21:13:55.075Z
+5e543c95dfe1470017bf9bc3,/blog/dom-intro/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-24T21:13:57.820Z
+5e543cf6dfe1470017bf9bc4,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-24T21:15:34.085Z
+5e543d42dfe1470017bf9bc5,/blog/complete-guide-to-making-web-pages/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.6,2020-02-24T21:16:50.211Z
+5e544ff6dfe1470017bf9bcb,/blog/complete-guide-to-making-web-pages/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-02-24T22:36:38.523Z
+5e545b65dfe1470017bf9bce,/blog/dom-intro/,Chrome,80.0.3987.117,Blink,80.0.3987.117,Android,10,2020-02-24T23:25:25.254Z

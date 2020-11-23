@@ -1,0 +1,11 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e9a43a2045154001777289a,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-18T00:02:42.429Z
+5e9b118d0451540017772b04,/blog/dom-intro/,Firefox,75.0,Gecko,75.0,Ubuntu,,2020-04-18T14:41:17.418Z
+5e9b11900451540017772b05,/,Firefox,75.0,Gecko,75.0,Ubuntu,,2020-04-18T14:41:20.595Z
+5e9b21950451540017772b49,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Windows,10,2020-04-18T15:49:41.474Z
+5e9b39ef0451540017772ba2,/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-18T17:33:35.625Z
+5e9b39f40451540017772ba3,/blog/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-18T17:33:40.403Z
+5e9b39fe0451540017772ba4,/cv/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-18T17:33:50.058Z
+5e9b3a020451540017772ba5,/blog/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-18T17:33:54.335Z
+5e9b3a070451540017772ba6,/blog/readable-guide-to-readable-content/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-18T17:33:59.121Z
+5e9b7f49a2883a00176adc8a,/,Chrome,81.0.4044.92,Blink,81.0.4044.92,Linux,x86_64,2020-04-18T22:29:29.056Z

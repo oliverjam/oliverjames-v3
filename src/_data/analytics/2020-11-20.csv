@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fb8567f4b7584001726fcb5,/blog/we-dont-need-servers/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Windows,10,2020-11-20T23:51:27.402Z
+5fb83fcf4b7584001726faf6,/blog/diy-analytics-netlify-functions/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-11-20T22:14:39.221Z
+5fb801f14b7584001726f5f3,/blog/dom-intro/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T17:50:41.419Z
+5fb801bd4b7584001726f5dc,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T17:49:49.698Z
+5fb7cc7e4b7584001726f205,/blog/flicker-avatar-animation/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-20T14:02:38.142Z
+5fb7cc694b7584001726f204,/blog/dom-intro/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T14:02:17.555Z
+5fb7cc384b7584001726f203,/blog/dom-intro/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T14:01:28.338Z
+5fb7c48b4b7584001726f121,/blog/complete-guide-to-making-web-pages/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T13:28:43.316Z
+5fb7c4654b7584001726f120,/blog/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T13:28:05.168Z
+5fb7c45b4b7584001726f11b,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T13:27:55.137Z
+5fb7c2e84b7584001726f104,/cv/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T13:21:44.549Z
+5fb7c2d44b7584001726f102,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T13:21:24.284Z
+5fb7c0624b7584001726f0ee,/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-20T13:10:58.336Z
+5fb782784b7584001726ec5e,/blog/complete-guide-to-making-web-pages/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T08:46:48.308Z
+5fb732bfe727d60017d29db8,/blog/flicker-avatar-animation/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-20T03:06:39.768Z
+5fb70a2fe727d60017d29b09,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Windows,10,2020-11-20T00:13:35.118Z
+5fb70882e727d60017d29af8,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-20T00:06:26.307Z
