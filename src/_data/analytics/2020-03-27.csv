@@ -1,0 +1,6 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e7d4328c0c3bf0017b5449b,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-27T00:04:56.786Z
+5e7d7b334af3de0017e3cffb,/,Chrome,78.0.3904.87,Blink,78.0.3904.87,Windows,10,2020-03-27T04:04:03.872Z
+5e7e0a694af3de0017e3d062,/,Chrome,36.0.1985.143,Blink,36.0.1985.143,Windows,7,2020-03-27T14:15:05.926Z
+5e7e227d4af3de0017e3d067,/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-27T15:57:49.052Z
+5e7e543f4af3de0017e3d082,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Android,6.0,2020-03-27T19:30:07.393Z

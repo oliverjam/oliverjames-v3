@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fadbe72b1aa8c001797e1b9,/blog/we-dont-need-servers/,WebKit,534,WebKit,534,Windows,7,2020-11-12T23:00:02.657Z
+5fadada1b1aa8c001797e0a4,/,Mobile Safari,13.1.1,WebKit,605.1.15,iOS,13.5.1,2020-11-12T21:48:17.194Z
+5fad5a75b1aa8c001797d9be,/blog/we-dont-need-servers/,Firefox,78.0,Gecko,78.0,Linux,x86_64,2020-11-12T15:53:25.592Z
+5fad44e7b1aa8c001797d80a,/blog/diy-analytics-netlify-functions/,Chrome,86.0.4240.185,Blink,86.0.4240.185,Android,11,2020-11-12T14:21:27.414Z
+5fad3a24b1aa8c001797d6b3,/blog/we-dont-need-servers/,Chrome,86.0.4240.75,Blink,86.0.4240.75,Mac OS,10.15.7,2020-11-12T13:35:32.105Z
+5fad2814b1aa8c001797d560,/blog/complete-guide-to-making-web-pages/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-12T12:18:28.708Z
+5fad2807b1aa8c001797d55f,/blog/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-12T12:18:15.760Z
+5fad2804b1aa8c001797d55e,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-12T12:18:12.797Z
+5fad177bb1aa8c001797d3de,/,Chrome,86.0.4240.183,Blink,86.0.4240.183,Mac OS,10.15.4,2020-11-12T11:07:39.961Z
+5fad08f6b1aa8c001797d206,/blog/better-native-form-validation/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Mac OS,10.14.6,2020-11-12T10:05:42.874Z
+5fad08ecb1aa8c001797d205,/blog/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Mac OS,10.14.6,2020-11-12T10:05:32.115Z
+5faccbbeb1aa8c001797cc97,/blog/diy-analytics-netlify-functions/,Chrome,72.0.3626.121,Blink,72.0.3626.121,Android,9,2020-11-12T05:44:30.438Z
+5facbc356491fd00176dd80d,/blog/we-dont-need-servers/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Mac OS,10.15.7,2020-11-12T04:38:13.937Z
+5fac7c5c6491fd00176dd3a2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-12T00:05:48.089Z

@@ -1,0 +1,13 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ea22d33920e740017eeaea4,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-24T00:05:07.038Z
+5ea230e8920e740017eeaeac,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Mac OS,10.13,2020-04-24T00:20:56.008Z
+5ea231ea920e740017eeaead,/blog/we-dont-need-servers/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.13.6,2020-04-24T00:25:14.706Z
+5ea231f4920e740017eeaeae,/,Firefox,75.0,Gecko,75.0,Mac OS,10.13,2020-04-24T00:25:24.983Z
+5ea29f63920e740017eeb019,/blog/react-ui-testing/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.15.3,2020-04-24T08:12:19.886Z
+5ea2b513920e740017eeb13e,/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.15.3,2020-04-24T09:44:51.918Z
+5ea2b520920e740017eeb140,/cv/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.15.3,2020-04-24T09:45:04.313Z
+5ea2b763920e740017eeb158,/blog/gatsby-future/,Chrome,84.0.4122.0,Blink,84.0.4122.0,Mac OS,10.14.6,2020-04-24T09:54:43.012Z
+5ea2bbf3920e740017eeb169,/blog/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-04-24T10:14:11.212Z
+5ea2c634920e740017eeb191,/cv/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-04-24T10:57:56.365Z
+5ea3007f920e740017eeb267,/cv/,Chrome,81.0.4044.113,Blink,81.0.4044.113,Mac OS,10.15.4,2020-04-24T15:06:39.777Z
+5ea31372920e740017eeb2b1,/blog/react-ui-testing/,Safari,13.1,WebKit,605.1.15,Mac OS,10.15.4,2020-04-24T16:27:30.596Z

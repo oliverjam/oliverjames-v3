@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e72b6a42d10090017e44e9b,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-19T00:02:44.631Z
+5e730a5c2d10090017e48093,/blog/ken-burns-hero-image/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-19T05:59:56.957Z
+5e7342d02d10090017e480be,/blog/setting-up-a-project/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Windows,10,2020-03-19T10:00:48.338Z
+5e734a5f2d10090017e480c0,/blog/dom-intro/,Firefox,74.0,Gecko,74.0,Mac OS,10.15,2020-03-19T10:33:03.391Z
+5e734a902d10090017e480c1,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Linux,x86_64,2020-03-19T10:33:52.965Z
+5e7379e74909b00017132a7a,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2020-03-19T13:55:51.937Z
+5e739aa44909b00017132a91,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2020-03-19T16:15:32.014Z

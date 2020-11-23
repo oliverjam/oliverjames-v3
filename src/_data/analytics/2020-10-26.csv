@@ -1,0 +1,14 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5f97267e7aaba9001772e118,/blog/we-dont-need-servers/,Safari,14.0,WebKit,605.1.15,Mac OS,10.15.6,2020-10-26T19:41:50.047Z
+5f96f0317aaba9001772dc7f,/blog/minimum-viable-graphql-client/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.14.0,2020-10-26T15:50:09.432Z
+5f96f01c7aaba9001772dc6f,/blog/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.14.0,2020-10-26T15:49:48.306Z
+5f96f0197aaba9001772dc6e,/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.14.0,2020-10-26T15:49:45.041Z
+5f96e8007aaba9001772dbca,/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.15.6,2020-10-26T15:15:12.126Z
+5f96b6fa7aaba9001772d7e6,/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-10-26T11:46:02.733Z
+5f96a6147aaba9001772d616,/blog/better-native-form-validation/,Chrome,86.0.4240.75,Blink,86.0.4240.75,Linux,x86_64,2020-10-26T10:33:56.302Z
+5f96a5457aaba9001772d610,/blog/better-native-form-validation/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.15.7,2020-10-26T10:30:29.442Z
+5f96a4eb7aaba9001772d5fd,/blog/better-native-form-validation/,Chrome,86.0.4240.80,Blink,86.0.4240.80,Mac OS,10.14.0,2020-10-26T10:28:59.169Z
+5f96a4d87aaba9001772d5fb,/,Chrome,86.0.4240.80,Blink,86.0.4240.80,Mac OS,10.14.0,2020-10-26T10:28:40.632Z
+5f9695dc7aaba9001772d4dd,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-26T09:24:44.391Z
+5f96876b7aaba9001772d3dc,/blog/react-ui-testing/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.15.7,2020-10-26T08:23:07.687Z
+5f96859b7aaba9001772d3c6,/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Linux,x86_64,2020-10-26T08:15:23.921Z

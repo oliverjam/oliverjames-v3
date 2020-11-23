@@ -1,0 +1,5 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e619341ac3875001727107e,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-06T00:03:13.315Z
+5e61f8b8ac387500172710c3,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Mac OS,10.12.6,2020-03-06T07:16:08.398Z
+5e61f99eac387500172710c5,/blog/complete-guide-to-making-web-pages/,Chrome Headless,72.0.3617.0,Blink,72.0.3617.0,Linux,x86_64,2020-03-06T07:19:58.853Z
+5e624a36ac38750017271124,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.95,WebKit,605.1.15,iOS,13.3,2020-03-06T13:03:50.065Z

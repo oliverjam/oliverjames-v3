@@ -1,0 +1,6 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fb3019c87a98b00176c007a,/blog/flicker-avatar-animation/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.14.6,2020-11-16T22:47:56.565Z
+5fb2b4d287a98b00176bf7af,/blog/gatsby-future/,Firefox,82.0,Gecko,82.0,Ubuntu,,2020-11-16T17:20:18.730Z
+5fb255b887a98b00176beb79,/blog/make-your-terminal-nicer/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-16T10:34:32.656Z
+5fb255b687a98b00176beb78,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-16T10:34:30.929Z
+5fb1c1e2b8ae2b0017e0b568,/blog/we-dont-need-servers/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-16T00:03:46.380Z

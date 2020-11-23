@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ea77303ea56fc0017c80b63,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-28T00:04:19.489Z
+5ea7f7dbea56fc0017c80c68,/blog/gatsby-future/,Safari,13.0.5,WebKit,605.1.15,Mac OS,10.15,2020-04-28T09:31:07.438Z
+5ea7f7dbea56fc0017c80c69,/blog/gatsby-future/,Safari,13.0.5,WebKit,605.1.15,Mac OS,10.15,2020-04-28T09:31:07.646Z
+5ea7fa63ea56fc0017c80c6c,/blog/we-dont-need-servers/,Edge,18.17763,EdgeHTML,18.17763,Windows,10,2020-04-28T09:41:55.677Z
+5ea7fa74ea56fc0017c80c6d,/blog/we-dont-need-servers/,Edge,18.17763,EdgeHTML,18.17763,Windows,10,2020-04-28T09:42:12.116Z
+5ea8064cea56fc0017c80c8d,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-04-28T10:32:44.955Z
+5ea80652ea56fc0017c80c8e,/blog/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-04-28T10:32:50.891Z
+5ea80656ea56fc0017c80c8f,/blog/complete-guide-to-making-web-pages/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-04-28T10:32:54.913Z
+5ea81213ea56fc0017c80cdd,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-28T11:22:59.665Z
+5ea8328bea56fc0017c80d44,/cv/,Chrome,81.0.4044.113,Blink,81.0.4044.113,Mac OS,10.15.3,2020-04-28T13:41:31.994Z
+5ea85369ea56fc0017c80d89,/blog/we-dont-need-servers/,Chrome,81.0.4044.129,Blink,81.0.4044.129,Mac OS,10.15.5,2020-04-28T16:01:45.927Z
+5ea891d6ea56fc0017c80e1a,/blog/ken-burns-hero-image/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.15.4,2020-04-28T20:28:06.577Z
+5ea89bcfea56fc0017c80e24,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Windows,10,2020-04-28T21:10:39.543Z
+5ea89e50ea56fc0017c80e3e,/,Firefox,75.0,Gecko,75.0,Windows,10,2020-04-28T21:21:20.484Z
+5ea89e5fea56fc0017c80e3f,/,Firefox,75.0,Gecko,75.0,Windows,10,2020-04-28T21:21:35.741Z
+5ea89e62ea56fc0017c80e40,/blog/pitfalls-of-async-functions/,Firefox,75.0,Gecko,75.0,Windows,10,2020-04-28T21:21:38.597Z

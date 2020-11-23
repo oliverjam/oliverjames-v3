@@ -1,0 +1,10 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fa02a589a7eb3001731d9b7,/blog/ken-burns-hero-image/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Windows,10,2020-11-02T15:48:40.846Z
+5fa017049a7eb3001731d802,/blog/dom-intro/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-02T14:26:12.807Z
+5fa016ff9a7eb3001731d801,/blog/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-02T14:26:07.655Z
+5fa016fe9a7eb3001731d800,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-02T14:26:06.952Z
+5f9fdf8e9a7eb3001731d303,/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Linux,x86_64,2020-11-02T10:29:34.451Z
+5f9fc4a79a7eb3001731d101,/blog/react-ui-testing/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Mac OS,10.15.6,2020-11-02T08:34:47.421Z
+5f9fac97390b3900177391eb,/,Android Browser,3.0.4,WebKit,525.10,Android,3.0,2020-11-02T06:52:07.991Z
+5f9f927e390b39001773903a,/blog/we-dont-need-servers/,Firefox,82.0,Gecko,82.0,Windows,10,2020-11-02T05:00:46.310Z
+5f9f8494390b390017738f40,/blog/we-dont-need-servers/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Windows,10,2020-11-02T04:01:24.462Z

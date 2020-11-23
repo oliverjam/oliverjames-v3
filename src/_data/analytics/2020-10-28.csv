@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5f99fb9e286d4200177a1615,/blog/better-native-form-validation/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Linux,x86_64,2020-10-28T23:15:42.280Z
+5f99b90c286d4200177a1247,/,Chrome Headless,80.0.3987.0,Blink,80.0.3987.0,Linux,x86_64,2020-10-28T18:31:40.908Z
+5f99b8d1286d4200177a1243,/blog/flow-intro/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:41.976Z
+5f99b8cf286d4200177a1242,/blog/tags/types/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:39.862Z
+5f99b8cb286d4200177a1241,/blog/tags/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:35.912Z
+5f99b8c9286d4200177a123e,/blog/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:33.262Z
+5f99b8c5286d4200177a123d,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:29.820Z
+5f99b8bf286d4200177a123c,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T18:30:23.837Z
+5f99ab0b286d4200177a10db,/blog/tags/serverless/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T17:31:55.226Z
+5f99aafa286d4200177a10da,/blog/tags/react/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T17:31:38.368Z
+5f99aaf4286d4200177a10d8,/blog/tags/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-10-28T17:31:32.355Z
+5f999115286d4200177a0f07,/blog/stop-exporting-things/,Chrome,86.0.4240.80,Blink,86.0.4240.80,Mac OS,10.15.6,2020-10-28T15:41:09.314Z
+5f998d13286d4200177a0eb7,/blog/diy-analytics-netlify-functions/,Safari,14.0,WebKit,605.1.15,Mac OS,10.14.6,2020-10-28T15:24:03.805Z
+5f998cde286d4200177a0eb5,/blog/flicker-avatar-animation/,Chrome,85.0.4183.83,Blink,85.0.4183.83,Mac OS,10.15.7,2020-10-28T15:23:10.257Z
+5f9940f1286d4200177a098e,/blog/diy-analytics-netlify-functions/,Safari,14.0,WebKit,605.1.15,Mac OS,10.14.6,2020-10-28T09:59:13.538Z
+5f9934e1286d4200177a08b6,/,Chrome,86.0.4240.111,Blink,86.0.4240.111,Linux,x86_64,2020-10-28T09:07:45.604Z
+5f992948286d4200177a07d0,/blog/stop-exporting-things/,Chrome,86.0.4240.75,Blink,86.0.4240.75,Windows,10,2020-10-28T08:18:16.208Z

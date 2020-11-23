@@ -1,0 +1,13 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e5d9ea078f4eb0017be3427,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-03T00:02:40.310Z
+5e5dbe6a78f4eb0017be3434,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:18:18.561Z
+5e5dbf2578f4eb0017be3435,/cv/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:21:25.181Z
+5e5dbf2578f4eb0017be3436,/blog/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:21:25.966Z
+5e5dbf2678f4eb0017be3437,/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:21:26.610Z
+5e5dc12578f4eb0017be3438,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:29:57.053Z
+5e5dc12678f4eb0017be3439,/blog/redux-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:29:58.857Z
+5e5dc13a78f4eb0017be343a,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:30:18.174Z
+5e5dc14378f4eb0017be343b,/blog/setting-up-a-project/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:30:27.376Z
+5e5dc14d78f4eb0017be343c,/blog/stop-exporting-things/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T02:30:37.692Z
+5e5e6bfd78f4eb0017be3496,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Mac OS,10.15.2,2020-03-03T14:38:53.288Z
+5e5e76e678f4eb0017be349c,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Windows,10,2020-03-03T15:25:26.062Z

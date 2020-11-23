@@ -1,0 +1,7 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e964f37026da50017c16970,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-15T00:03:03.702Z
+5e968a07026da50017c169ca,/blog/we-dont-need-servers/,Android Browser,4.0,Blink,80.0.3987.162,Android,10,2020-04-15T04:13:59.708Z
+5e969fbf026da50017c169f8,/blog/react-ui-testing/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.14.4,2020-04-15T05:46:39.344Z
+5e96aa34026da50017c16a3b,/blog/we-dont-need-servers/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-04-15T06:31:16.071Z
+5e96ab4b026da50017c16a3c,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Linux,x86_64,2020-04-15T06:35:55.553Z
+5e9700b33a0ab00017fc157d,/blog/react-ui-testing/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Mac OS,10.14.6,2020-04-15T12:40:19.105Z

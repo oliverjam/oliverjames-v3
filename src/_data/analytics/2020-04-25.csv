@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ea37e67913d5000179d9179,/blog/we-dont-need-servers/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-25T00:03:51.982Z
+5ea4097f913d5000179d9310,/blog/we-dont-need-servers/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-25T09:57:19.811Z
+5ea409ab913d5000179d9311,/,Chromium,80.0.3987.163,Blink,80.0.3987.163,Ubuntu,,2020-04-25T09:58:03.899Z
+5ea409af913d5000179d9313,/blog/we-dont-need-servers/,Chromium,80.0.3987.163,Blink,80.0.3987.163,Ubuntu,,2020-04-25T09:58:07.582Z
+5ea436f4913d5000179d938d,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Windows,10,2020-04-25T13:11:16.862Z
+5ea45a54913d5000179d9422,/blog/we-dont-need-servers/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Windows,10,2020-04-25T15:42:12.308Z
+5ea4a2c8913d5000179d94e9,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Mac OS,10.14,2020-04-25T20:51:20.517Z

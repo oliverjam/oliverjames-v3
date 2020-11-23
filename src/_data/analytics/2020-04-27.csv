@@ -1,0 +1,4 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ea6212f43f5c40017101035,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-27T00:02:55.966Z
+5ea6781643f5c4001710113e,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Mac OS,10.15,2020-04-27T06:13:42.585Z
+5ea6a04243f5c400171011cc,/,Safari,13.0.2,WebKit,605.1.15,Mac OS,10.15,2020-04-27T09:05:06.889Z

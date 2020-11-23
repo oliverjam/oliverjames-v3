@@ -1,0 +1,7 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e77fdc428cbe80017031669,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-23T00:07:32.261Z
+5e78bfb52c93a10017877a2e,/blog/complete-guide-to-making-web-pages/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-03-23T13:55:01.302Z
+5e78bfc52c93a10017877a31,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-03-23T13:55:17.798Z
+5e78bfd42c93a10017877a32,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-03-23T13:55:32.247Z
+5e791ccd2c93a10017877ac9,/,,,,,,,2020-03-23T20:32:13.329Z
+5e7926482c93a10017877acb,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Android,6.0,2020-03-23T21:12:40.990Z

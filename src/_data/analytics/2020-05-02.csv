@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5eacb9339747ee00175fe0c0,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-05-02T00:05:07.624Z
+5eacfe2a9747ee00175fe10c,/blog/schedule-netlify-github-actions/,Firefox,75.0,Gecko,75.0,Ubuntu,,2020-05-02T04:59:22.227Z
+5ead53479747ee00175fe226,/blog/complete-guide-to-making-web-pages/,Chrome,81.0.4044.122,Blink,81.0.4044.122,Mac OS,10.13.6,2020-05-02T11:02:31.705Z
+5ead78c19747ee00175fe3a9,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T13:42:25.313Z
+5ead78c49747ee00175fe3aa,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T13:42:28.288Z
+5ead81d19747ee00175fe3f8,/,Chrome Headless,68.0.3440.106,Blink,68.0.3440.106,Linux,x86_64,2020-05-02T14:21:05.431Z
+5ead8e9f9747ee00175fe48e,/blog/we-dont-need-servers/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T15:15:43.254Z
+5ead9c249747ee00175fe4b0,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T16:13:24.068Z
+5ead9c379747ee00175fe4b2,/blog/diy-analytics-netlify-functions/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T16:13:43.148Z
+5ead9cbe9747ee00175fe4b3,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T16:15:58.785Z
+5ead9cf19747ee00175fe4b5,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-05-02T16:16:49.692Z
+5eadb02d9747ee00175fe4e6,/blog/we-dont-need-servers/,Firefox,75.0,Gecko,75.0,Ubuntu,,2020-05-02T17:38:53.670Z
+5eadb7d09747ee00175fe4ff,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-05-02T18:11:28.388Z
+5eadb9f29747ee00175fe502,/,Firefox,76.0,Gecko,76.0,Mac OS,10.15,2020-05-02T18:20:34.196Z

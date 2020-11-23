@@ -1,0 +1,16 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e76ab8c2533b800179aef1c,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-22T00:04:28.247Z
+5e76f2a52533b800179aef34,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-03-22T05:07:49.243Z
+5e76f2ae2533b800179aef35,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-03-22T05:07:58.300Z
+5e76fe4728cbe80017031519,/blog/we-dont-need-servers/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-22T05:57:27.587Z
+5e7768a828cbe800170315cf,/blog/schedule-netlify-github-actions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-22T13:31:20.421Z
+5e77736e28cbe800170315d8,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-22T14:17:18.839Z
+5e77737928cbe800170315d9,/blog/dom-intro/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-22T14:17:29.628Z
+5e7778d628cbe800170315de,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-22T14:40:22.509Z
+5e77798828cbe800170315df,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.122,Blink,80.0.3987.122,Linux,x86_64,2020-03-22T14:43:20.782Z
+5e778daf28cbe80017031600,/blog/minimum-viable-graphql-concepts/,Firefox,74.0,Gecko,74.0,Mac OS,10.14,2020-03-22T16:09:19.149Z
+5e778dbf28cbe80017031601,/blog/minimum-viable-graphql-client/,Firefox,74.0,Gecko,74.0,Mac OS,10.14,2020-03-22T16:09:35.657Z
+5e77a38d28cbe80017031610,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-22T17:42:37.377Z
+5e77a62228cbe80017031612,/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-22T17:53:38.968Z
+5e77a63228cbe80017031613,/blog/we-dont-need-servers/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-22T17:53:54.395Z
+5e77f12528cbe80017031664,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-22T23:13:41.142Z

@@ -1,0 +1,4 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e66d946bc615c001782d3e3,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-03-10T00:03:18.581Z
+5e67a001c0781e0017070f56,/blog/react-ui-testing/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Mac OS,10.15.1,2020-03-10T14:11:13.980Z
+5e67e7aec0781e0017070fef,/blog/dom-intro/,Chrome,80.0.3987.132,Blink,80.0.3987.132,Android,6.0,2020-03-10T19:17:02.270Z

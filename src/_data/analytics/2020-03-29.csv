@@ -1,0 +1,9 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e8032b30f0f8f0017b4fd77,/blog/we-dont-need-servers/,Chrome,62.0.3202.84,Blink,62.0.3202.84,Android,8.0.0,2020-03-29T05:31:31.220Z
+5e809b8e0f0f8f0017b4fd96,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Android,6.0,2020-03-29T12:58:54.269Z
+5e80a5110f0f8f0017b4fd9d,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-29T13:39:29.470Z
+5e80ae110f0f8f0017b4fd9e,/blog/we-dont-need-servers/,Chrome,78.0.3904.97,Blink,78.0.3904.97,Linux,x86_64,2020-03-29T14:17:53.393Z
+5e80ba9b0f0f8f0017b4fd9f,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-29T15:11:23.410Z
+5e80ceb40f0f8f0017b4fdaf,/blog/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-29T16:37:08.607Z
+5e80cebb0f0f8f0017b4fdb0,/blog/setting-up-a-project/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-29T16:37:15.011Z
+5e80ceeb0f0f8f0017b4fdb1,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-29T16:38:03.417Z

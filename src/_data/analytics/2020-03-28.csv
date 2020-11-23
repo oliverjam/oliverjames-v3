@@ -1,0 +1,9 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e7f37c3f110e400171b896f,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Android,6.0,2020-03-28T11:40:51.085Z
+5e7f5e1cf110e400171b898a,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.1,2020-03-28T14:24:28.907Z
+5e7f63cdf110e400171b898c,/blog/react-ui-testing/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.1,2020-03-28T14:48:45.207Z
+5e7f6859f110e400171b898e,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-28T15:08:09.605Z
+5e7f7aadf110e400171b8993,/blog/we-dont-need-servers/,Firefox,74.0,Gecko,74.0,Windows,10,2020-03-28T16:26:21.040Z
+5e7f7d5ff110e400171b8995,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-03-28T16:37:51.557Z
+5e7fdcc7f110e400171b89b7,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-28T23:24:55.703Z
+5e7fdeaff110e400171b89b8,/blog/dom-intro/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-03-28T23:33:03.727Z

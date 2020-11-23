@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e43dd5a231c5a00172d5beb,/blog/we-dont-need-servers/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.12.6,2020-02-12T11:11:22.065Z
+5e442aae231c5a00172d5c06,/blog/we-dont-need-servers/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-12T16:41:18.597Z
+5e44320a231c5a00172d5c08,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-12T17:12:42.077Z
+5e44320d231c5a00172d5c09,/blog/minimum-viable-graphql-concepts/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-12T17:12:45.571Z
+5e44320e231c5a00172d5c0a,/blog/minimum-viable-grapqhl-client/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-12T17:12:46.058Z
+5e443dc9231c5a00172d5c0b,/blog/minimum-viable-graphql-concepts/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.6,2020-02-12T18:02:49.738Z
+5e443dd8231c5a00172d5c0c,/blog/minimum-viable-grapqhl-client/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.6,2020-02-12T18:03:04.144Z
+5e443eed231c5a00172d5c0d,/blog/minimum-viable-graphql-concepts/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.5,2020-02-12T18:07:41.678Z
+5e443ef3231c5a00172d5c0e,/blog/minimum-viable-grapqhl-client/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.14.5,2020-02-12T18:07:47.090Z
+5e445b81231c5a00172d5c15,/blog/minimum-viable-graphql-concepts/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-12T20:09:37.496Z
+5e445cf1231c5a00172d5c16,/blog/minimum-viable-grapqhl-client/,Android Browser,4.0,Blink,80.0.3987.87,Android,9,2020-02-12T20:15:45.930Z
+5e445cfd231c5a00172d5c17,/blog/minimum-viable-grapqhl-client/,Android Browser,4.0,Blink,80.0.3987.87,Android,9,2020-02-12T20:15:57.454Z
+5e445cfd231c5a00172d5c18,/blog/minimum-viable-graphql-concepts/,Android Browser,4.0,Blink,80.0.3987.87,Android,9,2020-02-12T20:15:57.627Z
+5e445f73231c5a00172d5c19,/blog/minimum-viable-graphql-concepts/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-12T20:26:27.209Z
+5e44849f231c5a00172d5c1e,/blog/minimum-viable-graphql-concepts/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-12T23:05:03.363Z
+5e44849f231c5a00172d5c1f,/blog/minimum-viable-grapqhl-client/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-12T23:05:03.541Z

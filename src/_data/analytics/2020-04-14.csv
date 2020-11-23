@@ -1,0 +1,7 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e94fd9080197d0017c67324,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-14T00:02:24.985Z
+5e95616f80197d0017c673ca,/blog/gatsby-future/,Chrome,81.0.4044.92,Blink,81.0.4044.92,Mac OS,10.14.6,2020-04-14T07:08:31.609Z
+5e9563ee80197d0017c673cb,/cv/,Chrome,81.0.4044.92,Blink,81.0.4044.92,Mac OS,10.14.6,2020-04-14T07:19:10.010Z
+5e95641180197d0017c673cc,/,Chrome,81.0.4044.92,Blink,81.0.4044.92,Mac OS,10.14.6,2020-04-14T07:19:45.305Z
+5e95ce0e026da50017c16857,/,Chrome Headless,79.0.3945.130,Blink,79.0.3945.130,Linux,x86_64,2020-04-14T14:51:58.809Z
+5e95e212026da50017c1689c,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.13.6,2020-04-14T16:17:22.299Z

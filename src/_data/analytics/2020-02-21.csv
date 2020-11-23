@@ -1,0 +1,26 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e4f1e192a2f3b00179cd304,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-02-21T00:02:33.613Z
+5e4f7aa4edfa58001704e47f,/blog/dom-intro/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.14.6,2020-02-21T06:37:24.617Z
+5e4f8e34edfa58001704e486,/blog/gatsby-future/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:00:52.167Z
+5e4f8e35edfa58001704e487,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:00:53.400Z
+5e4f8e49edfa58001704e488,/blog/ken-burns-hero-image/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:01:13.079Z
+5e4f8e81edfa58001704e489,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:02:09.450Z
+5e4f8e8cedfa58001704e48a,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:02:20.287Z
+5e4f8e9fedfa58001704e48b,/blog/redux-intro/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:02:39.011Z
+5e4f8eaeedfa58001704e48c,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:02:54.912Z
+5e4f8eb6edfa58001704e48d,/blog/setting-up-a-project/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:03:02.242Z
+5e4f8f46edfa58001704e48e,/blog/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:05:26.580Z
+5e4f8f4dedfa58001704e48f,/blog/we-dont-need-servers/,Firefox,73.0,Gecko,73.0,Mac OS,10.15,2020-02-21T08:05:33.299Z
+5e4fa7b3edfa58001704e4a0,/blog/flow-intro/,Safari,10.0,WebKit,602.1,Linux,x86_64,2020-02-21T09:49:39.321Z
+5e4fb461edfa58001704e4b0,/,Firefox,72.0,Gecko,72.0,Mac OS,10.15,2020-02-21T10:43:45.301Z
+5e4fb466edfa58001704e4b1,/blog/,Firefox,72.0,Gecko,72.0,Mac OS,10.15,2020-02-21T10:43:50.747Z
+5e4fb47fedfa58001704e4b2,/blog/first-class-functions/,Firefox,72.0,Gecko,72.0,Mac OS,10.15,2020-02-21T10:44:15.683Z
+5e4fc3fdedfa58001704e4c0,/blog/react-ui-testing/,Firefox,72.0,Gecko,72.0,Mac OS,10.15,2020-02-21T11:50:21.642Z
+5e4fea23edfa58001704e4e1,/,Safari,13.0.3,WebKit,605.1.15,Mac OS,10.15.1,2020-02-21T14:33:07.588Z
+5e4fea38edfa58001704e4e2,/blog/,Safari,13.0.3,WebKit,605.1.15,Mac OS,10.15.1,2020-02-21T14:33:28.398Z
+5e4fea3fedfa58001704e4e3,/cv/,Safari,13.0.3,WebKit,605.1.15,Mac OS,10.15.1,2020-02-21T14:33:35.983Z
+5e4fea7fedfa58001704e4e4,/,Safari,13.0.3,WebKit,605.1.15,Mac OS,10.15.1,2020-02-21T14:34:39.643Z
+5e502957edfa58001704e529,/,Android Browser,4.0,Blink,80.0.3987.117,Android,10,2020-02-21T19:02:47.651Z
+5e50295fedfa58001704e52a,/blog/we-dont-need-servers/,Android Browser,4.0,Blink,80.0.3987.117,Android,10,2020-02-21T19:02:55.600Z
+5e502eb8edfa58001704e52b,/,Android Browser,4.0,Blink,80.0.3987.117,Android,10,2020-02-21T19:25:44.796Z
+5e5036e3edfa58001704e52c,/blog/react-ui-testing/,Chrome,80.0.3987.116,Blink,80.0.3987.116,Mac OS,10.14.5,2020-02-21T20:00:35.900Z

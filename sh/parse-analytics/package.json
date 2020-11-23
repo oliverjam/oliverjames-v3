@@ -1,0 +1,13 @@
+{
+  "name": "parse-analytics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "keywords": [],
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es)",
+  "license": "MIT",
+  "dependencies": {
+    "ua-parser-js": "^0.7.22"
+  }
+}

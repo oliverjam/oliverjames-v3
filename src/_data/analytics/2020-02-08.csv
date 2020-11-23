@@ -1,0 +1,4 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e3e25855cc2a5001757b69c,/blog/flow-intro/,Safari,10.0,WebKit,602.1,Linux,x86_64,2020-02-08T03:05:41.876Z
+5e3edde75cc2a5001757b6d0,/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-08T16:12:23.037Z
+5e3f161d5cc2a5001757b6ff,/blog/gatsby-future/,Chrome,79.0.3945.136,Blink,79.0.3945.136,Android,9,2020-02-08T20:12:13.085Z

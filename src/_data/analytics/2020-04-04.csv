@@ -1,0 +1,6 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e87cea02201ab0017d79375,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-04T00:02:40.744Z
+5e884b0aa791c30017e6d7b2,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2020-04-04T08:53:30.321Z
+5e8864c0a791c30017e6d7ce,/blog/complete-guide-to-making-web-pages/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,9,2020-04-04T10:43:12.405Z
+5e88d029a791c30017e6d854,/blog/dom-intro/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,6.0,2020-04-04T18:21:29.423Z
+5e88dae4a791c30017e6d85a,/blog/ken-burns-hero-image/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-04-04T19:07:16.286Z

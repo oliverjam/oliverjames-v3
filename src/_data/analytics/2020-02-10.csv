@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e4140046ca7310017a5f558,/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-10T11:35:32.895Z
+5e4144b76ca7310017a5f55b,/blog/we-dont-need-servers/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-10T11:55:35.955Z
+5e415bce6ca7310017a5f570,/blog/react-ui-testing/,Firefox,72.0,Gecko,72.0,Ubuntu,,2020-02-10T13:34:06.233Z
+5e416bc16ca7310017a5f572,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:09.764Z
+5e416bc96ca7310017a5f573,/blog/we-dont-need-servers/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:17.614Z
+5e416bcb6ca7310017a5f574,/blog/setting-up-a-project/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:19.393Z
+5e416bcf6ca7310017a5f575,/blog/first-class-functions/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:23.959Z
+5e416bd36ca7310017a5f576,/blog/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:27.523Z
+5e416be16ca7310017a5f577,/blog/react-ui-testing/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:41.879Z
+5e416bea6ca7310017a5f578,/blog/why-i-donate-to-charity/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T14:42:50.791Z
+5e417a676ca7310017a5f57f,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T15:44:39.964Z
+5e417dc66ca7310017a5f583,/,Chrome,80.0.3987.87,Blink,80.0.3987.87,Mac OS,10.15.0,2020-02-10T15:59:02.378Z
+5e41aebf6ca7310017a5f5b4,/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-10T19:27:59.297Z
+5e41aec36ca7310017a5f5b5,/blog/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-10T19:28:03.010Z
+5e41aec96ca7310017a5f5b6,/blog/redux-intro/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Mac OS,10.15.2,2020-02-10T19:28:09.357Z
+5e41e4976ca7310017a5f5be,/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-10T23:17:43.883Z
+5e41e4986ca7310017a5f5bf,/blog/we-dont-need-servers/,Firefox,72.0,Gecko,72.0,Linux,x86_64,2020-02-10T23:17:44.911Z

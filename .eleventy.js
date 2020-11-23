@@ -1,5 +1,6 @@
 const plugins = require("./config/plugins");
 const md = require("./config/markdown");
+const csv = require("csvtojson");
 
 module.exports = (config) => {
   config.setFrontMatterParsingOptions({
@@ -20,6 +21,8 @@ module.exports = (config) => {
 
   // needed to merge tag from blog.json with blog-specific tags
   config.setDataDeepMerge(true);
+
+  config.addDataExtension("csv", (contents) => csv().fromString(contents));
 
   return {
     dir: {

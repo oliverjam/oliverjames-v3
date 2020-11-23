@@ -1,0 +1,8 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5e8a720860b2c80017345eba,/,Chrome Headless,79.0.3945.0,Blink,79.0.3945.0,Linux,x86_64,2020-04-06T00:04:24.337Z
+5e8a8f5d60b2c80017345f41,/blog/we-dont-need-servers/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.15.3,2020-04-06T02:09:33.679Z
+5e8b46983dd3070017224ea4,/blog/schedule-netlify-github-actions/,Chrome,80.0.3987.163,Blink,80.0.3987.163,Linux,x86_64,2020-04-06T15:11:20.304Z
+5e8b5fd33dd3070017224ec1,/blog/we-dont-need-servers/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Windows,10,2020-04-06T16:58:59.024Z
+5e8b7a383dd3070017224efa,/blog/dom-intro/,Chrome,80.0.3987.162,Blink,80.0.3987.162,Android,6.0,2020-04-06T18:51:36.647Z
+5e8b7b6e3dd3070017224efb,/blog/pitfalls-of-async-functions/,Chrome,80.0.3987.149,Blink,80.0.3987.149,Mac OS,10.14.6,2020-04-06T18:56:46.537Z
+5e8ba0b13dd3070017224f48,/blog/complete-guide-to-making-web-pages/,Firefox,74.0,Gecko,74.0,Windows,10,2020-04-06T21:35:45.517Z
