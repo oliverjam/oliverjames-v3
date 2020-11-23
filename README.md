@@ -1,5 +1,7 @@
 # My personal website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8821537-a4e8-4355-a6ce-13b75e63de64/deploy-status)](https://app.netlify.com/sites/11ty-oliverjam/deploys)
+
 This is my personal website, [oliverjam.es](https://oliverjam.es). It's where I experiment with some fun stuff and write blog posts. It is almost certainly over-engineered for the task of turning Markdown into HTML.
 
 ## Run locally
