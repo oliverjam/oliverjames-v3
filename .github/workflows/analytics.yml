@@ -1,5 +1,7 @@
 name: Fetch daily analytics
-on: push
+on:
+  schedule:
+    - cron: "0 2 * * *"
 jobs:
   analytics:
     runs-on: ubuntu-latest
