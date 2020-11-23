@@ -30,4 +30,4 @@ jobs:
           git add .
           # only commit if there's a change
           git diff --quiet --staged || git commit -m "Analytics for $(date -d yesterday +"%Y-%m-%d")"
-          git push origin scrape-analytics
+          git push origin main
