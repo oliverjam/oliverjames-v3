@@ -106,7 +106,11 @@ module.exports = async function (data) {
         <img
           src="/.netlify/functions/counter"
           alt=""
-          style="position:absolute"
+          width="0"
+          height="0"
+          hidden
+          decoding="async"
+          loading="eager"
         />
       </body>
     </html>
