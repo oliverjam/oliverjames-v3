@@ -1,0 +1,31 @@
+name: Fetch daily analytics
+on: push
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        # install dependencies for scraper script
+        run: npm ci
+        working-directory: ./sh/parse-analytics
+      - name: Fetch analytics for yesterday
+        # fetch analytics, filter for yesterday, convert to CSV, write to file
+        run: |
+          mkdir -p "./src/_data/analytics/"
+          curl '${{ secrets.ANALYTICS_URL }}' -s | \
+          node ./sh/parse-analytics > \
+          "./src/_data/analytics/$(date -d yesterday +"%y-%m-%d").csv"
+      - name: Set up git config
+        # commit as a made up bot user
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+      - name: Commit
+        # if there are changes commit and push
+        run: |
+          git add .
+          # only commit if there's a change
+          git diff --quiet --staged || git commit -m "Analytics for $(date -d yesterday +"%y-%m-%d")"
+          git push origin scrape-analytics
