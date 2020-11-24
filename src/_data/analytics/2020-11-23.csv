@@ -1,0 +1,22 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fbc49c20b75f800172b2585,/analytics/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T23:46:10.975Z
+5fbc49bb0b75f800172b2584,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T23:46:03.291Z
+5fbc49380b75f800172b2577,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-23T23:43:52.254Z
+5fbc440d0b75f800172b2524,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-23T23:21:49.051Z
+5fbc43da0b75f800172b2523,/analytics/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T23:20:58.493Z
+5fbc43d50b75f800172b2522,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T23:20:53.982Z
+5fbc3a220b75f800172b2441,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T22:39:30.374Z
+5fbc39350b75f800172b243d,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T22:35:33.246Z
+5fbc392e0b75f800172b243c,/cv/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T22:35:26.048Z
+5fbc392c0b75f800172b243b,/blog/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T22:35:24.496Z
+5fbc391f0b75f800172b243a,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-23T22:35:11.588Z
+5fbc2d6e0b75f800172b2394,/blog/make-your-terminal-nicer/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-23T21:45:18.157Z
+5fbc2d6c0b75f800172b2393,/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-23T21:45:16.704Z
+5fbc1fe00b75f800172b2264,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-11-23T20:47:28.281Z
+5fbbf3180b75f800172b1dd5,/blog/we-dont-need-servers/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-23T17:36:24.843Z
+5fbbd1030b75f800172b19a1,/blog/schedule-netlify-github-actions/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Linux,x86_64,2020-11-23T15:10:59.656Z
+5fbbd1000b75f800172b19a0,/blog/schedule-netlify-github-actions/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Linux,x86_64,2020-11-23T15:10:56.939Z
+5fbbab170b75f800172b1490,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-23T12:29:11.907Z
+5fbba2fa0b75f800172b1446,/blog/we-dont-need-servers/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-23T11:54:34.666Z
+5fbb2aff960c2500173bb97b,/blog/we-dont-need-servers/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-23T03:22:39.655Z
+5fbafd37960c2500173bb5ef,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-23T00:07:19.847Z
