@@ -1,0 +1,16 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fbef1902a321700170ecbdc,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-26T00:06:40.420Z
+5fbed4ba2a321700170ec9e9,/blog/better-native-form-validation/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Windows,10,2020-11-25T22:03:38.263Z
+5fbed2c02a321700170ec9c3,/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-11-25T21:55:12.886Z
+5fbebcc92a321700170ec819,/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-11-25T20:21:29.282Z
+5fbe7d222a321700170ec242,/blog/flicker-avatar-animation/,Firefox,83.0,Gecko,83.0,Windows,10,2020-11-25T15:49:54.808Z
+5fbe5d7f2a321700170ebde8,/blog/we-dont-need-servers/,Chrome,79.0.3945.116,Blink,79.0.3945.116,Android,10,2020-11-25T13:34:55.677Z
+5fbe5b912a321700170ebda2,/blog/we-dont-need-servers/,Chrome,79.0.3945.116,Blink,79.0.3945.116,Android,10,2020-11-25T13:26:41.105Z
+5fbe59f42a321700170ebd81,/,,,,,,,2020-11-25T13:19:48.606Z
+5fbe42f52a321700170ebb7a,/blog/diy-analytics-netlify-functions/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-11-25T11:41:41.597Z
+5fbe42332a321700170ebb51,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Android,10,2020-11-25T11:38:27.529Z
+5fbe3f702a321700170ebb14,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Windows,10,2020-11-25T11:26:40.495Z
+5fbe3ce12a321700170ebab9,/blog/react-ui-testing/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Windows,10,2020-11-25T11:15:45.285Z
+5fbe1f9c117c720017d37f29,/blog/we-dont-need-servers/,Firefox,83.0,Gecko,83.0,Windows,10,2020-11-25T09:10:52.650Z
+5fbdbd6e117c720017d376c3,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-25T02:11:58.042Z
+5fbda02e117c720017d374a2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-25T00:07:10.180Z
