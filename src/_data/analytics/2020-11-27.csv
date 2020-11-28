@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fc194ae48c77f0017cea5e5,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-28T00:07:10.347Z
+5fc1817f48c77f0017cea4bc,/blog/gatsby-future/,Opera Touch,2.5.1,WebKit,605.1.15,iOS,14.2,2020-11-27T22:45:19.927Z
+5fc13c5a48c77f0017cea094,/blog/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.14.6,2020-11-27T17:50:18.371Z
+5fc139af48c77f0017cea072,/blog/better-native-form-validation/,Firefox,82.0,Gecko,82.0,Mac OS,10.14,2020-11-27T17:38:55.793Z
+5fc139ac48c77f0017cea071,/,Firefox,82.0,Gecko,82.0,Mac OS,10.14,2020-11-27T17:38:52.583Z
+5fc102e448c77f0017ce9c6b,/blog/we-dont-need-servers/,Edge,87.0.664.47,Blink,87.0.4280.67,Windows,10,2020-11-27T13:45:08.281Z
+5fc0d05e4ab6620017fe6b20,/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-11-27T10:09:34.835Z
+5fc0c2f84ab6620017fe6a11,/blog/make-your-terminal-nicer/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-27T09:12:24.290Z
+5fc0c2f64ab6620017fe6a10,/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-27T09:12:22.893Z
+5fc0be6c4ab6620017fe69cc,/blog/better-native-form-validation/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-27T08:53:00.462Z
+5fc0be6b4ab6620017fe69cb,/,Firefox,80.0,Gecko,80.0,Mac OS,10.15,2020-11-27T08:52:59.291Z
+5fc0b5754ab6620017fe6923,/,,,,,,,2020-11-27T08:14:45.640Z
+5fc0a9d94ab6620017fe6871,/blog/make-your-terminal-nicer/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-27T07:25:13.327Z
+5fc0a9d64ab6620017fe6870,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-11-27T07:25:10.564Z
+5fc060854ab6620017fe6313,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-27T02:12:21.371Z
+5fc0433b4ab6620017fe6062,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-11-27T00:07:23.441Z
