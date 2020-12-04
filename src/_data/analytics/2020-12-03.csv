@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fc97db7842cce0017f3530e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-04T00:07:19.911Z
+5fc92fb3842cce0017f34c51,/blog/tags/effective-altruism/,Firefox,83.0,Gecko,83.0,Mac OS,10.15,2020-12-03T18:34:27.793Z
+5fc92f1d842cce0017f34c46,/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.13.6,2020-12-03T18:31:57.803Z
+5fc92da2842cce0017f34c3b,/blog/make-your-terminal-nicer/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.13.6,2020-12-03T18:25:38.520Z
+5fc92d96842cce0017f34c3a,/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.13.6,2020-12-03T18:25:26.520Z
+5fc9031b842cce0017f3485b,/blog/flicker-avatar-animation/,Opera,68.0.3618.165,Blink,81.0.4044.138,Linux,x86_64,2020-12-03T15:24:11.806Z
+5fc8f6b0842cce0017f34765,/blog/we-dont-need-servers/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Windows,10,2020-12-03T14:31:12.506Z
+5fc8eb44842cce0017f3467d,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.27,Blink,88.0.4324.27,Mac OS,11.0.1,2020-12-03T13:42:28.896Z
+5fc8cef24edc4d001770102e,/cv/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.14.6,2020-12-03T11:41:38.071Z
+5fc8cee34edc4d001770102c,/blog/we-dont-need-servers/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.14.6,2020-12-03T11:41:23.091Z
+5fc8ced64edc4d001770102b,/blog/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.14.6,2020-12-03T11:41:10.930Z
+5fc8ceca4edc4d001770102a,/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.14.6,2020-12-03T11:40:58.177Z
+5fc849864edc4d001770037a,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-03T02:12:22.282Z
+5fc82c454edc4d0017700160,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-03T00:07:33.612Z
