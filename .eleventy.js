@@ -19,6 +19,9 @@ module.exports = (config) => {
     "src/assets/favicons": "/",
   });
 
+  // passthrough any images included in blog posts
+  //so they can be referenced as relative URLs
+  config.addPassthroughCopy("src/blog/**/*.{jpg,png,svg,gif}");
   // needed to merge tag from blog.json with blog-specific tags
   config.setDataDeepMerge(true);
 
