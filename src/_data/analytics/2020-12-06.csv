@@ -1,0 +1,45 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fcd72638abbd4001773c6d2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-07T00:08:03.920Z
+5fcd6b668abbd4001773c670,/cv/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,10.15.7,2020-12-06T23:38:14.352Z
+5fcd5a688abbd4001773c597,/blog/responsive-css-for-beginners/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-06T22:25:44.136Z
+5fcd5a658abbd4001773c596,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-06T22:25:41.663Z
+5fcd56488abbd4001773c525,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.86,Blink,87.0.4280.86,Android,10,2020-12-06T22:08:08.690Z
+5fcd490b8abbd4001773c475,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-06T21:11:39.443Z
+5fcd36948abbd4001773c338,/blog/we-dont-need-servers/,Firefox,83.0,Gecko,83.0,Linux,x86_64,2020-12-06T19:52:52.793Z
+5fcd2c2e8abbd4001773c2b2,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T19:08:30.168Z
+5fcd24838abbd4001773c254,/blog/ken-burns-hero-image/,Firefox,83.0,Gecko,83.0,Windows,10,2020-12-06T18:35:47.043Z
+5fcd23bc8abbd4001773c24d,/blog/ken-burns-hero-image/,Firefox,83.0,Gecko,83.0,Windows,10,2020-12-06T18:32:28.125Z
+5fcd14a48abbd4001773c166,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-12-06T17:28:04.636Z
+5fcd08408abbd4001773c08d,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-06T16:35:12.104Z
+5fccffbb8abbd4001773bfda,/cv/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:58:51.107Z
+5fccfb4d8abbd4001773bfb2,/blog/make-your-terminal-nicer/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:39:57.025Z
+5fccfb458abbd4001773bfb1,/blog/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:39:49.424Z
+5fccfb438abbd4001773bfb0,/cv/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:39:47.704Z
+5fccfb408abbd4001773bfaf,/blog/make-your-terminal-nicer/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:39:44.725Z
+5fccfb348abbd4001773bfae,/,Chrome,85.0.4183.106,Blink,85.0.4183.106,Windows,10,2020-12-06T15:39:32.356Z
+5fccf2fe8abbd4001773beca,/cv/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T15:04:30.916Z
+5fccf2ee8abbd4001773bec2,/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T15:04:14.777Z
+5fccf2ec8abbd4001773bec1,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T15:04:12.498Z
+5fccf2ce17106b0017dc5186,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T15:03:42.523Z
+5fccf25917106b0017dc517d,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T15:01:45.158Z
+5fccec3317106b0017dc50f4,/blog/better-native-form-validation/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T14:35:31.503Z
+5fccdb7a17106b0017dc4fe0,/blog/we-dont-need-servers/,Mobile Safari,13.0.4,WebKit,605.1.15,iOS,13.3,2020-12-06T13:24:10.202Z
+5fcccae917106b0017dc4ea3,/blog/why-i-donate-to-charity/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T12:13:29.419Z
+5fcccae617106b0017dc4ea2,/blog/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T12:13:26.769Z
+5fcccae417106b0017dc4ea1,/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T12:13:24.223Z
+5fcccada17106b0017dc4ea0,/blog/minimum-viable-graphql-concepts/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T12:13:14.155Z
+5fccc80217106b0017dc4e96,/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-06T12:01:06.930Z
+5fccc79317106b0017dc4e8e,/blog/why-i-donate-to-charity/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:59:15.798Z
+5fccc73417106b0017dc4e86,/blog/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:57:40.475Z
+5fccc6c917106b0017dc4e79,/blog/why-i-donate-to-charity/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:55:53.579Z
+5fccc6c517106b0017dc4e78,/blog/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:55:49.111Z
+5fccc6c317106b0017dc4e77,/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:55:47.197Z
+5fccc6c117106b0017dc4e76,/blog/minimum-viable-graphql-concepts/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-06T11:55:45.276Z
+5fccc64f17106b0017dc4e6d,/blog/gatsby-future/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-06T11:53:51.146Z
+5fccb49317106b0017dc4cd5,/blog/we-dont-need-servers/,Safari,11.1.2,WebKit,605.1.15,Mac OS,10.11.6,2020-12-06T10:38:11.795Z
+5fcc9a0e17106b0017dc4aed,/cv/,Chrome,79.0.3945.130,Blink,79.0.3945.130,Linux,x86_64,2020-12-06T08:45:02.031Z
+5fcc8c0617106b0017dc49f0,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4342.3,Blink,89.0.4342.3,Android,8.1.0,2020-12-06T07:45:10.999Z
+5fcc3eb417106b0017dc4490,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-06T02:15:16.607Z
+5fcc3c0817106b0017dc447b,/blog/make-your-terminal-nicer/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-12-06T02:03:52.021Z
+5fcc3b9917106b0017dc4477,/blog/make-your-terminal-nicer/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-12-06T02:02:01.069Z
+5fcc20e417106b0017dc42b0,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-06T00:08:04.405Z
