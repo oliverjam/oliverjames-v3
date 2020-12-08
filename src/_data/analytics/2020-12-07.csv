@@ -1,0 +1,38 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fcec44bbb57e700170c79b7,/,WebKit,534,WebKit,534,Windows,7,2020-12-08T00:09:47.389Z
+5fcec3d3bb57e700170c79ae,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-08T00:07:47.369Z
+5fceadb5bb57e700170c77b9,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,10.15.7,2020-12-07T22:33:25.958Z
+5fcead6cbb57e700170c779e,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,10.15.7,2020-12-07T22:32:12.340Z
+5fcea974bb57e700170c76d1,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,10.15.7,2020-12-07T22:15:16.403Z
+5fcea509bb57e700170c76b4,/blog/flicker-avatar-animation/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-07T21:56:25.276Z
+5fcea459bb57e700170c76ab,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T21:53:29.287Z
+5fce97a1bb57e700170c75cd,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2020-12-07T20:59:13.005Z
+5fce92cfbb57e700170c75a6,/blog/responsive-css-for-beginners/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-07T20:38:39.572Z
+5fce92cabb57e700170c75a5,/blog/responsive-css-for-beginners/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-07T20:38:34.932Z
+5fce89a7bb57e700170c7482,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-07T19:59:35.791Z
+5fce853bbb57e700170c7468,/blog/responsive-css-for-beginners/,Edge,87.0.664.55,Blink,87.0.4280.67,Windows,10,2020-12-07T19:40:43.920Z
+5fce848abb57e700170c7464,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-07T19:37:46.193Z
+5fce81d5bb57e700170c741c,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.13.6,2020-12-07T19:26:13.710Z
+5fce7f7fbb57e700170c73e5,/blog/responsive-css-for-beginners/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-07T19:16:15.888Z
+5fce7d6ebb57e700170c73d3,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,11.0.1,2020-12-07T19:07:26.825Z
+5fce7cf4bb57e700170c73d2,/blog/responsive-css-for-beginners/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2020-12-07T19:05:24.454Z
+5fce7c80bb57e700170c73c6,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Linux,x86_64,2020-12-07T19:03:28.805Z
+5fce7c79bb57e700170c73c5,/blog/responsive-css-for-beginners/,Firefox,83.0,Gecko,83.0,Ubuntu,,2020-12-07T19:03:21.310Z
+5fce7c5ebb57e700170c73c4,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2020-12-07T19:02:54.236Z
+5fce7c4dbb57e700170c73c3,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,10.12.6,2020-12-07T19:02:37.061Z
+5fce7c4bbb57e700170c73c2,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Mac OS,10.12.6,2020-12-07T19:02:35.405Z
+5fce7c1cbb57e700170c73c1,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-07T19:01:48.523Z
+5fce7517bb57e700170c738e,/blog/responsive-css-for-beginners/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-07T18:31:51.125Z
+5fce7515bb57e700170c738d,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-07T18:31:49.775Z
+5fce4bc6bb57e700170c70ae,/blog/we-dont-need-servers/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-07T15:35:34.424Z
+5fce45e78abbd4001773d4dd,/blog/flicker-avatar-animation/,Firefox,83.0,Gecko,83.0,Android,10,2020-12-07T15:10:31.312Z
+5fce45af8abbd4001773d4db,/blog/flicker-avatar-animation/,Firefox,83.0,Gecko,83.0,Android,10,2020-12-07T15:09:35.652Z
+5fce39358abbd4001773d430,/blog/ken-burns-hero-image/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Windows,10,2020-12-07T14:16:21.544Z
+5fce19d48abbd4001773d1cf,/blog/minimum-viable-graphql-client/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T12:02:28.964Z
+5fce11498abbd4001773d172,/blog/minimum-viable-graphql-client/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T11:26:01.386Z
+5fce11488abbd4001773d171,/blog/minimum-viable-graphql-concepts/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T11:26:00.036Z
+5fce113a8abbd4001773d168,/blog/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T11:25:46.065Z
+5fce11308abbd4001773d167,/,Chrome,86.0.4240.198,Blink,86.0.4240.198,Mac OS,11.0.0,2020-12-07T11:25:36.812Z
+5fcd91c38abbd4001773c8cc,/blog/diy-analytics-netlify-functions/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-07T02:21:55.539Z
+5fcd90548abbd4001773c8a2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-07T02:15:48.755Z
+5fcd72638abbd4001773c6d2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-07T00:08:03.920Z
