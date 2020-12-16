@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fd94fed14141a0017b46880,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-16T00:08:13.651Z
+5fd937ad14141a0017b46759,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-12-15T22:24:45.772Z
+5fd9363314141a0017b46736,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-12-15T22:18:27.750Z
+5fd8f1571b81ab0017211baa,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-15T17:24:39.472Z
+5fd8ee401b81ab0017211b8d,/blog/react-ui-testing/,Chrome,87.0.4280.67,Blink,87.0.4280.67,Mac OS,10.13.6,2020-12-15T17:11:28.279Z
+5fd8d4061b81ab001721197a,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2020-12-15T15:19:34.740Z
+5fd8c41e1b81ab001721189e,/blog/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Mac OS,11.0.1,2020-12-15T14:11:42.062Z
+5fd8c1e41b81ab0017211896,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Mac OS,11.0.1,2020-12-15T14:02:12.704Z
+5fd8b1191b81ab001721178a,/blog/flicker-avatar-animation/,Firefox,78.0,Gecko,78.0,Windows,10,2020-12-15T12:50:33.370Z
+5fd8816d1b81ab0017211426,/blog/responsive-css-for-beginners/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2020-12-15T09:27:09.482Z
+5fd853381b81ab0017211109,/blog/we-dont-need-servers/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,8.1,2020-12-15T06:10:00.036Z
+5fd846e71b81ab0017211036,/blog/minimum-viable-graphql-client/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Linux,x86_64,2020-12-15T05:17:27.132Z
+5fd846e31b81ab0017211035,/blog/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Linux,x86_64,2020-12-15T05:17:23.340Z
+5fd846db1b81ab0017211034,/,Chrome,87.0.4280.66,Blink,87.0.4280.66,Linux,x86_64,2020-12-15T05:17:15.204Z
+5fd81e071b81ab0017210d75,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-15T02:23:03.002Z
+5fd7fe6e1b81ab0017210bb2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-15T00:08:14.760Z
