@@ -1,0 +1,13 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fdaa1c9d0dea00017061ac6,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-17T00:09:45.905Z
+5fda73bcd0dea000170617fe,/,Chrome,78.0.3904.87,Blink,78.0.3904.87,Windows,10,2020-12-16T20:53:16.732Z
+5fda715bd0dea000170617ac,/,Safari,14.0.1,WebKit,605.1.15,Mac OS,10.15.6,2020-12-16T20:43:07.582Z
+5fda5cf414141a0017b47cd5,/,Yandex,20.11.1.102,Blink,86.0.4240.114,Windows,7,2020-12-16T19:16:04.276Z
+5fda577514141a0017b47c6f,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,11.0.1,2020-12-16T18:52:37.080Z
+5fda33b214141a0017b479d3,/,Chrome Headless,81.0.4044.113,Blink,81.0.4044.113,Linux,x86_64,2020-12-16T16:20:02.876Z
+5fda1cc814141a0017b477da,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,11.1.0,2020-12-16T14:42:16.686Z
+5fd9ea2514141a0017b472ec,/blog/gatsby-future/,Firefox,84.0,Gecko,84.0,Windows,10,2020-12-16T11:06:13.279Z
+5fd9d66714141a0017b4718a,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Ubuntu,,2020-12-16T09:41:59.710Z
+5fd9d66114141a0017b47189,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Ubuntu,,2020-12-16T09:41:53.516Z
+5fd96fa214141a0017b46acc,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-16T02:23:30.504Z
+5fd94fed14141a0017b46880,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-16T00:08:13.651Z
