@@ -1,0 +1,9 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fdbf3440fd773001770fa7e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-18T00:09:40.807Z
+5fdbd44e0fd773001770f6e1,/blog/dom-intro/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2020-12-17T21:57:34.733Z
+5fdbd4150fd773001770f6d0,/blog/diy-analytics-netlify-functions/,Firefox,83.0,Gecko,83.0,Windows,10,2020-12-17T21:56:37.969Z
+5fdb792cd0dea00017062c58,/blog/make-your-terminal-nicer/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Linux,x86_64,2020-12-17T15:28:44.346Z
+5fdb619fd0dea00017062a87,/blog/responsive-css-for-beginners/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Mac OS,10.12.6,2020-12-17T13:48:15.271Z
+5fdb343bd0dea00017062695,/blog/better-native-form-validation/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-17T10:34:35.133Z
+5fdac14ad0dea00017061d41,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-17T02:24:10.674Z
+5fdaa1c9d0dea00017061ac6,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-17T00:09:45.905Z
