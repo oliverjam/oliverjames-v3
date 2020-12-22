@@ -36,7 +36,7 @@ module.exports = async function (data) {
         <link
           href="${fonts}"
           rel="stylesheet"
-          medi="print"
+          media="print"
           onload="this.onload=null;this.media='all'"
         />
         <noscript>
