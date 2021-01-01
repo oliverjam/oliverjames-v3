@@ -1,0 +1,21 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fee6a2b1a15f800171c1053,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-01T00:17:47.548Z
+5fee4e461a15f800171c0df2,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T22:18:46.398Z
+5fee4e411a15f800171c0de7,/cv/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T22:18:41.563Z
+5fee4e3f1a15f800171c0de6,/blog/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T22:18:39.575Z
+5fee4e3e1a15f800171c0de5,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T22:18:38.017Z
+5fee24041a15f800171c0b36,/blog/ken-burns-hero-image/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2020-12-31T19:18:28.304Z
+5fee23f41a15f800171c0b33,/blog/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2020-12-31T19:18:12.238Z
+5fee23e31a15f800171c0b28,/cv/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2020-12-31T19:17:55.058Z
+5fedfd531a15f800171c08b9,/blog/diy-analytics-netlify-functions/,Firefox,85.0,Gecko,85.0,Mac OS,10.16,2020-12-31T16:33:23.597Z
+5fedd4d51a15f800171c0633,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2020-12-31T13:40:37.865Z
+5fedd4531a15f800171c0627,/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.7,2020-12-31T13:38:27.616Z
+5fedd2771a15f800171c0619,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T13:30:31.160Z
+5fedba521a15f800171c0491,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T11:47:30.064Z
+5fed99651a15f800171c0293,/blog/responsive-css-for-beginners/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T09:27:01.708Z
+5fed99641a15f800171c0292,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2020-12-31T09:27:00.524Z
+5fed70ba1a15f800171bfeac,/,Mobile Safari,14.0.1,WebKit,605.1.15,iOS,14.2,2020-12-31T06:33:30.629Z
+5fed60e71a15f800171bfda1,/blog/diy-analytics-netlify-functions/,Edge,87.0.664.66,Blink,87.0.4280.88,Windows,10,2020-12-31T05:25:59.080Z
+5fed3a9a1a15f800171bfb17,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-31T02:42:34.724Z
+5fed2ed14f855400173e573a,/blog/we-dont-need-servers/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,9,2020-12-31T01:52:17.127Z
+5fed18fb4f855400173e55e6,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2020-12-31T00:19:07.043Z
