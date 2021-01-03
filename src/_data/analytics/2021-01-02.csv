@@ -1,0 +1,12 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ff10d34dbdb5300172bd027,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-03T00:17:56.038Z
+5ff0da92dbdb5300172bcd38,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Mac OS,10.16,2021-01-02T20:41:54.508Z
+5ff0d9a0dbdb5300172bcd32,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Mac OS,10.16,2021-01-02T20:37:52.398Z
+5ff05704dbdb5300172bc505,/blog/diy-analytics-netlify-functions/,Samsung Browser,13.0,Blink,83.0.4103.106,Android,10,2021-01-02T11:20:36.575Z
+5ff0319adbdb5300172bc299,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-02T08:40:58.878Z
+5ff02e53dbdb5300172bc286,/cv/,Firefox,3.8,Gecko,1.9.2.20,Mac OS,10.5.5,2021-01-02T08:26:59.776Z
+5fefef8cdbdb5300172bbeac,/,Edge,87.0.664.66,Blink,87.0.4280.88,Windows,10,2021-01-02T03:59:08.060Z
+5fefeb6fdbdb5300172bbe7d,/,Edge,87.0.664.66,Blink,87.0.4280.88,Windows,10,2021-01-02T03:41:35.582Z
+5fefeb6bdbdb5300172bbe7c,/blog/diy-analytics-netlify-functions/,Edge,87.0.664.66,Blink,87.0.4280.88,Windows,10,2021-01-02T03:41:31.834Z
+5fefdd54b23b0d00178d629b,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-02T02:41:24.672Z
+5fefbb8bb23b0d00178d605a,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-02T00:17:15.727Z
