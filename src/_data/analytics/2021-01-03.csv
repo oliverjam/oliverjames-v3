@@ -1,0 +1,10 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ff25f158e515100179c883e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-04T00:19:33.484Z
+5ff218db8e515100179c83c8,/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,11.1.0,2021-01-03T19:19:55.615Z
+5ff218c68e515100179c83c6,/blog/we-dont-need-servers/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,11.1.0,2021-01-03T19:19:34.242Z
+5ff1d1a0e0b281001748f887,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-03T14:16:00.996Z
+5ff1a79de0b281001748f5c5,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2021-01-03T11:16:45.013Z
+5ff183f0e0b281001748f3ba,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-03T08:44:32.458Z
+5ff17203e0b281001748f2cf,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-03T07:28:03.124Z
+5ff12fcadbdb5300172bd213,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-03T02:45:30.101Z
+5ff10d34dbdb5300172bd027,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-03T00:17:56.038Z
