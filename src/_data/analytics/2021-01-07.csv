@@ -1,0 +1,20 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ff7a5df3863500017f6c26b,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-08T00:22:55.412Z
+5ff79d363863500017f6c223,/blog/we-dont-need-servers/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.6,2021-01-07T23:45:58.259Z
+5ff778673863500017f6bf6a,/blog/better-native-form-validation/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,8.1,2021-01-07T21:08:55.662Z
+5ff753f80738ee0017fc1cb0,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2021-01-07T18:33:28.327Z
+5ff73d1b0738ee0017fc1b1a,/,Edge,87.0.664.60,Blink,87.0.4280.88,Windows,10,2021-01-07T16:55:55.648Z
+5ff73d170738ee0017fc1b19,/blog/diy-analytics-netlify-functions/,Edge,87.0.664.60,Blink,87.0.4280.88,Windows,10,2021-01-07T16:55:51.663Z
+5ff73c990738ee0017fc1b10,/cv/,Edge,87.0.664.60,Blink,87.0.4280.88,Windows,10,2021-01-07T16:53:45.190Z
+5ff73b940738ee0017fc1b0e,/blog/schedule-netlify-github-actions/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,11.1.0,2021-01-07T16:49:24.548Z
+5ff73b8f0738ee0017fc1b0d,/blog/diy-analytics-netlify-functions/,Edge,87.0.664.60,Blink,87.0.4280.88,Windows,10,2021-01-07T16:49:19.746Z
+5ff71c7a0738ee0017fc18d6,/blog/we-dont-need-servers/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.13.6,2021-01-07T14:36:42.854Z
+5ff7159e0738ee0017fc184f,/,,,,,,,2021-01-07T14:07:26.989Z
+5ff6e26359a6df00178883ac,/blog/ken-burns-hero-image/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2021-01-07T10:28:51.312Z
+5ff6d48559a6df00178882c4,/blog/better-native-form-validation/,Firefox,81.0,Gecko,81.0,Windows,7,2021-01-07T09:29:41.887Z
+5ff6bff059a6df001788818f,/cv/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-07T08:01:52.436Z
+5ff6bfee59a6df001788818e,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-07T08:01:50.562Z
+5ff6b92e59a6df00178880ff,/blog/better-native-form-validation/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,8.1,2021-01-07T07:33:02.532Z
+5ff6775759a6df0017887d37,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-07T02:52:07.802Z
+5ff667c359a6df0017887c6a,/blog/better-native-form-validation/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.3,2021-01-07T01:45:39.732Z
+5ff654955d6b2b00170550a5,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-07T00:23:49.558Z
