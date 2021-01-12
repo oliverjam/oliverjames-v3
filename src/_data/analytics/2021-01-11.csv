@@ -1,0 +1,32 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5ffcecb9532d5c0017b4915f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-12T00:26:33.651Z
+5ffcc33763ca1c0017df296c,/blog/better-native-form-validation/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,8.1,2021-01-11T21:29:27.060Z
+5ffca6b263ca1c0017df2758,/blog/tags/js/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T19:27:46.896Z
+5ffca68563ca1c0017df2757,/blog/tags/js/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T19:27:01.884Z
+5ffca68263ca1c0017df2756,/blog/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T19:26:58.052Z
+5ffc9e0063ca1c0017df2676,/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:50:40.530Z
+5ffc9dd163ca1c0017df2674,/blog/tags/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:49:53.604Z
+5ffc9d6a63ca1c0017df2665,/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:48:10.442Z
+5ffc9bf463ca1c0017df2659,/blog/tags/promises/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:41:56.951Z
+5ffc9bf263ca1c0017df2658,/blog/tags/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:41:54.898Z
+5ffc9bee63ca1c0017df2657,/blog/tags/react/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:41:50.549Z
+5ffc9b6e63ca1c0017df2655,/blog/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:39:42.476Z
+5ffc9b6e63ca1c0017df2654,/blog/responsive-css-for-beginners/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:39:42.020Z
+5ffc984d63ca1c0017df2626,/blog/tags/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:26:21.265Z
+5ffc97f063ca1c0017df261c,/blog/tags/learn/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:24:48.412Z
+5ffc97ee63ca1c0017df261b,/blog/tags/learn/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:24:46.156Z
+5ffc97e963ca1c0017df2619,/blog/tags/learn/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:24:41.703Z
+5ffc95c263ca1c0017df25f6,/blog/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-11T18:15:30.357Z
+5ffc8b5e63ca1c0017df24e9,/blog/diy-analytics-netlify-functions/,Firefox,84.0,Gecko,84.0,Mac OS,10.16,2021-01-11T17:31:10.362Z
+5ffc818963ca1c0017df2402,/cv/,Firefox,84.0,Gecko,84.0,Windows,10,2021-01-11T16:49:13.098Z
+5ffc818363ca1c0017df2401,/,Firefox,84.0,Gecko,84.0,Windows,10,2021-01-11T16:49:07.630Z
+5ffc817b63ca1c0017df23ff,/,Firefox,84.0,Gecko,84.0,Windows,10,2021-01-11T16:48:59.604Z
+5ffc512763ca1c0017df1f25,/blog/diy-analytics-netlify-functions/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-11T13:22:47.076Z
+5ffc4eb263ca1c0017df1ef5,/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-11T13:12:18.075Z
+5ffc4eaf63ca1c0017df1ef4,/blog/responsive-css-for-beginners/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-11T13:12:15.148Z
+5ffc2f5c63ca1c0017df1bfe,/blog/make-your-terminal-nicer/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-11T10:58:36.535Z
+5ffc28dd63ca1c0017df1b88,/blog/ken-burns-hero-image/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.15.7,2021-01-11T10:30:53.068Z
+5ffbf7c263ca1c0017df175f,/blog/diy-analytics-netlify-functions/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-11T07:01:22.290Z
+5ffbca2563ca1c0017df1440,/blog/we-dont-need-servers/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,10,2021-01-11T03:46:45.688Z
+5ffbbe9763ca1c0017df138f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-11T02:57:27.053Z
+5ffb9a7963ca1c0017df1126,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-11T00:23:21.452Z
