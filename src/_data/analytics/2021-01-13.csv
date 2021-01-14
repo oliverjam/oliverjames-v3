@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+5fff930c99841b0017fbeca6,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-14T00:40:44.702Z
+5fff6c562ad38f0017bf258d,/blog/first-class-functions/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,10.15.7,2021-01-13T21:55:34.777Z
+5fff6c552ad38f0017bf258c,/blog/dom-intro/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,10.15.7,2021-01-13T21:55:33.703Z
+5fff3bfe85ebb20017228a72,/blog/complete-guide-to-making-web-pages/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Windows,10,2021-01-13T18:29:18.858Z
+5fff2fad85ebb200172289b7,/blog/we-dont-need-servers/,Firefox,84.0,Gecko,84.0,Mac OS,10.16,2021-01-13T17:36:45.937Z
+5ffef10f85ebb20017228429,/blog/better-native-form-validation/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,11.1.0,2021-01-13T13:09:35.961Z
+5ffec99d85ebb20017228070,/blog/diy-analytics-netlify-functions/,Firefox,84.0,Gecko,84.0,Windows,10,2021-01-13T10:21:17.218Z
+5ffeb07085ebb20017227e59,/cv/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-13T08:33:52.183Z
+5ffeb06d85ebb20017227e58,/blog/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-13T08:33:49.259Z
+5ffead3d85ebb20017227e2d,/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-13T08:20:13.403Z
+5ffead2d85ebb20017227e2b,/blog/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-13T08:19:57.388Z
+5ffead2885ebb20017227e2a,/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-13T08:19:52.901Z
+5ffeacea85ebb20017227e20,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.14.6,2021-01-13T08:18:50.134Z
+5ffe628085ebb200172278b7,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-13T03:01:20.911Z
+5ffe417985ebb20017227633,/blog/we-dont-need-servers/,GSA,137.2.345735309,WebKit,605.1.15,iOS,14.3,2021-01-13T00:40:25.006Z
+5ffe417585ebb20017227632,/blog/we-dont-need-servers/,GSA,137.2.345735309,WebKit,605.1.15,iOS,14.3,2021-01-13T00:40:21.019Z
+5ffe400485ebb20017227601,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-13T00:34:12.135Z
