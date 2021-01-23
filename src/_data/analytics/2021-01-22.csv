@@ -1,0 +1,47 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+600b7f1e92d72b0015b0b4e9,/blog/dom-intro/,Firefox,84.0,Gecko,84.0,Linux,x86_64,2021-01-23T01:42:54.103Z
+600b246a92d72b0015b0af70,/blog/better-native-form-validation/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,8.1,2021-01-22T19:15:54.706Z
+600b23ac92d72b0015b0af5a,/blog/better-native-form-validation/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,8.1,2021-01-22T19:12:44.490Z
+600b111692d72b0015b0ad79,/blog/responsive-css-for-beginners/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:53:26.093Z
+600b111192d72b0015b0ad78,/blog/tags/css/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:53:21.323Z
+600b110c92d72b0015b0ad77,/blog/tags/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:53:16.882Z
+600b110992d72b0015b0ad76,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:53:13.731Z
+600b108b92d72b0015b0ad74,/blog/ken-burns-hero-image/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:51:07.367Z
+600b106392d72b0015b0ad73,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:50:27.259Z
+600b105192d72b0015b0ad71,/blog/tags/tools/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:50:09.546Z
+600b102992d72b0015b0ad70,/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-22T17:49:29.750Z
+600b101492d72b0015b0ad6f,/blog/tags/beginner/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:49:08.784Z
+600b0ff992d72b0015b0ad67,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:48:41.515Z
+600b0f2492d72b0015b0ad66,/blog/dom-intro/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:45:08.957Z
+600b0f0392d72b0015b0ad65,/blog/diy-analytics-netlify-functions/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:44:35.275Z
+600b0ef792d72b0015b0ad64,/blog/tags/netlify/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:44:23.623Z
+600b0ef092d72b0015b0ad63,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:44:16.663Z
+600b0cfc92d72b0015b0ad4d,/blog/dom-intro/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:35:56.437Z
+600b0a8c92d72b0015b0ad38,/blog/complete-guide-to-making-web-pages/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:25:32.976Z
+600b0a8192d72b0015b0ad37,/blog/tags/web/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:25:21.595Z
+600b0a7992d72b0015b0ad36,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:25:13.098Z
+600b0a4392d72b0015b0ad35,/blog/make-your-terminal-nicer/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:24:19.526Z
+600b0a3992d72b0015b0ad34,/blog/flicker-avatar-animation/,Chrome,86.0.4240.193,Blink,86.0.4240.193,Linux,x86_64,2021-01-22T17:24:09.790Z
+600b0a2692d72b0015b0ad33,/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:23:50.607Z
+600b0a1b92d72b0015b0ad32,/blog/tags/charity/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:23:39.446Z
+600b0a1592d72b0015b0ad31,/blog/tags/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:23:33.132Z
+600b0a0e92d72b0015b0ad30,/blog/,Firefox,84.0,Gecko,84.0,Ubuntu,,2021-01-22T17:23:26.992Z
+600b00cfbf525b0015a304d8,/blog/diy-analytics-netlify-functions/,Edge,87.0.664.75,Blink,87.0.4280.141,Windows,10,2021-01-22T16:43:59.056Z
+600af1acbf525b0015a303b3,/blog/flicker-avatar-animation/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,10,2021-01-22T15:39:24.619Z
+600ae836bf525b0015a30330,/blog/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Android,6.0,2021-01-22T14:59:02.835Z
+600ae82cbf525b0015a3032f,/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,10.14.6,2021-01-22T14:58:52.465Z
+600ae700bf525b0015a30321,/blog/tags/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-22T14:53:52.898Z
+600ae6ffbf525b0015a30320,/blog/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-22T14:53:51.787Z
+600ae6febf525b0015a3031f,/blog/tags/learn/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-22T14:53:50.789Z
+600ae6fabf525b0015a3031e,/blog/,Mobile Safari,13.0.3,WebKit,605.1.15,iOS,13.2.3,2021-01-22T14:53:46.416Z
+600ae44ebf525b0015a302dd,/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,10.14.6,2021-01-22T14:42:22.463Z
+600ad96fbf525b0015a3021b,/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Windows,10,2021-01-22T13:55:59.337Z
+600ab90ebf525b0015a2ff79,/blog/better-native-form-validation/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:37:50.245Z
+600ab8b4bf525b0015a2ff76,/blog/better-native-form-validation/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:36:20.631Z
+600ab8b3bf525b0015a2ff75,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:36:19.176Z
+600ab8b2bf525b0015a2ff74,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:36:18.619Z
+600ab8adbf525b0015a2ff73,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:36:13.974Z
+600ab8aabf525b0015a2ff72,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-22T11:36:10.146Z
+600ab87abf525b0015a2ff67,/blog/we-dont-need-servers/,Edge,87.0.664.75,Blink,87.0.4280.141,Windows,10,2021-01-22T11:35:22.238Z
+600a41d8bf525b0015a2f72e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-22T03:09:12.063Z
+600a1e27bf525b0015a2f4f7,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-22T00:36:55.815Z
