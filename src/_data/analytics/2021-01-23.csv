@@ -1,0 +1,24 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+600cc0e852f27b001537d9da,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-24T00:35:52.308Z
+600c952d52f27b001537d6cf,/cv/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-23T21:29:17.470Z
+600c952a52f27b001537d6ce,/blog/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-23T21:29:14.321Z
+600c952752f27b001537d6cd,/,Firefox,84.0,Gecko,84.0,Mac OS,10.15,2021-01-23T21:29:11.974Z
+600c52fb92d72b0015b0c4d1,/blog/dom-intro/,Firefox,84.0,Gecko,84.0,Linux,x86_64,2021-01-23T16:46:51.323Z
+600c40d892d72b0015b0c38a,/blog/schedule-netlify-github-actions/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.7,2021-01-23T15:29:28.385Z
+600c40c792d72b0015b0c389,/blog/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.7,2021-01-23T15:29:11.925Z
+600c40bb92d72b0015b0c388,/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.7,2021-01-23T15:28:59.857Z
+600c3fe792d72b0015b0c37c,/blog/diy-analytics-netlify-functions/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.7,2021-01-23T15:25:27.665Z
+600c3d3492d72b0015b0c346,/blog/readable-guide-to-readable-content/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:13:56.230Z
+600c3d1492d72b0015b0c341,/blog/minimum-viable-graphql-client/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:13:24.530Z
+600c3d1092d72b0015b0c340,/blog/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:13:20.583Z
+600c3d0792d72b0015b0c33f,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:13:11.806Z
+600c3cd892d72b0015b0c336,/blog/setting-up-a-project/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:12:24.471Z
+600c3cc992d72b0015b0c335,/blog/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:12:09.063Z
+600c3cbf92d72b0015b0c334,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-01-23T15:11:59.166Z
+600c2f6492d72b0015b0c22d,/blog/make-your-terminal-nicer/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-23T14:15:00.733Z
+600be2bf92d72b0015b0bc35,/cv/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.14.6,2021-01-23T08:47:59.287Z
+600bbca692d72b0015b0b919,/,,,,,,,2021-01-23T06:05:26.930Z
+600bb41392d72b0015b0b882,/,,,,,,,2021-01-23T05:28:51.903Z
+600bb40192d72b0015b0b881,/,,,,,,,2021-01-23T05:28:33.492Z
+600b932692d72b0015b0b65c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-23T03:08:22.191Z
+600b7f1e92d72b0015b0b4e9,/blog/dom-intro/,Firefox,84.0,Gecko,84.0,Linux,x86_64,2021-01-23T01:42:54.103Z
