@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60174705d1906b0015426a33,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-01T00:10:45.147Z
+60172bb8d1906b0015426885,/blog/we-dont-need-servers/,Firefox,85.0,Gecko,85.0,Android,10,2021-01-31T22:14:16.442Z
+60171eb1d1906b00154267ac,/blog/ken-burns-hero-image/,Firefox,85.0,Gecko,85.0,Windows,10,2021-01-31T21:18:41.564Z
+6016fd00d1906b0015426584,/blog/ken-burns-hero-image/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.15.7,2021-01-31T18:54:56.019Z
+6016f982330141001545fb0b,/blog/ken-burns-hero-image/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.15.7,2021-01-31T18:40:02.045Z
+6016f6d7330141001545fad1,/cv/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-31T18:28:39.039Z
+6016ebf4330141001545f9d5,/blog/ken-burns-hero-image/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-01-31T17:42:12.473Z
+6016cfbb330141001545f7d6,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-01-31T15:41:47.448Z
+6016cfa1330141001545f7d5,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Windows,10,2021-01-31T15:41:21.709Z
+6016b714330141001545f636,/blog/flicker-avatar-animation/,Firefox,84.0,Gecko,84.0,Windows,7,2021-01-31T13:56:36.880Z
+6016b1fb330141001545f5b7,/cv/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-31T13:34:51.722Z
+60169f1d330141001545f489,/blog/ken-burns-hero-image/,Chrome,88.0.4324.104,Blink,88.0.4324.104,Windows,10,2021-01-31T12:14:21.835Z
+60168c1f330141001545f31f,/blog/we-dont-need-servers/,Chrome,88.0.4324.104,Blink,88.0.4324.104,Windows,7,2021-01-31T10:53:19.548Z
+60166ae9330141001545f0ec,/blog/make-your-terminal-nicer/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-01-31T08:31:37.772Z
+60161708330141001545e9b0,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-31T02:33:44.325Z
+6015f91b330141001545e796,/,Firefox,85.0,Gecko,85.0,Windows,10,2021-01-31T00:26:03.085Z
+6015f561330141001545e775,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-01-31T00:10:09.062Z
