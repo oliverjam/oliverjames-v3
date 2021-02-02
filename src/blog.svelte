@@ -13,7 +13,9 @@
   export let collections;
   const allTags = getAllTags(collections);
   const tags = allTags.slice(0, 3);
-  const posts = [...collections.blog].reverse();
+  const posts = collections.blog
+    .filter((post) => post.data.permalink !== false)
+    .reverse();
 </script>
 
 <div class="stack">

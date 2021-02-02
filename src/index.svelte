@@ -8,7 +8,10 @@
 <script>
   import { formatDate, getRelativeTime } from "./utils/dates";
   export let collections, site;
-  const posts = collections.blog.slice(-3).reverse();
+  const posts = collections.blog
+    .filter((post) => post.data.permalink !== false)
+    .slice(-3)
+    .reverse();
 </script>
 
 <svelte:head>
