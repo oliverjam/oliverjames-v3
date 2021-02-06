@@ -1,0 +1,46 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+601dfa76ac19690015a5fc2f,/blog/first-class-functions/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-06T02:09:58.499Z
+601dfa73ac19690015a5fc2e,/blog/dom-intro/,Safari,14.0.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-06T02:09:55.019Z
+601de6dcac19690015a5fb35,/blog/we-dont-need-servers/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Windows,10,2021-02-06T00:46:20.100Z
+601dddafac19690015a5fa64,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-06T00:07:11.467Z
+601dc7a4ac19690015a5f956,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.0.1,2021-02-05T22:33:08.788Z
+601dc79aac19690015a5f94b,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.0.1,2021-02-05T22:32:58.426Z
+601db6e986799f0015fc3b8e,/blog/complete-guide-to-making-web-pages/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-05T21:21:45.592Z
+601db15286799f0015fc3adb,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.7,2021-02-05T20:57:54.052Z
+601dafd786799f0015fc3acc,/blog/make-your-terminal-nicer/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T20:51:35.899Z
+601dac7a86799f0015fc3ac7,/blog/complete-guide-to-making-web-pages/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T20:37:14.921Z
+601d9ce586799f0015fc39c2,/blog/complete-guide-to-making-web-pages/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T19:30:45.169Z
+601d9cce86799f0015fc39c1,/blog/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T19:30:22.929Z
+601d9cc786799f0015fc39c0,/blog/make-your-terminal-nicer/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T19:30:15.887Z
+601d9cc186799f0015fc39bc,/blog/make-your-terminal-nicer/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T19:30:09.127Z
+601d996186799f0015fc3983,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T19:15:45.440Z
+601d98f086799f0015fc3969,/blog/complete-guide-to-making-web-pages/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T19:13:52.855Z
+601d936a86799f0015fc38b6,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,11.1.0,2021-02-05T18:50:18.547Z
+601d79e086799f0015fc3712,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T17:01:20.037Z
+601d758386799f0015fc36b4,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T16:42:43.727Z
+601d72a486799f0015fc366d,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-02-05T16:30:28.287Z
+601d724986799f0015fc365b,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T16:28:57.474Z
+601d6a9686799f0015fc3569,/blog/gatsby-future/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.7,2021-02-05T15:56:06.502Z
+601d683186799f0015fc3547,/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Windows,10,2021-02-05T15:45:53.706Z
+601d676886799f0015fc3536,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T15:42:32.750Z
+601d64ef86799f0015fc3513,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-05T15:31:59.828Z
+601d63c686799f0015fc34f1,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-05T15:27:02.996Z
+601d619386799f0015fc34c5,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T15:17:39.287Z
+601d619286799f0015fc34c4,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T15:17:38.725Z
+601d532086799f0015fc330d,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T14:16:00.493Z
+601d502986799f0015fc32d1,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,11.1.0,2021-02-05T14:03:21.975Z
+601d502386799f0015fc32d0,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,11.1.0,2021-02-05T14:03:15.698Z
+601d4fba86799f0015fc32c5,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-05T14:01:30.977Z
+601d47e486799f0015fc3232,/blog/make-your-terminal-nicer/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.12.6,2021-02-05T13:28:04.336Z
+601d47de86799f0015fc3231,/blog/make-your-terminal-nicer/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.12.6,2021-02-05T13:27:58.263Z
+601d47d686799f0015fc3230,/blog/make-your-terminal-nicer/,Chrome,87.0.4280.88,Blink,87.0.4280.88,Mac OS,10.12.6,2021-02-05T13:27:50.316Z
+601d46cf86799f0015fc321c,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.12.6,2021-02-05T13:23:27.913Z
+601d3d4486799f0015fc310a,/blog/schedule-netlify-github-actions/,Safari,13.1.1,WebKit,605.1.15,Mac OS,10.15.5,2021-02-05T12:42:44.852Z
+601d373786799f0015fc3079,/blog/make-your-terminal-nicer/,Edge,88.0.705.62,Blink,88.0.4324.146,Mac OS,11.2.0,2021-02-05T12:16:55.219Z
+601d373686799f0015fc3078,/,Edge,88.0.705.62,Blink,88.0.4324.146,Mac OS,11.2.0,2021-02-05T12:16:54.263Z
+601d30a386799f0015fc2ffc,/blog/ken-burns-hero-image/,Firefox,85.0,Gecko,85.0,Windows,10,2021-02-05T11:48:51.329Z
+601d29c886799f0015fc2f8d,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,11.1.0,2021-02-05T11:19:36.437Z
+601ccf0d86799f0015fc28e0,/cv/,Chrome,88.0.4324.93,Blink,88.0.4324.93,Android,10,2021-02-05T04:52:29.701Z
+601caa9486799f0015fc26a2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-05T02:16:52.840Z
+601c945e86799f0015fc2551,/blog/make-your-terminal-nicer/,Safari,13.1.2,WebKit,605.1.15,Mac OS,10.15.6,2021-02-05T00:42:06.776Z
+601c8c3a86799f0015fc24c4,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-05T00:07:22.821Z
