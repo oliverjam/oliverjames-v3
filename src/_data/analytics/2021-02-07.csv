@@ -1,0 +1,34 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+602099fa7ff83800158504c7,/blog/we-dont-need-servers/,Chrome,87.0.4280.141,Blink,87.0.4280.141,Mac OS,10.15.7,2021-02-08T01:55:06.810Z
+602097d07ff83800158504a5,/blog/we-dont-need-servers/,Firefox,85.0,Gecko,85.0,Windows,10,2021-02-08T01:45:52.618Z
+602080b27ff838001585033b,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-08T00:07:14.037Z
+60205bdf2fbacf00157ee300,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-07T21:30:07.127Z
+602054022fbacf00157ee296,/blog/complete-guide-to-making-web-pages/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-07T20:56:34.400Z
+60204c9a2fbacf00157ee1fa,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-07T20:24:58.534Z
+6020319b2fbacf00157ee046,/blog/complete-guide-to-making-web-pages/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-07T18:29:47.331Z
+602030172fbacf00157ee01e,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-07T18:23:19.805Z
+60202f6f2fbacf00157ee01c,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-07T18:20:31.740Z
+60202c292fbacf00157ee013,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-07T18:06:33.952Z
+60202b4d2fbacf00157ee00f,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.2.0,2021-02-07T18:02:53.980Z
+602028c92fbacf00157edff6,/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.14.6,2021-02-07T17:52:09.968Z
+602027872fbacf00157edfcf,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.4,2021-02-07T17:46:47.573Z
+60201daf2fbacf00157edf1c,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,11.2.0,2021-02-07T17:04:47.216Z
+60200d0f2fbacf00157ede10,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-07T15:53:51.552Z
+60200a952fbacf00157eddda,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Linux,x86_64,2021-02-07T15:43:17.914Z
+602006c22fbacf00157edd5a,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.15.7,2021-02-07T15:26:58.463Z
+6020045b2fbacf00157edd3a,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-07T15:16:43.589Z
+602002d22fbacf00157edd2f,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-07T15:10:10.019Z
+601ffc5a2fbacf00157edcd2,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.15.7,2021-02-07T14:42:34.857Z
+601ffb512fbacf00157edca6,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.2.0,2021-02-07T14:38:09.501Z
+601ffa072fbacf00157edc74,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.15.7,2021-02-07T14:32:39.698Z
+601ff26e2fbacf00157edbf0,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,10.13.6,2021-02-07T14:00:14.163Z
+601fe9352fbacf00157edb22,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Mac OS,10.16,2021-02-07T13:20:53.614Z
+601fdddb2fbacf00157eda87,/blog/complete-guide-to-making-web-pages/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-07T12:32:27.929Z
+601fcd6a2fbacf00157ed952,/,Chrome,76.0.3809.71,Blink,76.0.3809.71,Windows,10,2021-02-07T11:22:18.655Z
+601fcd612fbacf00157ed950,/,Chrome,76.0.3809.71,Blink,76.0.3809.71,Windows,10,2021-02-07T11:22:09.679Z
+601fbcc52fbacf00157ed849,/blog/complete-guide-to-making-web-pages/,Firefox,85.0,Gecko,85.0,Mac OS,10.16,2021-02-07T10:11:17.768Z
+601fb2482fbacf00157ed779,/blog/make-your-terminal-nicer/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-02-07T09:26:32.570Z
+601fb2392fbacf00157ed778,/blog/complete-guide-to-making-web-pages/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-02-07T09:26:17.077Z
+601f4d902fbacf00157ed06c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-07T02:16:48.912Z
+601f36a72fbacf00157ecf32,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.146,Blink,88.0.4324.146,Mac OS,10.15.7,2021-02-07T00:39:03.377Z
+601f2f272fbacf00157ece98,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-07T00:07:03.715Z
