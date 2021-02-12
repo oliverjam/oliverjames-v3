@@ -76,20 +76,6 @@ This should automatically switch your shell over (you can check with the same co
 chsh -s /bin/zsh
 ```
 
-### Changing your prompt
-
-The "prompt" is what shows up on the line where you're entering commands. It "prompts" you to enter a new command. Bash shows a `$` by default; I think Zsh shows a `%`. You can include much more useful information here however.
-
-<img alt="My shell prompt, listing the current working directory, the current git branch and an asterix indicating that I have changes to commit" src="/assets/media/pure-prompt.png">
-
-You can see my prompt shows the current directory, the current git branch and whether I have un-committed changes (the asterix). I'm using [Pure Prompt](https://github.com/sindresorhus/pure). The easiest way to install this is with npm:
-
-```bash
-npm install --global pure-prompt
-```
-
-There are other [more elaborate prompts](https://www.youtube.com/watch?v=XSeO6nnlWHw) online if you'd like something more intense.
-
 ### Zsh settings
 
 You can configure your shell with a config file, which usually lives in your home directory. Bash is configured with a `.bashrc` file and Zsh with a `.zshrc` file. These are "dotfiles", which are hidden by default on most systems. Check if you have an existing config file by listing everything in your home directory:
@@ -117,6 +103,27 @@ cp ~/.zshrc ~/Desktop/zshrc-backup
 ```
 
 Now we can start configuring our shell.
+
+### Changing your prompt
+
+The "prompt" is what shows up on the line where you're entering commands. It "prompts" you to enter a new command. Bash shows a `$` by default; I think Zsh shows a `%`. You can include much more useful information here however.
+
+<img alt="My shell prompt, listing the current working directory, the current git branch and an asterix indicating that I have changes to commit" src="/assets/media/pure-prompt.png">
+
+You can see my prompt shows the current directory, the current git branch and whether I have un-committed changes (the asterix). I'm using [Pure Prompt](https://github.com/sindresorhus/pure). The easiest way to install this is with npm:
+
+```bash
+npm install --global pure-prompt
+```
+
+You can then enable the prompt by adding these lines to your config file (`.zshrc` or `.bashrc` etc):
+
+```bash
+autoload -U promptinit; promptinit
+prompt pure
+```
+
+There are other [more elaborate prompts](https://www.youtube.com/watch?v=XSeO6nnlWHw) online if you'd like something more intense.
 
 ### Auto cd
 
