@@ -1,0 +1,36 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60305b7b7d5ed400153b4994,/blog/we-dont-need-servers/,Chrome,88.0.4324.153,Blink,88.0.4324.153,Chromium OS,13597.84.0,2021-02-20T00:44:43.575Z
+603059137d5ed400153b4986,/blog/responsive-css-for-beginners/,Chrome,88.0.4324.153,Blink,88.0.4324.153,Chromium OS,13597.84.0,2021-02-20T00:34:27.417Z
+6030590d7d5ed400153b4985,/,Chrome,88.0.4324.153,Blink,88.0.4324.153,Chromium OS,13597.84.0,2021-02-20T00:34:21.314Z
+603058d47d5ed400153b497a,/cv/,Chrome,88.0.4324.153,Blink,88.0.4324.153,Chromium OS,13597.84.0,2021-02-20T00:33:24.460Z
+6030587d7d5ed400153b4979,/blog/we-dont-need-servers/,Chrome,88.0.4324.153,Blink,88.0.4324.153,Chromium OS,13597.84.0,2021-02-20T00:31:57.162Z
+603052b87d5ed400153b4934,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-20T00:07:20.461Z
+603028ff7d5ed400153b4694,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Ubuntu,,2021-02-19T21:09:19.510Z
+60301e9f7d5ed400153b4561,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.2.1,2021-02-19T20:25:03.824Z
+603019287d5ed400153b4536,/blog/we-dont-need-servers/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,11.2.1,2021-02-19T20:01:44.806Z
+603000dd7d5ed400153b437c,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Windows,10,2021-02-19T18:18:05.358Z
+602ffbdc7d5ed400153b4314,/blog/we-dont-need-servers/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,11.2.1,2021-02-19T17:56:44.691Z
+602fe31a7d5ed400153b4155,/blog/we-dont-need-servers/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Windows,10,2021-02-19T16:11:06.186Z
+602fddd77d5ed400153b40c4,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T15:48:39.435Z
+602fd2667d5ed400153b3ffe,/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:59:50.933Z
+602fd25f7d5ed400153b3ffd,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:59:43.400Z
+602fd25d7d5ed400153b3ffc,/blog/tags/terminal/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:59:41.271Z
+602fd2587d5ed400153b3ffb,/blog/tags/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:59:36.986Z
+602fd12d7d5ed400153b3fc7,/blog/schedule-netlify-github-actions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:54:37.060Z
+602fd1237d5ed400153b3fc6,/blog/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:54:27.147Z
+602fd1077d5ed400153b3fc5,/blog/how-make-git-hooks/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:53:59.857Z
+602fd1027d5ed400153b3fc4,/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T14:53:54.152Z
+602fb0d57d5ed400153b3d82,/analytics/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:36:37.242Z
+602faf607d5ed400153b3d77,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:30:24.467Z
+602faf327d5ed400153b3d63,/blog/how-make-git-hooks/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:29:38.551Z
+602faeec7d5ed400153b3d59,/blog/how-make-git-hooks/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:28:28.153Z
+602faee97d5ed400153b3d58,/blog/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:28:25.310Z
+602faecf7d5ed400153b3d56,/cv/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:27:59.519Z
+602faec57d5ed400153b3d55,/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:27:49.414Z
+602fae317d5ed400153b3d50,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Mac OS,11.1.0,2021-02-19T12:25:21.159Z
+602f701c7d5ed400153b38e4,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Windows,10,2021-02-19T08:00:28.700Z
+602f1fb3fe529400155602c2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-19T02:17:23.751Z
+602f12ccfe529400155601e8,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,11.2.1,2021-02-19T01:22:20.663Z
+602f123cfe529400155601db,/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,11.2.1,2021-02-19T01:19:56.731Z
+602f1171fe529400155601b5,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,11.2.1,2021-02-19T01:16:33.807Z
+602f08eafe52940015560122,/blog/diy-analytics-netlify-functions/,Firefox,85.0,Gecko,85.0,Windows,10,2021-02-19T00:40:10.117Z
