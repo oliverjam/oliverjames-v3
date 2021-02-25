@@ -1,0 +1,12 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6036ea3d9a0a390015b85e6a,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-25T00:07:25.010Z
+6036cbd19a0a390015b85d51,/blog/react-ui-testing/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Mac OS,10.15.7,2021-02-24T21:57:37.593Z
+6036caf09a0a390015b85d42,/blog/we-dont-need-servers/,Chrome,88.0.4324.181,Blink,88.0.4324.181,Android,10,2021-02-24T21:53:52.833Z
+6036c8f39a0a390015b85d31,/blog/responsive-css-for-beginners/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-02-24T21:45:23.784Z
+6036c8ef9a0a390015b85d30,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-02-24T21:45:19.791Z
+6036c8c89a0a390015b85d2e,/blog/how-make-git-hooks/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-02-24T21:44:40.375Z
+6036c8c69a0a390015b85d2d,/,Firefox,85.0,Gecko,85.0,Mac OS,10.15,2021-02-24T21:44:38.155Z
+60369e2f9a0a390015b85b97,/blog/diy-analytics-netlify-functions/,Firefox,86.0,Gecko,86.0,Windows,10,2021-02-24T18:42:55.171Z
+60364a2c9a0a390015b857d2,/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Windows,8.1,2021-02-24T12:44:28.974Z
+6035b7f163013f0015190f9c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-24T02:20:33.243Z
+603598db63013f0015190e73,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-24T00:07:55.228Z
