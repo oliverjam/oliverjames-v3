@@ -17,7 +17,6 @@ jobs:
         # fetch analytics, filter for yesterday, convert to CSV, write to file
         run: |
           mkdir -p "./src/_data/analytics/"
-          echo ${{secrets.ANALYTICS_URL }} | sed 's/./& /g'
           curl '${{ secrets.ANALYTICS_URL }}' -s | \
           node ./sh/parse-analytics > \
           "./src/_data/analytics/$(date -d yesterday +"%Y-%m-%d").csv"
