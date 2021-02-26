@@ -8,7 +8,6 @@ let data = "";
 process.stdin.resume();
 process.stdin.on("data", (d) => (data += d));
 process.stdin.on("end", () => {
-  throw data;
   const entries = JSON.parse(data);
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - 1);
