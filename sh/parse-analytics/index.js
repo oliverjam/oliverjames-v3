@@ -8,7 +8,14 @@ let data = "";
 process.stdin.resume();
 process.stdin.on("data", (d) => (data += d));
 process.stdin.on("end", () => {
-  const entries = JSON.parse(data);
+  let entries;
+  try {
+    entries = JSON.parse(data);
+  } catch (error) {
+    console.error("JSON parse failed");
+    console.error(data);
+    process.exit(1);
+  }
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - 1);
   cutoff.setHours(0, 0, 0, 0);
