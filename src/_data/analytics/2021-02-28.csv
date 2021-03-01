@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+603c3066d15bfd0015302e5d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-01T00:08:06.064Z
+603c186dd15bfd0015302d52,/,Safari,11.1,WebKit,605.1.15,Mac OS,10.13.4,2021-02-28T22:25:49.855Z
+603bd81ad15bfd0015302ae8,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.7,2021-02-28T17:51:22.838Z
+603bd7ffd15bfd0015302ae7,/blog/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.7,2021-02-28T17:50:55.785Z
+603bd5fad15bfd0015302adf,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.7,2021-02-28T17:42:18.354Z
+603bc341d15bfd0015302a0f,/blog/dom-intro/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,11.2.2,2021-02-28T16:22:25.018Z
+603b9328d15bfd0015302808,/blog/better-native-form-validation/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-02-28T12:57:12.433Z
+603b8021d15bfd0015302716,/blog/complete-guide-to-making-web-pages/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-02-28T11:36:01.131Z
+603b5122d15bfd00153024c8,/blog/complete-guide-to-making-web-pages/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-02-28T08:15:30.522Z
+603b50f5d15bfd00153024c7,/blog/why-i-donate-to-charity/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-02-28T08:14:45.848Z
+603b50dcd15bfd00153024c6,/blog/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-02-28T08:14:20.370Z
+603b4f44d15bfd00153024b8,/blog/diy-analytics-netlify-functions/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-02-28T08:07:32.853Z
+603b4540d15bfd0015302457,/,Edge,88.0.705.68,Blink,88.0.4324.150,Windows,10,2021-02-28T07:24:48.634Z
+603afe7c173ea00015211b22,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-28T02:22:52.842Z
+603af9c4173ea00015211ae1,/blog/make-your-terminal-nicer/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-02-28T02:02:44.804Z
+603aefe3173ea00015211a75,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.7,2021-02-28T01:20:35.291Z
+603adeda173ea000152119dc,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-02-28T00:07:54.584Z
