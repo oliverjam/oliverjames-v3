@@ -1,0 +1,13 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60456ad4a9087f0015b620f2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-08T00:07:48.794Z
+604542cb50a03f001523683c,/blog/diy-analytics-netlify-functions/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-07T21:16:59.936Z
+60450ff350a03f00152365d8,/blog/we-dont-need-servers/,Chrome,88.0.4324.181,Blink,88.0.4324.181,Android,10,2021-03-07T17:40:03.762Z
+6044ec9050a03f0015236402,/blog/we-dont-need-servers/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,11.2.1,2021-03-07T15:09:04.518Z
+6044e07350a03f0015236365,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Windows,10,2021-03-07T14:17:23.089Z
+6044b17750a03f00152360f1,/blog/we-dont-need-servers/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Linux,x86_64,2021-03-07T10:56:55.530Z
+60449d4a50a03f0015235fdd,/blog/better-native-form-validation/,Chrome,88.0.4324.190,Blink,88.0.4324.190,Windows,8.1,2021-03-07T09:30:50.309Z
+604474b650a03f0015235df5,/blog/make-your-terminal-nicer/,Edge,90.0.803.0,Blink,90.0.4414.0,Linux,x86_64,2021-03-07T06:37:42.769Z
+604439bf50a03f0015235b49,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-07T02:26:07.731Z
+6044296350a03f0015235a9d,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.72,Blink,89.0.4389.72,Mac OS,10.15.7,2021-03-07T01:16:19.195Z
+6044279c50a03f0015235a9a,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.72,Blink,89.0.4389.72,Mac OS,10.15.7,2021-03-07T01:08:44.398Z
+6044198a50a03f0015235a00,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-07T00:08:42.636Z
