@@ -1,0 +1,25 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6046da839af73600152be5f6,/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.6,2021-03-09T02:16:35.989Z
+6046da7b9af73600152be5f5,/blog/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.6,2021-03-09T02:16:27.032Z
+6046da289af73600152be5f4,/cv/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.6,2021-03-09T02:15:04.423Z
+6046d9f29af73600152be5e5,/blog/dom-intro/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.6,2021-03-09T02:14:10.832Z
+6046d9c49af73600152be5e4,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.15.6,2021-03-09T02:13:24.767Z
+6046d2639af73600152be589,/blog/we-dont-need-servers/,Chrome,88.0.4324.190,Blink,88.0.4324.190,Windows,10,2021-03-09T01:41:55.660Z
+6046d22d9af73600152be588,/blog/we-dont-need-servers/,Chrome,88.0.4324.181,Blink,88.0.4324.181,Android,10,2021-03-09T01:41:01.825Z
+6046bc619af73600152be4ce,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-09T00:08:01.865Z
+60467942a9087f0015b62d60,/blog/make-your-terminal-nicer/,Firefox,85.0,Gecko,85.0,Linux,x86_64,2021-03-08T19:21:38.413Z
+60466c24a9087f0015b62cd1,/blog/flicker-avatar-animation/,Chrome,88.0.4324.190,Blink,88.0.4324.190,Windows,10,2021-03-08T18:25:40.982Z
+60465b0aa9087f0015b62bde,/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.14.6,2021-03-08T17:12:42.299Z
+60465702a9087f0015b62b95,/blog/diy-analytics-netlify-functions/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-08T16:55:30.568Z
+604645a7a9087f0015b62aca,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.14.4,2021-03-08T15:41:27.907Z
+6046446fa9087f0015b62ac6,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,11.2.1,2021-03-08T15:36:15.530Z
+60464312a9087f0015b62ac3,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,10.14.4,2021-03-08T15:30:26.690Z
+604626a2a9087f0015b62956,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-08T13:29:06.105Z
+604612bda9087f0015b62880,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-08T12:04:13.360Z
+604612bca9087f0015b6287f,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-08T12:04:12.923Z
+604612bca9087f0015b6287e,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-08T12:04:12.276Z
+6046093fa9087f0015b627f6,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.72,Blink,89.0.4389.72,Windows,10,2021-03-08T11:23:43.959Z
+6045dd49a9087f0015b625ac,/,Edge,88.0.705.68,Blink,88.0.4324.150,Windows,10,2021-03-08T08:16:09.387Z
+6045ab4aa9087f0015b62374,/blog/responsive-css-for-beginners/,Firefox,86.0,Gecko,86.0,Windows,10,2021-03-08T04:42:50.636Z
+60458b57a9087f0015b62224,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-08T02:26:31.012Z
+60456ad4a9087f0015b620f2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-08T00:07:48.794Z
