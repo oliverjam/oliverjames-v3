@@ -1,0 +1,31 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+604ea5565c186a0015bc29e7,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-15T00:07:50.154Z
+604ea5135c186a0015bc29e6,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Linux,x86_64,2021-03-15T00:06:43.205Z
+604e993b5c186a0015bc2946,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.86,Blink,89.0.4389.86,Android,9,2021-03-14T23:16:11.355Z
+604e85a25c186a0015bc2833,/blog/better-native-form-validation/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Windows,8.1,2021-03-14T21:52:34.780Z
+604e54635c186a0015bc263f,/blog/better-native-form-validation/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Windows,8.1,2021-03-14T18:22:27.571Z
+604e45fa5c186a0015bc2595,/blog/how-make-git-hooks/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Linux,x86_64,2021-03-14T17:20:58.355Z
+604e44dc5c186a0015bc2580,/,Firefox,86.0,Gecko,86.0,Mac OS,10.15,2021-03-14T17:16:12.006Z
+604e44d85c186a0015bc257f,/blog/,Firefox,86.0,Gecko,86.0,Mac OS,10.15,2021-03-14T17:16:08.744Z
+604e44c95c186a0015bc257e,/cv/,Firefox,86.0,Gecko,86.0,Mac OS,10.15,2021-03-14T17:15:53.429Z
+604e44b75c186a0015bc257d,/blog/,Firefox,86.0,Gecko,86.0,Mac OS,10.15,2021-03-14T17:15:35.465Z
+604e44735c186a0015bc257c,/,Firefox,86.0,Gecko,86.0,Mac OS,10.15,2021-03-14T17:14:27.327Z
+604e14555c186a0015bc232f,/blog/complete-guide-to-making-web-pages/,Chrome,88.0.4324.192,Blink,88.0.4324.192,Mac OS,11.2.3,2021-03-14T13:49:09.413Z
+604e0ef65c186a0015bc22f2,/blog/make-your-terminal-nicer/,Mobile Safari,14.0.2,WebKit,605.1.15,iOS,14.3,2021-03-14T13:26:14.379Z
+604e0c6e5c186a0015bc22eb,/blog/make-your-terminal-nicer/,Mobile Safari,14.0.2,WebKit,605.1.15,iOS,14.3,2021-03-14T13:15:26.430Z
+604dfe4e5c186a0015bc2242,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,11.3.0,2021-03-14T12:15:10.249Z
+604de0a05c186a0015bc20f0,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T10:08:32.861Z
+604de09c5c186a0015bc20ef,/,Chrome,84.0.4143.7,Blink,84.0.4143.7,Android,7.0,2021-03-14T10:08:28.967Z
+604de07d5c186a0015bc20ee,/blog/responsive-css-for-beginners/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T10:07:57.262Z
+604de0785c186a0015bc20ed,/blog/make-your-terminal-nicer/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T10:07:52.154Z
+604de0715c186a0015bc20ec,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T10:07:45.040Z
+604dd35a5c186a0015bc2047,/blog/we-dont-need-servers/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:11:54.138Z
+604dd3465c186a0015bc2046,/blog/gatsby-future/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:11:34.813Z
+604dd32d5c186a0015bc2045,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:11:09.217Z
+604dd32a5c186a0015bc2044,/blog/schedule-netlify-github-actions/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:11:06.947Z
+604dd31e5c186a0015bc2043,/blog/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:10:54.131Z
+604dd3075c186a0015bc2042,/,Chrome,88.0.4324.96,Blink,88.0.4324.96,Mac OS,11.1.0,2021-03-14T09:10:31.437Z
+604da4005c186a0015bc1df8,/blog/diy-analytics-netlify-functions/,Firefox,8.1.6,WebKit,605.1.15,iOS,14.4.1,2021-03-14T05:49:52.675Z
+604d749dc2779f0015e75cf6,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-14T02:27:41.017Z
+604d5fc0c2779f0015e75c30,/blog/diy-analytics-netlify-functions/,Firefox,86.0,Gecko,86.0,Linux,x86_64,2021-03-14T00:58:40.174Z
+604d53d1c2779f0015e75bb2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-14T00:07:45.177Z
