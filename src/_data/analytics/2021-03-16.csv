@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+605148549a0a650015a3c379,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-17T00:07:48.902Z
+60511d559a0a650015a3c1e1,/,,,,,,,2021-03-16T21:04:21.965Z
+605110359a0a650015a3c13a,/cv/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-16T20:08:21.556Z
+6051102e9a0a650015a3c139,/blog/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-16T20:08:14.749Z
+605110199a0a650015a3c138,/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-16T20:07:53.109Z
+6050fd869a0a650015a3c067,/blog/responsive-css-for-beginners/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,10.14.6,2021-03-16T18:48:38.887Z
+6050f7429a0a650015a3c04d,/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,10.14.6,2021-03-16T18:21:54.505Z
+6050cf8d9a0a650015a3be4f,/blog/diy-analytics-netlify-functions/,Chrome,89.0.0.0,Blink,89.0.0.0,Android,9,2021-03-16T15:32:29.855Z
+6050cbac9a0a650015a3be22,/blog/we-dont-need-servers/,Edge,89.0.774.50,Blink,89.0.4389.82,Windows,10,2021-03-16T15:15:56.065Z
+60507b7f9a0a650015a3b985,/blog/diy-analytics-netlify-functions/,Edge,89.0.774.54,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-16T09:33:51.900Z
+605073919a0a650015a3b92f,/blog/better-native-form-validation/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Windows,10,2021-03-16T09:00:01.327Z
+6050728d9a0a650015a3b92c,/,Chrome,45.0.2454.93,Blink,45.0.2454.93,Windows,10,2021-03-16T08:55:41.729Z
+605066c39a0a650015a3b8ad,/blog/better-native-form-validation/,Edge,88.0.705.81,Blink,88.0.4324.182,Windows,10,2021-03-16T08:05:23.724Z
+60501c18c7cbe20015c69d15,/cv/,Chrome,89.0.0.0,Blink,89.0.0.0,Android,9,2021-03-16T02:46:48.146Z
+60501787c7cbe20015c69ce3,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-16T02:27:19.877Z
+605013b6c7cbe20015c69cce,/blog/,Chrome,89.0.0.0,Blink,89.0.0.0,Android,9,2021-03-16T02:11:02.659Z
+604ff6c2c7cbe20015c69baa,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-16T00:07:30.939Z
