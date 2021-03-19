@@ -1,0 +1,49 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6053eb66985c370015986726,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-19T00:08:06.328Z
+6053d478985c37001598663e,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.14.6,2021-03-18T22:30:16.101Z
+6053c02e985c37001598654e,/blog/flicker-avatar-animation/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-18T21:03:42.192Z
+6053b711985c3700159864e8,/blog/flicker-avatar-animation/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,10.14.6,2021-03-18T20:24:49.050Z
+6053b638985c3700159864e0,/blog/better-native-form-validation/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,8.1,2021-03-18T20:21:12.269Z
+6053b478985c3700159864c5,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T20:13:44.190Z
+6053b20c985c3700159864aa,/cv/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T20:03:24.769Z
+6053b209985c3700159864a9,/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T20:03:21.059Z
+6053af3a985c370015986483,/blog/redux-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:51:22.297Z
+6053af11985c370015986473,/blog/flow-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:50:41.693Z
+6053aebd985c370015986470,/blog/stop-exporting-things/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:49:17.224Z
+6053ae90985c37001598646f,/blog/setting-up-a-project/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:48:32.843Z
+6053ae68985c37001598646e,/blog/we-dont-need-servers/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:47:52.647Z
+6053ae50985c37001598646d,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:47:28.677Z
+6053ae21985c37001598646c,/blog/make-your-terminal-nicer/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T19:46:41.668Z
+6053a86e985c370015986440,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.86,Blink,89.0.4389.86,Android,9,2021-03-18T19:22:22.443Z
+60539fa3985c3700159863bf,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.86,Blink,89.0.4389.86,Android,9,2021-03-18T18:44:51.820Z
+605394f0985c370015986359,/blog/readable-guide-to-readable-content/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:59:12.458Z
+60539418985c370015986357,/blog/stop-exporting-things/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:55:36.714Z
+605393f3985c370015986356,/blog/we-dont-need-servers/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:54:59.930Z
+605393e4985c370015986355,/blog/make-your-terminal-nicer/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:54:44.246Z
+60538b45985c3700159862e9,/blog/responsive-css-for-beginners/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:17:57.480Z
+605387d4985c3700159862c7,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:03:16.306Z
+605387cf985c3700159862c6,/blog/complete-guide-to-making-web-pages/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T17:03:11.800Z
+60538523985c37001598629d,/blog/dom-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T16:51:47.094Z
+605382e4985c370015986279,/blog/complete-guide-to-making-web-pages/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T16:42:12.346Z
+60537681985c3700159861e7,/blog/complete-guide-to-making-web-pages/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:49:21.860Z
+6053762d985c3700159861e5,/blog/responsive-css-for-beginners/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:47:57.330Z
+6053751d985c3700159861db,/blog/pitfalls-of-async-functions/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:43:25.669Z
+60537496985c3700159861da,/blog/gatsby-future/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:41:10.572Z
+60537435985c3700159861d8,/blog/redux-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:39:33.384Z
+605373ca985c3700159861c8,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:37:46.161Z
+605373b7985c3700159861c7,/blog/first-class-functions/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T15:37:27.057Z
+60537108985c37001598619d,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-03-18T15:26:00.854Z
+605370ff985c37001598619c,/cv/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-18T15:25:51.713Z
+605364a8985c3700159860ff,/blog/complete-guide-to-making-web-pages/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-03-18T14:33:12.549Z
+6053537a985c37001598602b,/blog/responsive-css-for-beginners/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T13:19:54.401Z
+60535365985c37001598602a,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T13:19:33.754Z
+60534be2985c370015985fdf,/blog/first-class-functions/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-18T12:47:30.976Z
+60534ab3985c370015985fca,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-18T12:42:27.963Z
+60534376985c370015985f55,/blog/make-your-terminal-nicer/,Edge,87.0.664.75,Blink,87.0.4280.141,Mac OS,11.2.1,2021-03-18T12:11:34.415Z
+60534374985c370015985f54,/,Edge,87.0.664.75,Blink,87.0.4280.141,Mac OS,11.2.1,2021-03-18T12:11:32.943Z
+605341ce985c370015985f42,/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,10.15.7,2021-03-18T12:04:30.863Z
+60533a1a985c370015985ef7,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-18T11:31:38.554Z
+60531ea7985c370015985daf,/blog/we-dont-need-servers/,Samsung Browser,13.2,Blink,83.0.4103.106,Android,7.1.1,2021-03-18T09:34:31.159Z
+6052bac45e04d70015543bdb,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-18T02:28:20.299Z
+605299d55e04d70015543a7d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-18T00:07:49.783Z
+6052983d5e04d70015543a68,/blog/flicker-avatar-animation/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-18T00:01:01.360Z
