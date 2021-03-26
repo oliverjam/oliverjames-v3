@@ -1,0 +1,25 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+605d41c39b1a7b001502c062,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-26T02:06:59.369Z
+605ce55a9b1a7b001502bd0f,/blog/better-native-form-validation/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,8.1,2021-03-25T19:32:42.659Z
+605cd46e9b1a7b001502bc62,/blog/redux-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T18:20:30.784Z
+605cd2d59b1a7b001502bc3e,/blog/gatsby-future/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T18:13:41.374Z
+605cd21b9b1a7b001502bc3d,/blog/minimum-viable-graphql-client/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T18:10:35.465Z
+605cd1c99b1a7b001502bc2b,/blog/minimum-viable-graphql-concepts/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T18:09:13.757Z
+605cd1c19b1a7b001502bc2a,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T18:09:05.975Z
+605cc1649b1a7b001502bb8c,/blog/dom-intro/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:59:16.681Z
+605cc0fb9b1a7b001502bb7c,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:57:31.548Z
+605cc0f89b1a7b001502bb7b,/blog/stop-exporting-things/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:57:28.641Z
+605cbf6b9b1a7b001502bb69,/blog/stop-exporting-things/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:50:51.569Z
+605cbc269b1a7b001502bb41,/blog/stop-exporting-things/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:36:54.304Z
+605cbbfc9b1a7b001502bb40,/blog/tags/react/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:36:12.016Z
+605cbbad9b1a7b001502bb3f,/blog/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:34:53.308Z
+605cbba69b1a7b001502bb3e,/blog/first-class-functions/,Firefox,86.0,Gecko,86.0,Windows,7,2021-03-25T16:34:46.738Z
+605cb6159b1a7b001502bb15,/blog/gatsby-future/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.13.6,2021-03-25T16:11:01.148Z
+605cb34f9b1a7b001502bae2,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.14.6,2021-03-25T15:59:11.662Z
+605caa4a9b1a7b001502ba76,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-25T15:20:42.212Z
+605c9b129b1a7b001502b9b3,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-25T14:15:46.292Z
+605c6ac59b1a7b001502b7a3,/,Chrome Headless,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-25T10:49:41.409Z
+605c61ff9b1a7b001502b739,/blog/diy-analytics-netlify-functions/,Firefox,86.0,Gecko,86.0,Windows,10,2021-03-25T10:12:15.403Z
+605c588e9b1a7b001502b6c8,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.14.4,2021-03-25T09:31:58.754Z
+605c35ea24007b0015b15805,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.1.0,2021-03-25T07:04:10.067Z
+605bdc4424007b0015b1549c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-25T00:41:40.693Z
