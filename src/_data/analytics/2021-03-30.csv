@@ -1,0 +1,38 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6063c171fa295f0015c9f16d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-31T00:25:21.808Z
+6063c088fa295f0015c9f15b,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:21:28.639Z
+6063bfb7fa295f0015c9f158,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:17:59.977Z
+6063bf8efa295f0015c9f157,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:17:18.072Z
+6063bf5bfa295f0015c9f156,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:16:27.888Z
+6063bd27fa295f0015c9f147,/blog/readable-guide-to-readable-content/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:07:03.935Z
+6063bd11fa295f0015c9f146,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:41.678Z
+6063bd10fa295f0015c9f145,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:40.687Z
+6063bd0ffa295f0015c9f144,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:39.423Z
+6063bd0efa295f0015c9f143,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:38.718Z
+6063bd0cfa295f0015c9f142,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:36.376Z
+6063bcf6fa295f0015c9f141,/cv/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:14.741Z
+6063bce5fa295f0015c9f140,/blog/stop-exporting-things/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:57.635Z
+6063bcd9fa295f0015c9f13f,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:45.983Z
+6063bcd7fa295f0015c9f13e,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:43.048Z
+6063bcb1fa295f0015c9f13d,/blog/make-your-terminal-nicer/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:05.178Z
+6063bcaffa295f0015c9f13c,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:03.097Z
+6063bca9fa295f0015c9f13b,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:04:57.207Z
+6063bca2fa295f0015c9f13a,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:04:50.535Z
+6063bc03fa295f0015c9f129,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:02:11.846Z
+6063b966fa295f0015c9f107,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-30T23:51:02.392Z
+6063b21ffa295f0015c9f0c1,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-30T23:19:59.008Z
+60637aa1fa295f0015c9eea4,/blog/how-make-git-hooks/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-30T19:23:13.524Z
+60637a9afa295f0015c9eea3,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-30T19:23:06.985Z
+6063797ffa295f0015c9ee93,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-30T19:18:23.716Z
+606371e4fa295f0015c9ee38,/blog/better-native-form-validation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,8.1,2021-03-30T18:45:56.081Z
+60631b9ffa295f0015c9e9e2,/cv/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.1,2021-03-30T12:37:51.295Z
+60631b99fa295f0015c9e9e1,/blog/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.1,2021-03-30T12:37:45.009Z
+60631b8efa295f0015c9e9e0,/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.1,2021-03-30T12:37:34.766Z
+60631b8bfa295f0015c9e9df,/blog/how-make-git-hooks/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.1,2021-03-30T12:37:31.906Z
+6062f43a57e5340015aecd0a,/blog/we-dont-need-servers/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-30T09:49:46.912Z
+6062eca757e5340015aecc97,/blog/diy-analytics-netlify-functions/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-03-30T09:17:27.442Z
+6062c79f57e5340015aecb04,/blog/how-make-git-hooks/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-30T06:39:27.089Z
+6062c77f57e5340015aecaf5,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-30T06:38:55.331Z
+6062c77857e5340015aecaf4,/blog/make-your-terminal-nicer/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-30T06:38:48.188Z
+60628f4257e5340015aec863,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-30T02:38:58.560Z
+606270c157e5340015aec70f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-30T00:28:49.468Z
