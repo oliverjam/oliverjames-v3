@@ -1,0 +1,53 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6065141e36e4b200151740d1,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-01T00:30:22.802Z
+6064fdfe36e4b20015173fe4,/blog/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.14.6,2021-03-31T22:55:58.406Z
+6064ecc636e4b20015173f36,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.14.6,2021-03-31T21:42:30.692Z
+6064c83036e4b20015173dd2,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-03-31T19:06:24.039Z
+6064c00136e4b20015173d78,/blog/better-native-form-validation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,8.1,2021-03-31T18:31:29.004Z
+6064ba9036e4b20015173d3a,/blog/responsive-css-for-beginners/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-31T18:08:16.846Z
+6064b9e536e4b20015173d37,/blog/we-dont-need-servers/,Firefox,87.0,Gecko,87.0,Windows,10,2021-03-31T18:05:25.033Z
+6064b41d36e4b20015173cf3,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-31T17:40:45.076Z
+6064956136e4b20015173b8e,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,11.2.3,2021-03-31T15:29:37.197Z
+606490aa36e4b20015173b63,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T15:09:30.985Z
+6064900536e4b20015173b61,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Windows,10,2021-03-31T15:06:45.198Z
+60648fc636e4b20015173b51,/blog/ken-burns-hero-image/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,10,2021-03-31T15:05:42.135Z
+60648f8d36e4b20015173b4f,/blog/ken-burns-hero-image/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,10,2021-03-31T15:04:45.724Z
+6064839336e4b20015173ac8,/blog/we-dont-need-servers/,Firefox,87.0,Gecko,87.0,Windows,10,2021-03-31T14:13:39.873Z
+6064833c36e4b20015173ac0,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Windows,10,2021-03-31T14:12:12.338Z
+60647ecc36e4b20015173a76,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Windows,10,2021-03-31T13:53:16.078Z
+60646ced36e4b2001517399e,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-31T12:37:01.662Z
+6064622e36e4b2001517392e,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-31T11:51:10.163Z
+6064622d36e4b2001517392d,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-31T11:51:09.222Z
+60645e6336e4b200151738ff,/,,,,,,,2021-03-31T11:34:59.549Z
+60645a6ffa295f0015c9f89b,/blog/make-your-terminal-nicer/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-03-31T11:18:07.307Z
+60645a0efa295f0015c9f89a,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,10.15.7,2021-03-31T11:16:30.908Z
+60644f6dfa295f0015c9f810,/blog/better-native-form-validation/,Chrome,91.0.4463.2,Blink,91.0.4463.2,Mac OS,10.14.6,2021-03-31T10:31:09.223Z
+60644f6afa295f0015c9f80f,/blog/,Chrome,91.0.4463.2,Blink,91.0.4463.2,Mac OS,10.14.6,2021-03-31T10:31:06.036Z
+60644f66fa295f0015c9f80e,/,Chrome,91.0.4463.2,Blink,91.0.4463.2,Mac OS,10.14.6,2021-03-31T10:31:02.057Z
+60644ba7fa295f0015c9f7db,/blog/we-dont-need-servers/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-31T10:15:03.654Z
+60644776fa295f0015c9f7b2,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-03-31T09:57:10.977Z
+60642768fa295f0015c9f661,/blog/stop-exporting-things/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-03-31T07:40:24.143Z
+6064274efa295f0015c9f65f,/blog/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-03-31T07:39:58.725Z
+60642743fa295f0015c9f65e,/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-03-31T07:39:47.222Z
+6063f6d1fa295f0015c9f41d,/blog/ken-burns-hero-image/,Firefox,86.0,Gecko,86.0,Mac OS,10.16,2021-03-31T04:13:05.651Z
+6063e0a0fa295f0015c9f2af,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-31T02:38:24.751Z
+6063c171fa295f0015c9f16d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-03-31T00:25:21.808Z
+6063c088fa295f0015c9f15b,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:21:28.639Z
+6063bfb7fa295f0015c9f158,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:17:59.977Z
+6063bf8efa295f0015c9f157,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:17:18.072Z
+6063bf5bfa295f0015c9f156,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-03-31T00:16:27.888Z
+6063bd27fa295f0015c9f147,/blog/readable-guide-to-readable-content/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:07:03.935Z
+6063bd11fa295f0015c9f146,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:41.678Z
+6063bd10fa295f0015c9f145,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:40.687Z
+6063bd0ffa295f0015c9f144,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:39.423Z
+6063bd0efa295f0015c9f143,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:38.718Z
+6063bd0cfa295f0015c9f142,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:36.376Z
+6063bcf6fa295f0015c9f141,/cv/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:06:14.741Z
+6063bce5fa295f0015c9f140,/blog/stop-exporting-things/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:57.635Z
+6063bcd9fa295f0015c9f13f,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:45.983Z
+6063bcd7fa295f0015c9f13e,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:43.048Z
+6063bcb1fa295f0015c9f13d,/blog/make-your-terminal-nicer/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:05.178Z
+6063bcaffa295f0015c9f13c,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:05:03.097Z
+6063bca9fa295f0015c9f13b,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:04:57.207Z
+6063bca2fa295f0015c9f13a,/blog/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:04:50.535Z
+6063bc03fa295f0015c9f129,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-03-31T00:02:11.846Z
