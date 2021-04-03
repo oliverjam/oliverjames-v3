@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6067c51887601700157fd96d,/blog/we-dont-need-servers/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Linux,x86_64,2021-04-03T01:30:00.035Z
+6067bad087601700157fd90d,/blog/ken-burns-hero-image/,Edge,89.0.774.63,Blink,89.0.4389.90,Windows,10,2021-04-03T00:46:08.310Z
+6067b6ee87601700157fd8e9,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-03T00:29:34.010Z
+60679b6787601700157fd7c6,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-04-02T22:32:07.037Z
+60679a9587601700157fd7b6,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-04-02T22:28:37.267Z
+60677b1a87601700157fd67e,/blog/better-native-form-validation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,8.1,2021-04-02T20:14:18.956Z
+6067555187601700157fd4ee,/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-04-02T17:33:05.702Z
+6067375387601700157fd392,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-04-02T15:25:07.191Z
+606710d087601700157fd1d2,/blog/readable-guide-to-readable-content/,Firefox,87.0,Gecko,87.0,Mac OS,10.15,2021-04-02T12:40:48.994Z
+6067010bcbac1a00156a79fd,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,11.2.3,2021-04-02T11:33:31.976Z
+6066c4eecbac1a00156a7760,/blog/flicker-avatar-animation/,Firefox,86.0,Gecko,86.0,Linux,x86_64,2021-04-02T07:17:02.383Z
+60669245cbac1a00156a7548,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-04-02T03:40:53.500Z
+606684dccbac1a00156a74aa,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-02T02:43:40.037Z
+60666788cbac1a00156a7389,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-02T00:38:32.960Z
