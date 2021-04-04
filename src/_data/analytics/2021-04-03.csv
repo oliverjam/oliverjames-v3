@@ -1,0 +1,31 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+606908e47777f600151af152,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-04T00:31:32.625Z
+6068d4547777f600151aec17,/blog/how-make-git-hooks/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:16.978Z
+6068d4527777f600151aec16,/blog/responsive-css-for-beginners/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:14.285Z
+6068d4507777f600151aec15,/blog/make-your-terminal-nicer/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:12.057Z
+6068d44d7777f600151aec14,/blog/better-native-form-validation/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:09.157Z
+6068d44a7777f600151aec13,/blog/we-dont-need-servers/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:06.157Z
+6068d4487777f600151aec12,/blog/setting-up-a-project/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:47:04.913Z
+6068d4407777f600151aec0e,/blog/stop-exporting-things/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:56.405Z
+6068d43c7777f600151aec0d,/blog/stop-exporting-things/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:52.068Z
+6068d4397777f600151aec0c,/blog/flicker-avatar-animation/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:49.021Z
+6068d4367777f600151aec0b,/blog/readable-guide-to-readable-content/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:46.255Z
+6068d4337777f600151aec0a,/blog/why-i-donate-to-charity/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:43.224Z
+6068d4317777f600151aec09,/blog/ken-burns-hero-image/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:41.370Z
+6068d4247777f600151aec08,/blog/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:46:28.287Z
+6068d35c7777f600151aec03,/cv/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:43:08.799Z
+6068d34b7777f600151aec01,/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T20:42:51.539Z
+6068c5fa7777f600151aeb65,/blog/diy-analytics-netlify-functions/,Firefox,87.0,Gecko,87.0,Windows,10,2021-04-03T19:46:02.737Z
+6068a4d27777f600151ae9fa,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,11.2.3,2021-04-03T17:24:34.619Z
+60687dd27777f600151ae80a,/blog/first-class-functions/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T14:38:10.826Z
+60687dd27777f600151ae809,/blog/dom-intro/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-03T14:38:10.179Z
+6068737a7777f600151ae79f,/blog/we-dont-need-servers/,Chrome,88.0.4324.182,Blink,88.0.4324.182,Linux,x86_64,2021-04-03T13:54:02.090Z
+606843ef87601700157fded1,/blog/diy-analytics-netlify-functions/,Edge,89.0.774.54,Blink,89.0.4389.90,Mac OS,11.2.2,2021-04-03T10:31:11.813Z
+6068368487601700157fde51,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-04-03T09:33:56.670Z
+6068361d87601700157fde4f,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-04-03T09:32:13.002Z
+60681cb987601700157fdd25,/blog/better-native-form-validation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,8.1,2021-04-03T07:43:53.449Z
+6067e7e787601700157fdac7,/blog/,,,,,,,2021-04-03T03:58:31.788Z
+6067d51787601700157fda00,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-03T02:38:15.286Z
+6067c51887601700157fd96d,/blog/we-dont-need-servers/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Linux,x86_64,2021-04-03T01:30:00.035Z
+6067bad087601700157fd90d,/blog/ken-burns-hero-image/,Edge,89.0.774.63,Blink,89.0.4389.90,Windows,10,2021-04-03T00:46:08.310Z
+6067b6ee87601700157fd8e9,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-03T00:29:34.010Z
