@@ -1,0 +1,11 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+606a5a7d875c2500155a575c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-05T00:31:57.562Z
+606a2bf7875c2500155a5575,/blog/flicker-avatar-animation/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-04-04T21:13:27.632Z
+606a02fd875c2500155a53d4,/blog/flicker-avatar-animation/,Chrome,88.0.4324.152,Blink,88.0.4324.152,Android,10,2021-04-04T18:18:37.452Z
+6069f3b9875c2500155a5344,/blog/better-native-form-validation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,8.1,2021-04-04T17:13:29.290Z
+6069ebc4875c2500155a52fe,/blog/dom-intro/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,11.2.3,2021-04-04T16:39:32.726Z
+6069e0bf875c2500155a5296,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Mac OS,11.2.3,2021-04-04T15:52:31.633Z
+6069c904875c2500155a517e,/blog/we-dont-need-servers/,Edge,89.0.774.68,Blink,89.0.4389.114,Windows,10,2021-04-04T14:11:16.672Z
+6069a83b7777f600151af834,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Windows,10,2021-04-04T11:51:23.009Z
+606927057777f600151af299,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-04T02:40:05.137Z
+606908e47777f600151af152,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-04T00:31:32.625Z
