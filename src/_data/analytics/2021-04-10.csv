@@ -1,0 +1,24 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+607244d08d56be0015b0b130,/,Chrome,78.0.3904.87,Blink,78.0.3904.87,Windows,10,2021-04-11T00:37:36.573Z
+607244a88d56be0015b0b12f,/,Mobile Safari,11.0,WebKit,604.1.38,iOS,11.0,2021-04-11T00:36:56.408Z
+607243c98d56be0015b0b11e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-11T00:33:13.804Z
+6072259b8d56be0015b0afb3,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,10.15.7,2021-04-10T22:24:27.771Z
+6071f06f8d56be0015b0adac,/blog/dom-intro/,Chrome,89.0.4389.105,Blink,89.0.4389.105,Android,8.1.0,2021-04-10T18:37:35.060Z
+6071f0608d56be0015b0adab,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.105,Blink,89.0.4389.105,Android,8.1.0,2021-04-10T18:37:20.502Z
+6071ef108d56be0015b0ad9a,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.105,Blink,89.0.4389.105,Android,8.1.0,2021-04-10T18:31:44.468Z
+6071be088d56be0015b0ab60,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T15:02:32.368Z
+6071bdfb8d56be0015b0ab5f,/blog/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T15:02:19.159Z
+6071bdf18d56be0015b0ab5e,/cv/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T15:02:09.513Z
+6071bdef8d56be0015b0ab5d,/blog/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T15:02:07.280Z
+6071bde68d56be0015b0ab5c,/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T15:01:58.281Z
+6071bca38d56be0015b0ab45,/blog/diy-analytics-netlify-functions/,Chrome,88.0.4324.150,Blink,88.0.4324.150,Windows,10,2021-04-10T14:56:35.227Z
+6071ad698d56be0015b0aa5a,/blog/flicker-avatar-animation/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,10.15.3,2021-04-10T13:51:37.148Z
+6071a8318d56be0015b0aa00,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Linux,x86_64,2021-04-10T13:29:21.892Z
+6071a40b8d56be0015b0a9b9,/cv/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Linux,x86_64,2021-04-10T13:11:39.871Z
+6071a40a8d56be0015b0a9b8,/,Chrome,89.0.4389.90,Blink,89.0.4389.90,Linux,x86_64,2021-04-10T13:11:38.747Z
+60719f268d56be0015b0a968,/blog/better-native-form-validation/,Edge,90.0.803.0,Blink,90.0.4414.0,Linux,x86_64,2021-04-10T12:50:46.032Z
+607169de6516fc0015406d4f,/cv/,Chrome,89.0.4389.105,Blink,89.0.4389.105,Android,11,2021-04-10T09:03:26.015Z
+60712e666516fc0015406a7f,/blog/make-your-terminal-nicer/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,11.2.0,2021-04-10T04:49:42.531Z
+60710f616516fc0015406938,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-10T02:37:21.103Z
+6070f4856516fc00154067fc,/,Chrome,76.0.3809.71,Blink,76.0.3809.71,Windows,10,2021-04-10T00:42:45.982Z
+6070f1c26516fc00154067dd,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-10T00:30:58.618Z
