@@ -1,0 +1,28 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+607f72083d323f00154853a7,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-21T00:30:00.821Z
+607f444e3d323f00154851e8,/cv/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-04-20T21:14:54.701Z
+607f44413d323f00154851e7,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-04-20T21:14:41.321Z
+607f2da73e401800150f62dd,/blog/react-ui-testing/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Mac OS,11.2.3,2021-04-20T19:38:15.336Z
+607f24403e401800150f628b,/blog/better-native-form-validation/,Chrome,90.0.4430.72,Blink,90.0.4430.72,Windows,8.1,2021-04-20T18:58:08.973Z
+607f1c673e401800150f6233,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.114,Blink,89.0.4389.114,Mac OS,10.15.6,2021-04-20T18:24:39.754Z
+607f16133e401800150f61df,/blog/better-native-form-validation/,Chrome,90.0.4430.72,Blink,90.0.4430.72,Windows,8.1,2021-04-20T17:57:39.474Z
+607ef3cfc5f0f300157e1de0,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,Mac OS,10.14,2021-04-20T15:31:27.568Z
+607ef3a1c5f0f300157e1ddf,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,Mac OS,10.14,2021-04-20T15:30:41.739Z
+607eea64c5f0f300157e1d76,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-04-20T14:51:16.850Z
+607edca2c5f0f300157e1cbb,/blog/complete-guide-to-making-web-pages/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Mac OS,11.2.3,2021-04-20T13:52:34.470Z
+607edb4fc5f0f300157e1ca8,/,Chrome,45.0.2454.93,Blink,45.0.2454.93,Windows,10,2021-04-20T13:46:55.238Z
+607ec4fbc5f0f300157e1b99,/blog/diy-analytics-netlify-functions/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Mac OS,11.2.3,2021-04-20T12:11:39.812Z
+607ec270c5f0f300157e1b77,/blog/better-native-form-validation/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Windows,10,2021-04-20T12:00:48.498Z
+607eb197c5f0f300157e1ac8,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:48:55.031Z
+607eb178c5f0f300157e1ac7,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:48:24.302Z
+607eb15ac5f0f300157e1ac5,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:47:54.792Z
+607eb13cc5f0f300157e1ac4,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:47:24.579Z
+607eb11ec5f0f300157e1ac3,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:46:54.297Z
+607eb100c5f0f300157e1ac2,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:46:24.542Z
+607eb0e8c5f0f300157e1ac1,/blog/responsive-css-for-beginners/,Safari,13.1.3,WebKit,605.1.15,Mac OS,10.15.7,2021-04-20T10:46:00.875Z
+607ea1b7c5f0f300157e1a03,/,Chrome,88.0.4324.152,Blink,88.0.4324.152,Android,10,2021-04-20T09:41:11.759Z
+607e9a72c5f0f300157e19bc,/blog/ken-burns-hero-image/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Mac OS,10.15.7,2021-04-20T09:10:10.784Z
+607e943ac5f0f300157e1966,/blog/flicker-avatar-animation/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Windows,10,2021-04-20T08:43:38.733Z
+607e7d82c5f0f300157e1876,/blog/flicker-avatar-animation/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Windows,10,2021-04-20T07:06:42.176Z
+607e3e6bc5f0f300157e1599,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-20T02:37:31.585Z
+607e209fc5f0f300157e146e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-20T00:30:23.102Z
