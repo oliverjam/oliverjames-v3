@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+608b68daae3040001595d00f,/blog/gatsby-future/,Chrome,90.0.4430.91,Blink,90.0.4430.91,Android,9,2021-04-30T02:18:02.669Z
+608b5415ae3040001595cf2a,/cv/,Firefox,88.0,Gecko,88.0,Windows,10,2021-04-30T00:49:25.234Z
+608b5409ae3040001595cf29,/blog/,Firefox,88.0,Gecko,88.0,Windows,10,2021-04-30T00:49:13.716Z
+608b53f8ae3040001595cf28,/,Firefox,88.0,Gecko,88.0,Windows,10,2021-04-30T00:48:56.257Z
+608b4d14ae3040001595cef7,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-30T00:19:32.176Z
+608b29c3ae3040001595cd76,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-04-29T21:48:51.185Z
+608af5920d8a4a0015f9a71c,/blog/how-make-git-hooks/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-04-29T18:06:10.462Z
+608af3c30d8a4a0015f9a708,/blog/ken-burns-hero-image/,Chrome,89.0.4389.128,Blink,89.0.4389.128,Linux,x86_64,2021-04-29T17:58:27.885Z
+608aae5b0d8a4a0015f9a3ae,/blog/better-native-form-validation/,Chrome,90.0.4430.85,Blink,90.0.4430.85,Mac OS,10.15.7,2021-04-29T13:02:19.689Z
+608aabf90d8a4a0015f9a395,/blog/diy-analytics-netlify-functions/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-04-29T12:52:09.084Z
+608a92320d8a4a0015f9a26b,/,Edge,90.0.818.46,Blink,90.0.4430.85,Mac OS,10.15.7,2021-04-29T11:02:10.064Z
+608a7b000d8a4a0015f9a0f2,/blog/flicker-avatar-animation/,Safari,12.1.2,WebKit,605.1.15,Mac OS,10.14.6,2021-04-29T09:23:12.038Z
+608a41d30d8a4a0015f99e83,/blog/diy-analytics-netlify-functions/,Safari,14.1,WebKit,605.1.15,Mac OS,10.15.7,2021-04-29T05:19:15.230Z
+608a1ea80d8a4a0015f99cfb,/blog/flicker-avatar-animation/,Firefox,87.0,Gecko,87.0,Ubuntu,,2021-04-29T02:49:12.873Z
+608a1bdf0d8a4a0015f99cee,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-29T02:37:19.824Z
+6089fe100d8a4a0015f99ba5,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-04-29T00:30:08.389Z
