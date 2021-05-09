@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6097288246cb38001584398c,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-09T00:10:42.071Z
+6097267d46cb380015843978,/,Chrome Headless,83.0.4103.61,Blink,83.0.4103.61,Linux,x86_64,2021-05-09T00:02:05.958Z
+609720c546cb38001584394e,/,Mobile Safari,9.0,WebKit,601.1.46,iOS,9.1,2021-05-08T23:37:41.769Z
+6097114bf5b321001572480a,/,Android Browser,4.0,Blink,57.0.2987.108,Android,8.1.0,2021-05-08T22:31:39.558Z
+6096ea2ff5b3210015724642,/blog/better-native-form-validation/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Windows,8.1,2021-05-08T19:44:47.238Z
+6096d0d1f5b321001572453e,/blog/make-your-terminal-nicer/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4,2021-05-08T17:56:33.139Z
+6096bd50f5b3210015724465,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.12.6,2021-05-08T16:33:20.573Z
+6096b765f5b321001572442a,/blog/make-your-terminal-nicer/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-08T16:08:05.768Z
+6096b104f5b32100157243d9,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.12.6,2021-05-08T15:40:52.422Z
+6096ac7af5b321001572439c,/blog/make-your-terminal-nicer/,Chrome,86.0.4240.99,Blink,86.0.4240.99,Android,10,2021-05-08T15:21:30.245Z
+6096a81af5b3210015724382,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-08T15:02:50.079Z
+609682bef5b321001572418a,/blog/flicker-avatar-animation/,Mobile Safari,12.1.2,WebKit,605.1.15,iOS,12.5.1,2021-05-08T12:23:26.973Z
+609660edf5b3210015724002,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-08T09:59:09.502Z
+609658baf5b3210015723fca,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.12.6,2021-05-08T09:24:10.407Z
+6096378cf5b3210015723e6a,/blog/we-dont-need-servers/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Windows,10,2021-05-08T07:02:36.408Z
+6095f9e5f5b3210015723bce,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-08T02:39:33.703Z
+6095d6b2f5b3210015723a56,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-08T00:09:22.234Z
