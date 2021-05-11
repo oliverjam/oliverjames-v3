@@ -1,0 +1,15 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+6099ea0075b1cb00157a19c7,/blog/diy-analytics-netlify-functions/,Chrome,84.0.4147.103,Blink,84.0.4147.103,Mac OS,10.14.1,2021-05-11T02:20:48.657Z
+6099da5575b1cb00157a1920,/blog/complete-guide-to-making-web-pages/,Firefox,89.0,Gecko,89.0,Mac OS,10.15,2021-05-11T01:13:57.366Z
+6099cb4475b1cb00157a188d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-11T00:09:40.752Z
+6099b7e775b1cb00157a17c3,/blog/gatsby-future/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Windows,10,2021-05-10T22:47:03.948Z
+6099a7f175b1cb00157a1733,/blog/gatsby-future/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Windows,10,2021-05-10T21:38:57.390Z
+609980ab75b1cb00157a1586,/blog/we-dont-need-servers/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Windows,10,2021-05-10T18:51:23.623Z
+60996e6b75b1cb00157a14a9,/,Safari,14.1,WebKit,605.1.15,Mac OS,10.14.6,2021-05-10T17:33:31.788Z
+60996d8475b1cb00157a1497,/blog/ken-burns-hero-image/,Safari,14.1,WebKit,605.1.15,Mac OS,10.14.6,2021-05-10T17:29:40.249Z
+6099688075b1cb00157a1470,/blog/diy-analytics-netlify-functions/,Edge,90.0.818.56,Blink,90.0.4430.93,Windows,10,2021-05-10T17:08:16.643Z
+60990cc2daa67800154e9d01,/blog/diy-analytics-netlify-functions/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-10T10:36:50.502Z
+6098f694daa67800154e9c19,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.12.6,2021-05-10T09:02:12.717Z
+6098caf5daa67800154e9a5c,/blog/better-native-form-validation/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-10T05:56:05.851Z
+60989e0000112a001528d256,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-10T02:44:16.651Z
+609879d100112a001528d0d1,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-10T00:09:53.249Z
