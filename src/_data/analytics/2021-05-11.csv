@@ -1,0 +1,23 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+609b1cd9c233fd00156c1b5e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-12T00:10:01.120Z
+609b0a4bc233fd00156c1ab0,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-11T22:50:51.838Z
+609af7b1c233fd00156c19ff,/,Chrome,89.0.4389.82,Blink,89.0.4389.82,Mac OS,10.14.6,2021-05-11T21:31:29.865Z
+609aead8c233fd00156c198b,/blog/react-ui-testing/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-11T20:36:40.686Z
+609ad012c233fd00156c1875,/blog/complete-guide-to-making-web-pages/,Chrome,87.0.4280.163,WebKit,605.1.15,iOS,14.4,2021-05-11T18:42:26.304Z
+609abe7ec233fd00156c17ba,/,Chrome,90.0.4430.91,Blink,90.0.4430.91,Android,9,2021-05-11T17:27:26.689Z
+609aaf21c233fd00156c16fb,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-05-11T16:21:53.493Z
+609aaf20c233fd00156c16fa,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-05-11T16:21:52.757Z
+609aa59cc233fd00156c16ad,/blog/make-your-terminal-nicer/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-05-11T15:41:16.532Z
+609aa58fc233fd00156c16ac,/blog/make-your-terminal-nicer/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-05-11T15:41:03.309Z
+609aa572c233fd00156c16ab,/blog/make-your-terminal-nicer/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.7,2021-05-11T15:40:34.994Z
+609a831475b1cb00157a2048,/blog/react-ui-testing/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.6,2021-05-11T13:13:56.384Z
+609a78c775b1cb00157a1fb1,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.85,Blink,90.0.4430.85,Windows,8.1,2021-05-11T12:29:59.224Z
+609a024375b1cb00157a1ac7,/cv/,Firefox,8.1.7,WebKit,605.1.15,iOS,14.4.2,2021-05-11T04:04:19.700Z
+609a021875b1cb00157a1ac6,/blog/responsive-css-for-beginners/,Mobile Safari,14.0.3,WebKit,605.1.15,iOS,14.4.2,2021-05-11T04:03:36.403Z
+609a01ae75b1cb00157a1ac4,/blog/responsive-css-for-beginners/,Firefox,8.1.7,WebKit,605.1.15,iOS,14.4.2,2021-05-11T04:01:50.169Z
+609a01a575b1cb00157a1ac3,/,Firefox,8.1.7,WebKit,605.1.15,iOS,14.4.2,2021-05-11T04:01:41.622Z
+609a010175b1cb00157a1ab1,/blog/diy-analytics-netlify-functions/,Firefox,8.1.7,WebKit,605.1.15,iOS,14.4.2,2021-05-11T03:58:57.716Z
+6099eef875b1cb00157a19ef,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-11T02:42:00.078Z
+6099ea0075b1cb00157a19c7,/blog/diy-analytics-netlify-functions/,Chrome,84.0.4147.103,Blink,84.0.4147.103,Mac OS,10.14.1,2021-05-11T02:20:48.657Z
+6099da5575b1cb00157a1920,/blog/complete-guide-to-making-web-pages/,Firefox,89.0,Gecko,89.0,Mac OS,10.15,2021-05-11T01:13:57.366Z
+6099cb4475b1cb00157a188d,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-11T00:09:40.752Z
