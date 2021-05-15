@@ -1,0 +1,17 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+609f322eb181580015aaec82,/,Chrome,84.0.4147.89,Blink,84.0.4147.89,Windows,10,2021-05-15T02:30:06.778Z
+609f2b01b181580015aaec17,/cv/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.13.6,2021-05-15T01:59:29.027Z
+609f2afab181580015aaec13,/blog/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.13.6,2021-05-15T01:59:22.871Z
+609f2af6b181580015aaec12,/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.13.6,2021-05-15T01:59:18.008Z
+609f2aa6b181580015aaec10,/cv/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.13.6,2021-05-15T01:57:58.489Z
+609f2a99b181580015aaec0f,/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.13.6,2021-05-15T01:57:45.986Z
+609f13bcb181580015aaeb2e,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-15T00:20:12.292Z
+609efc0cb181580015aaea1b,/blog/flicker-avatar-animation/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-14T22:39:08.285Z
+609ec57f1d26670015382991,/blog/diy-analytics-netlify-functions/,Chrome,90.0.4430.214,Blink,90.0.4430.214,Linux,x86_64,2021-05-14T18:46:23.577Z
+609ebc1d1d26670015382948,/blog/complete-guide-to-making-web-pages/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.15.7,2021-05-14T18:06:21.533Z
+609e377810271500153f4052,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,FreeBSD,amd64,2021-05-14T08:40:24.415Z
+609e377010271500153f4051,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,FreeBSD,amd64,2021-05-14T08:40:16.584Z
+609e373810271500153f4041,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,FreeBSD,amd64,2021-05-14T08:39:20.382Z
+609e34ad10271500153f401d,/blog/better-native-form-validation/,Firefox,88.0,Gecko,88.0,FreeBSD,amd64,2021-05-14T08:28:29.689Z
+609de4bc10271500153f3ca5,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-14T02:47:24.883Z
+609dc26f10271500153f3b5f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-14T00:21:03.283Z
