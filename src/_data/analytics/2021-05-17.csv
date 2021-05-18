@@ -1,0 +1,9 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60a31f389526cf0015ed6553,/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-18T01:58:16.726Z
+60a308be9526cf0015ed6464,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-18T00:22:22.026Z
+60a2ecbaed536d00156df6a0,/cv/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-17T22:22:50.321Z
+60a26ebced536d00156df161,/blog/,,,,,,,2021-05-17T13:25:16.092Z
+60a1daaeed536d00156de9c3,/blog/responsive-css-for-beginners/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-17T02:53:34.626Z
+60a1d935ed536d00156de9c1,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-17T02:47:17.687Z
+60a1c819ed536d00156de921,/blog/diy-analytics-netlify-functions/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-05-17T01:34:17.397Z
+60a1b6c3ed536d00156de88f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-17T00:20:19.192Z
