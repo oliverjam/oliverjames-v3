@@ -1,0 +1,18 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60b03a6d1cf58100150c106f,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-28T00:33:49.088Z
+60b00dce56046d0015d5c724,/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-27T21:23:26.283Z
+60b000af56046d0015d5c692,/blog/how-make-git-hooks/,Chrome,91.0.4472.77,Blink,91.0.4472.77,Linux,x86_64,2021-05-27T20:27:27.842Z
+60afc8dc56046d0015d5c41a,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-05-27T16:29:16.864Z
+60afae5056046d0015d5c2ba,/cv/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-27T14:36:00.595Z
+60afae4556046d0015d5c2b9,/blog/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-27T14:35:49.423Z
+60afae3656046d0015d5c2b8,/blog/dom-intro/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-27T14:35:34.152Z
+60afae2256046d0015d5c2a8,/blog/complete-guide-to-making-web-pages/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Windows,10,2021-05-27T14:35:14.420Z
+60af7f2456046d0015d5c083,/blog/diy-analytics-netlify-functions/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.15.7,2021-05-27T11:14:44.128Z
+60af724156046d0015d5bf98,/blog/how-make-git-hooks/,Firefox,88.0,Gecko,88.0,Ubuntu,,2021-05-27T10:19:45.684Z
+60af67df56046d0015d5bf27,/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.15.7,2021-05-27T09:35:27.963Z
+60af29d456046d0015d5bcbc,/blog/we-dont-need-servers/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.14.6,2021-05-27T05:10:44.833Z
+60af149056046d0015d5bbf2,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-27T03:40:00.096Z
+60af109756046d0015d5bbc0,/blog/diy-analytics-netlify-functions/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-05-27T03:23:03.593Z
+60af05a056046d0015d5bb58,/,Safari,14.0.3,WebKit,605.1.15,Mac OS,10.15.6,2021-05-27T02:36:16.741Z
+60af008a56046d0015d5bb17,/blog/diy-analytics-netlify-functions/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-27T02:14:34.704Z
+60aee80356046d0015d5ba36,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-27T00:29:55.026Z
