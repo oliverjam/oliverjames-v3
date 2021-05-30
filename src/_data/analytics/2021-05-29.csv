@@ -1,0 +1,30 @@
+id,url,browser,browser_version,engine,engine_version,os,os_version,created
+60b3105cedc7f40015182c9f,/blog/,Firefox,88.0,Gecko,88.0,Windows,10,2021-05-30T04:11:08.777Z
+60b31057edc7f40015182c9e,/,Firefox,88.0,Gecko,88.0,Windows,10,2021-05-30T04:11:03.012Z
+60b31032edc7f40015182c9d,/blog/we-dont-need-servers/,Firefox,88.0,Gecko,88.0,Windows,10,2021-05-30T04:10:26.879Z
+60b2e76bedc7f40015182ad6,/,Chrome,83.0.4103.116,Blink,83.0.4103.116,Android,6.0,2021-05-30T01:16:27.276Z
+60b2e089edc7f40015182a75,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-30T00:47:05.137Z
+60b25c23e5a3c300152655ec,/blog/diy-analytics-netlify-functions/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-29T15:22:11.549Z
+60b25b50e5a3c300152655d7,/blog/complete-guide-to-making-web-pages/,Chrome,87.0.4280.101,Blink,87.0.4280.101,Android,10,2021-05-29T15:18:40.338Z
+60b24dbde5a3c30015265505,/blog/we-dont-need-servers/,Chrome,88.0.4324.152,Blink,88.0.4324.152,Android,10,2021-05-29T14:20:45.334Z
+60b23db0e5a3c30015265408,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Mac OS,10.15.7,2021-05-29T13:12:16.453Z
+60b232cbe5a3c30015265388,/,,,,,,,2021-05-29T12:25:47.273Z
+60b1f050e5a3c30015265067,/blog/make-your-terminal-nicer/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-29T07:42:08.790Z
+60b1f036e5a3c30015265066,/blog/how-make-git-hooks/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-29T07:41:42.984Z
+60b1f02fe5a3c30015265065,/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-29T07:41:35.708Z
+60b1eeaee5a3c30015265055,/blog/diy-analytics-netlify-functions/,Firefox,88.0,Gecko,88.0,Mac OS,10.15,2021-05-29T07:35:10.213Z
+60b1e87fe5a3c30015265005,/blog/diy-analytics-netlify-functions/,Firefox,88.0,Gecko,88.0,Windows,10,2021-05-29T07:08:47.919Z
+60b1dff9e5a3c30015264f8f,/blog/readable-guide-to-readable-content/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:32:25.938Z
+60b1dfebe5a3c30015264f8e,/blog/ken-burns-hero-image/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:32:11.794Z
+60b1df4de5a3c30015264f76,/blog/stop-exporting-things/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:29:33.496Z
+60b1dd04e5a3c30015264f57,/blog/make-your-terminal-nicer/,Chrome,91.0.4472.77,Blink,91.0.4472.77,Windows,10,2021-05-29T06:19:48.789Z
+60b1dafee5a3c30015264f48,/,Chrome,74.0.3729.169,Blink,74.0.3729.169,Windows,10,2021-05-29T06:11:10.867Z
+60b1da92e5a3c30015264f37,/blog/complete-guide-to-making-web-pages/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:09:22.033Z
+60b1d8c4e5a3c30015264f20,/blog/responsive-css-for-beginners/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:01:40.231Z
+60b1d8bde5a3c30015264f1f,/blog/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T06:01:33.699Z
+60b1d814e5a3c30015264f14,/blog/make-your-terminal-nicer/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T05:58:44.490Z
+60b1d794e5a3c30015264f0b,/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T05:56:36.528Z
+60b1c54fe5a3c30015264e19,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-29T04:38:39.933Z
+60b1c023e5a3c30015264dd2,/blog/diy-analytics-netlify-functions/,Chrome,90.0.4430.212,Blink,90.0.4430.212,Linux,x86_64,2021-05-29T04:16:35.769Z
+60b18e29e5a3c30015264bd0,/,Chrome,86.0.4240.0,Blink,86.0.4240.0,Linux,x86_64,2021-05-29T00:43:21.247Z
+60b18890e5a3c30015264ba4,/blog/how-make-git-hooks/,Chrome,90.0.4430.93,Blink,90.0.4430.93,Mac OS,10.15.7,2021-05-29T00:19:28.615Z
