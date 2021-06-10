@@ -13,7 +13,6 @@
 </script>
 
 <main id="main">
-
   <header id="blog-header">
     <div>
       <h1>{title}</h1>
@@ -28,7 +27,6 @@
   {@html content}
 
   <Webmentions />
-
 </main>
 
 <style>
@@ -194,6 +192,7 @@
     font-size: 80%;
     border-radius: 0.125rem;
     padding: 0.125rem 0.25rem;
+    white-space: nowrap;
   }
 
   main :global(*:not(pre) > code),
