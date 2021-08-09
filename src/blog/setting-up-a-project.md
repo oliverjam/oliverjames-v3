@@ -246,7 +246,7 @@ First I install it:
 npm i -D browser-sync
 ```
 
-The command line API is easy to use with npm scripts. This script will start a dev server, open it in your browser and watch your repo for changes:
+The command line API is easy to use with npm scripts. This script will start a dev server, open it in your browser and watch your files for changes:
 
 ```json
 {
@@ -264,7 +264,7 @@ One really cool browser-sync feature is testing your dev site on real devices. W
 
 ### Node server
 
-If I'm devleoping a server I usually reach for [nodemon](https://nodemon.io/). It's similar to browser-sync in that it will watch your files and automatically restart your server when you save changes.
+If I'm developing a server I usually reach for [nodemon](https://nodemon.io/). It's similar to browser-sync in that it will watch your files and automatically restart your server when you save changes.
 
 Where you would normally run `node myfile.js` you use `nodemon myfile.js`.
 
@@ -287,7 +287,7 @@ Then set up my npm scripts:
 
 ## Finally, leaving my machine
 
-I generally sync all of my projects to GitHub. It's free, convenient and where the whole open-source community lives. This may change in the future given their current [unrepentant support for US Immigrations and Customs Enforcement (ICE)](https://github.com/drop-ice/dear-github-2.0), but for now there aren't really better options.
+I generally sync all of my projects to GitHub. It's free, convenient, and where the whole open-source community lives. This may change in the future given their current [unrepentant support for US Immigrations and Customs Enforcement (ICE)](https://github.com/drop-ice/dear-github-2.0), but for now there aren't really better options.
 
 I like to use [Hub](https://github.com/github/hub), which allows you to do GitHub stuff (like creating repos) from your terminal. You can install this with [Brew](https://brew.sh):
 
@@ -315,4 +315,4 @@ I then open the GitHub repo to check everything worked:
 hub browse
 ```
 
-This should open your shiny new repo on GitHub in your web browser. Make sure you write a `README.md` so people know what you're project is for!
+This should open your shiny new repo on GitHub in your web browser. Make sure you write a `README.md` so people know what your project is for!
