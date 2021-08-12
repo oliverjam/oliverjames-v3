@@ -35,7 +35,7 @@ Using the `_redirects` file:
 /* /index.html 200
 ```
 
-**Important**: this file must end up in the final folder that gets deployed. If you have any kind of build-step to generate the folder you should ensure `_redirects` gets copied over. E.g. using Create React App you can put it inside the your `public/` directory.
+**Important**: this file must end up in the final folder that gets deployed. If you have any kind of build-step to generate the folder you should ensure `_redirects` gets copied over. E.g. using Create React App you can put it inside your `public/` directory.
 
 Using the `netlify.toml` file:
 
