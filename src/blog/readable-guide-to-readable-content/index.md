@@ -1,5 +1,5 @@
 ---
-title: A readable guide to writing more readable content
+title: A readable guide to writing more readable content
 date: 2016-07-08T22:40:32.169Z
 tags: ["writing", "guide", "improve"]
 ---
