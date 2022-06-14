@@ -25,3 +25,9 @@
   from = "/blog/minimum-viable-grapqhl-client/"
   to = "/blog/minimum-viable-graphql-client/"
   status = 301
+
+[[headers]]
+  for = "/feed.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
