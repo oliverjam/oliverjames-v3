@@ -24,7 +24,13 @@ They require a payment method even if you're staying within the free tier to pre
 
 You have to install and use Fly's command-line tool to deploy, which is a bit annoying. It would be nice if they had an HTTP service or something ([Heroku do](https://devcenter.heroku.com/articles/build-and-release-using-the-api)). However it seems to be the norm nowadays to have a CLI client for every service you use.
 
-The canonical way to deploy appears to be running `flyctl launch` in your app directory. Fly does some magic to figure out how to build your code (e.g. "this is a Next.js app so it needs Node etc"), provisions a machine in the region of your choice, then builds and deploys your code.
+The canonical way to deploy appears to be:
+
+1. [Install the Fly CLI](https://fly.io/docs/flyctl/installing/)
+1. Authenticate the CLI with [`flyctl auth login`](https://fly.io/docs/flyctl/auth-login/)
+1. Detect config and deploy with [`flyctl launch`](https://fly.io/docs/flyctl/launch/)
+
+Fly does some magic to figure out how to build your code (e.g. "this is a Next.js app so it needs Node etc"), provisions a machine in the region of your choice, then builds and deploys your code. After you've run `launch` once you can re-deploy with `flyctl deploy`.
 
 This process also generates a bunch of config and dumps it into your project, which is a little weird the first time. You'll end up with a `fly.toml`, `Dockerfile` and `.dockerignore`. Although Fly magically figures out how your app works it insists on writing it down for next time. This is sort of nice as you can see the assumptions it made and tweak them if you need to.
 
@@ -49,7 +55,7 @@ You can add a _lot_ more config in here to control how your machine restarts or 
 
 ### `Dockerfile`
 
-It's a bit weird to have a `Dockerfile` generated when you weren't planning on using Docker. Fly uses these as a relatively universal "describe what your app needs" language. Here's a minimal `Dockerfile` for a Node.js app:
+It's a bit weird to have a `Dockerfile` generated when you weren't planning on using Docker. Fly uses these as a universal "describe what your app needs" language. Here's a minimal `Dockerfile` for a Node.js app:
 
 ```dockerfile
 FROM node:16-alpine
